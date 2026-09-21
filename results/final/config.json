@@ -1,0 +1,39 @@
+{
+  "batch": 32,
+  "checkpoint_selection": "final step; validation diagnostic only",
+  "clip": 1.0,
+  "dataset_seed_offset": 10000,
+  "eval_interval": 100,
+  "lr": 0.003,
+  "methods": [
+    "mlp",
+    "pool",
+    "attention"
+  ],
+  "model": {
+    "d": 32,
+    "heads": 4,
+    "k": 4,
+    "layers": 2,
+    "mlp_hidden": 41,
+    "r": 16
+  },
+  "pilot_sha256": "bdde62cb0002c2eeb57b84a772602049bc9ee2bbe5b15b21a50b15f03ad2bdbd",
+  "schema": 1,
+  "seeds": [
+    11,
+    22,
+    33
+  ],
+  "sizes": [
+    4096,
+    512,
+    512
+  ],
+  "steps": 1000,
+  "tasks": [
+    "recall",
+    "copy"
+  ],
+  "weight_decay": 0.01
+}

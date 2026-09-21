@@ -1,0 +1,12 @@
+{
+  "logical_cpus": 4,
+  "allowed_cpus": [
+    0,
+    1,
+    2,
+    3
+  ],
+  "architecture": "x86_64",
+  "cgroup_limits": {},
+  "mem_total": "MemTotal:        8131776 kB"
+}

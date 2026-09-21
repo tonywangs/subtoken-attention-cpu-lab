@@ -1,0 +1,15 @@
+test_corrupt_artifact_rejected_before_loading (test_artifacts.Artifacts.test_corrupt_artifact_rejected_before_loading) ... ok
+test_unlisted_artifact_rejected (test_artifacts.Artifacts.test_unlisted_artifact_rejected) ... ok
+test_complete_model_causal_and_batch_isolation (test_correctness.Correctness.test_complete_model_causal_and_batch_isolation) ... ok
+test_dataset_disjoint_and_semantics (test_correctness.Correctness.test_dataset_disjoint_and_semantics) ... ok
+test_k1_is_projection_composition (test_correctness.Correctness.test_k1_is_projection_composition) ... ok
+test_numeric_gradcheck (test_correctness.Correctness.test_numeric_gradcheck) ... ok
+test_parameter_match (test_correctness.Correctness.test_parameter_match) ... ok
+test_pool_equals_average_projections (test_correctness.Correctness.test_pool_equals_average_projections) ... ok
+test_reference_forward_and_gradients (test_correctness.Correctness.test_reference_forward_and_gradients) ... ok
+test_token_and_batch_isolation (test_correctness.Correctness.test_token_and_batch_isolation) ... ok
+
+----------------------------------------------------------------------
+Ran 10 tests in 1.504s
+
+OK

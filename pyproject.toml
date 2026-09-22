@@ -8,5 +8,6 @@ requires-python = ">=3.10"
 dependencies = ["torch>=2.6,<3", "numpy>=1.26,<3"]
 [project.scripts]
 subtoken-lab = "subtoken_lab.cli:main"
+subtoken-mqar = "subtoken_lab.mqar:main"
 [tool.setuptools.packages.find]
 where = ["src"]

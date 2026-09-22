@@ -1,0 +1,70 @@
+{
+  "batch": 32,
+  "checkpoint_selection": "final step only; validation diagnostic only",
+  "clip": 1.0,
+  "d": 32,
+  "distance_bins": [
+    [
+      1,
+      16
+    ],
+    [
+      17,
+      32
+    ],
+    [
+      33,
+      64
+    ],
+    [
+      65,
+      128
+    ]
+  ],
+  "eval_interval": 200,
+  "frozen_utc": "2026-09-21T18:11:21.208884+00:00",
+  "lr": 0.003,
+  "methods": [
+    "mlp",
+    "pool",
+    "nonlinear",
+    "attention"
+  ],
+  "pilot_seeds": [
+    99001,
+    99002
+  ],
+  "pilot_sha256": "4538791bd34de23cb1a105ba196e5895b07c0b5e00a591b3dbdd321b0c35bedc",
+  "protocol_sha256": "4d3eee53dcc78cd1c4d088d6a6fad850701acf5180d5e474ef83d73b795b4d47",
+  "schema": 2,
+  "seeds": [
+    111,
+    222,
+    333
+  ],
+  "source_sha256": {
+    "cli.py": "cfe2d35bdb4b9f41f60422e69a0069c807a0040bfbd938f55ad16c93ee0160ea",
+    "model.py": "fda25634c2122dadbbf38c06ca9c0374327a20aad3f162706f96afc28fc85831",
+    "mqar.py": "6f81df4d9a57393b005517898895d0a1fffc83c20626299f9841ccb90449caf2",
+    "mqar_data.py": "392007996dcc3b853b15bf9775af5ebf777e89021a22ac03d765ead111aa5515",
+    "mqar_model.py": "502d2948d8d82298f84e14b88dfd3c1597a2295dd36eb3458fb47d01165fb266"
+  },
+  "steps": 1363,
+  "test_lengths": [
+    48,
+    72,
+    96
+  ],
+  "test_size": 512,
+  "timing_rounds": 32,
+  "timing_seed": 20260922,
+  "timing_warmup": 5,
+  "train_lengths": [
+    32,
+    40,
+    48
+  ],
+  "train_size": 8192,
+  "validation_size": 256,
+  "weight_decay": 0.01
+}

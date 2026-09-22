@@ -1,0 +1,9233 @@
+{
+  "batch": 32,
+  "environment": {
+    "cpu": ": DO-Regular",
+    "interop_threads": 1,
+    "numpy": "2.2.6",
+    "platform": "Linux-6.8.0-124-generic-x86_64-with-glibc2.39",
+    "python": "3.12.3",
+    "threads": 1,
+    "torch": "2.6.0+cpu",
+    "torch_config": "PyTorch built with:\n  - GCC 9.3\n  - C++ Version: 201703\n  - Intel(R) oneAPI Math Kernel Library Version 2024.2-Product Build 20240605 for Intel(R) 64 architecture applications\n  - Intel(R) MKL-DNN v3.5.3 (Git Hash 66f0cb9eb66affd2da3bf5f8d897376f04aae6af)\n  - OpenMP 201511 (a.k.a. OpenMP 4.5)\n  - LAPACK is enabled (usually provided by MKL)\n  - NNPACK is enabled\n  - CPU capability usage: AVX2\n  - Build settings: BLAS_INFO=mkl, BUILD_TYPE=Release, COMMIT_SHA=2236df1770800ffea5697b11b0bb0d910b2e59e1, CXX_COMPILER=/opt/rh/devtoolset-9/root/usr/bin/c++, CXX_FLAGS= -D_GLIBCXX_USE_CXX11_ABI=0 -fabi-version=11 -fvisibility-inlines-hidden -DUSE_PTHREADPOOL -DNDEBUG -DUSE_KINETO -DLIBKINETO_NOCUPTI -DLIBKINETO_NOROCTRACER -DLIBKINETO_NOXPUPTI=ON -DUSE_FBGEMM -DUSE_PYTORCH_QNNPACK -DUSE_XNNPACK -DSYMBOLICATE_MOBILE_DEBUG_HANDLE -O2 -fPIC -Wall -Wextra -Werror=return-type -Werror=non-virtual-dtor -Werror=bool-operation -Wnarrowing -Wno-missing-field-initializers -Wno-type-limits -Wno-array-bounds -Wno-unknown-pragmas -Wno-unused-parameter -Wno-strict-overflow -Wno-strict-aliasing -Wno-stringop-overflow -Wsuggest-override -Wno-psabi -Wno-error=old-style-cast -Wno-missing-braces -fdiagnostics-color=always -faligned-new -Wno-unused-but-set-variable -Wno-maybe-uninitialized -fno-math-errno -fno-trapping-math -Werror=format -Wno-stringop-overflow, LAPACK_INFO=mkl, PERF_WITH_AVX=1, PERF_WITH_AVX2=1, TORCH_VERSION=2.6.0, USE_CUDA=0, USE_CUDNN=OFF, USE_CUSPARSELT=OFF, USE_EXCEPTION_PTR=1, USE_GFLAGS=OFF, USE_GLOG=OFF, USE_GLOO=ON, USE_MKL=ON, USE_MKLDNN=ON, USE_MPI=OFF, USE_NCCL=OFF, USE_NNPACK=ON, USE_OPENMP=ON, USE_ROCM=OFF, USE_ROCM_KERNEL_ASSERT=OFF, \n"
+  },
+  "records": [
+    {
+      "length": 48,
+      "method": "pool",
+      "position": 0,
+      "round": 0,
+      "seconds": 0.020425637951120734,
+      "seed": 111
+    },
+    {
+      "length": 48,
+      "method": "attention",
+      "position": 1,
+      "round": 0,
+      "seconds": 0.025365371955558658,
+      "seed": 111
+    },
+    {
+      "length": 48,
+      "method": "mlp",
+      "position": 2,
+      "round": 0,
+      "seconds": 0.02063792385160923,
+      "seed": 111
+    },
+    {
+      "length": 48,
+      "method": "nonlinear",
+      "position": 3,
+      "round": 0,
+      "seconds": 0.01912423991598189,
+      "seed": 111
+    },
+    {
+      "length": 48,
+      "method": "attention",
+      "position": 0,
+      "round": 1,
+      "seconds": 0.026363659882918,
+      "seed": 111
+    },
+    {
+      "length": 48,
+      "method": "mlp",
+      "position": 1,
+      "round": 1,
+      "seconds": 0.020632049068808556,
+      "seed": 111
+    },
+    {
+      "length": 48,
+      "method": "nonlinear",
+      "position": 2,
+      "round": 1,
+      "seconds": 0.02155874390155077,
+      "seed": 111
+    },
+    {
+      "length": 48,
+      "method": "pool",
+      "position": 3,
+      "round": 1,
+      "seconds": 0.019745291210711002,
+      "seed": 111
+    },
+    {
+      "length": 48,
+      "method": "mlp",
+      "position": 0,
+      "round": 2,
+      "seconds": 0.018912356812506914,
+      "seed": 111
+    },
+    {
+      "length": 48,
+      "method": "nonlinear",
+      "position": 1,
+      "round": 2,
+      "seconds": 0.02003658306784928,
+      "seed": 111
+    },
+    {
+      "length": 48,
+      "method": "pool",
+      "position": 2,
+      "round": 2,
+      "seconds": 0.01940834801644087,
+      "seed": 111
+    },
+    {
+      "length": 48,
+      "method": "attention",
+      "position": 3,
+      "round": 2,
+      "seconds": 0.025562118040397763,
+      "seed": 111
+    },
+    {
+      "length": 48,
+      "method": "nonlinear",
+      "position": 0,
+      "round": 3,
+      "seconds": 0.020077938912436366,
+      "seed": 111
+    },
+    {
+      "length": 48,
+      "method": "pool",
+      "position": 1,
+      "round": 3,
+      "seconds": 0.019621585961431265,
+      "seed": 111
+    },
+    {
+      "length": 48,
+      "method": "attention",
+      "position": 2,
+      "round": 3,
+      "seconds": 0.025663282023742795,
+      "seed": 111
+    },
+    {
+      "length": 48,
+      "method": "mlp",
+      "position": 3,
+      "round": 3,
+      "seconds": 0.021948053035885096,
+      "seed": 111
+    },
+    {
+      "length": 48,
+      "method": "pool",
+      "position": 0,
+      "round": 4,
+      "seconds": 0.020530608016997576,
+      "seed": 111
+    },
+    {
+      "length": 48,
+      "method": "attention",
+      "position": 1,
+      "round": 4,
+      "seconds": 0.027296063024550676,
+      "seed": 111
+    },
+    {
+      "length": 48,
+      "method": "mlp",
+      "position": 2,
+      "round": 4,
+      "seconds": 0.021104417042806745,
+      "seed": 111
+    },
+    {
+      "length": 48,
+      "method": "nonlinear",
+      "position": 3,
+      "round": 4,
+      "seconds": 0.022165876114740968,
+      "seed": 111
+    },
+    {
+      "length": 48,
+      "method": "attention",
+      "position": 0,
+      "round": 5,
+      "seconds": 0.02435823599807918,
+      "seed": 111
+    },
+    {
+      "length": 48,
+      "method": "mlp",
+      "position": 1,
+      "round": 5,
+      "seconds": 0.018430184107273817,
+      "seed": 111
+    },
+    {
+      "length": 48,
+      "method": "nonlinear",
+      "position": 2,
+      "round": 5,
+      "seconds": 0.02168175601400435,
+      "seed": 111
+    },
+    {
+      "length": 48,
+      "method": "pool",
+      "position": 3,
+      "round": 5,
+      "seconds": 0.019568637013435364,
+      "seed": 111
+    },
+    {
+      "length": 48,
+      "method": "mlp",
+      "position": 0,
+      "round": 6,
+      "seconds": 0.020846838830038905,
+      "seed": 111
+    },
+    {
+      "length": 48,
+      "method": "nonlinear",
+      "position": 1,
+      "round": 6,
+      "seconds": 0.02254401217214763,
+      "seed": 111
+    },
+    {
+      "length": 48,
+      "method": "pool",
+      "position": 2,
+      "round": 6,
+      "seconds": 0.021110804053023458,
+      "seed": 111
+    },
+    {
+      "length": 48,
+      "method": "attention",
+      "position": 3,
+      "round": 6,
+      "seconds": 0.02721120696514845,
+      "seed": 111
+    },
+    {
+      "length": 48,
+      "method": "nonlinear",
+      "position": 0,
+      "round": 7,
+      "seconds": 0.021647194866091013,
+      "seed": 111
+    },
+    {
+      "length": 48,
+      "method": "pool",
+      "position": 1,
+      "round": 7,
+      "seconds": 0.020995544036850333,
+      "seed": 111
+    },
+    {
+      "length": 48,
+      "method": "attention",
+      "position": 2,
+      "round": 7,
+      "seconds": 0.027051632991060615,
+      "seed": 111
+    },
+    {
+      "length": 48,
+      "method": "mlp",
+      "position": 3,
+      "round": 7,
+      "seconds": 0.02072498295456171,
+      "seed": 111
+    },
+    {
+      "length": 48,
+      "method": "pool",
+      "position": 0,
+      "round": 8,
+      "seconds": 0.021244925912469625,
+      "seed": 111
+    },
+    {
+      "length": 48,
+      "method": "attention",
+      "position": 1,
+      "round": 8,
+      "seconds": 0.026110850041732192,
+      "seed": 111
+    },
+    {
+      "length": 48,
+      "method": "mlp",
+      "position": 2,
+      "round": 8,
+      "seconds": 0.020883881021291018,
+      "seed": 111
+    },
+    {
+      "length": 48,
+      "method": "nonlinear",
+      "position": 3,
+      "round": 8,
+      "seconds": 0.02222486212849617,
+      "seed": 111
+    },
+    {
+      "length": 48,
+      "method": "attention",
+      "position": 0,
+      "round": 9,
+      "seconds": 0.027158162090927362,
+      "seed": 111
+    },
+    {
+      "length": 48,
+      "method": "mlp",
+      "position": 1,
+      "round": 9,
+      "seconds": 0.020564160076901317,
+      "seed": 111
+    },
+    {
+      "length": 48,
+      "method": "nonlinear",
+      "position": 2,
+      "round": 9,
+      "seconds": 0.02170175197534263,
+      "seed": 111
+    },
+    {
+      "length": 48,
+      "method": "pool",
+      "position": 3,
+      "round": 9,
+      "seconds": 0.02132673398591578,
+      "seed": 111
+    },
+    {
+      "length": 48,
+      "method": "mlp",
+      "position": 0,
+      "round": 10,
+      "seconds": 0.020616390043869615,
+      "seed": 111
+    },
+    {
+      "length": 48,
+      "method": "nonlinear",
+      "position": 1,
+      "round": 10,
+      "seconds": 0.021987437969073653,
+      "seed": 111
+    },
+    {
+      "length": 48,
+      "method": "pool",
+      "position": 2,
+      "round": 10,
+      "seconds": 0.0219470439478755,
+      "seed": 111
+    },
+    {
+      "length": 48,
+      "method": "attention",
+      "position": 3,
+      "round": 10,
+      "seconds": 0.02835136093199253,
+      "seed": 111
+    },
+    {
+      "length": 48,
+      "method": "nonlinear",
+      "position": 0,
+      "round": 11,
+      "seconds": 0.022526146844029427,
+      "seed": 111
+    },
+    {
+      "length": 48,
+      "method": "pool",
+      "position": 1,
+      "round": 11,
+      "seconds": 0.021150531014427543,
+      "seed": 111
+    },
+    {
+      "length": 48,
+      "method": "attention",
+      "position": 2,
+      "round": 11,
+      "seconds": 0.027445494895800948,
+      "seed": 111
+    },
+    {
+      "length": 48,
+      "method": "mlp",
+      "position": 3,
+      "round": 11,
+      "seconds": 0.020803953055292368,
+      "seed": 111
+    },
+    {
+      "length": 48,
+      "method": "pool",
+      "position": 0,
+      "round": 12,
+      "seconds": 0.021141229895874858,
+      "seed": 111
+    },
+    {
+      "length": 48,
+      "method": "attention",
+      "position": 1,
+      "round": 12,
+      "seconds": 0.027335711987689137,
+      "seed": 111
+    },
+    {
+      "length": 48,
+      "method": "mlp",
+      "position": 2,
+      "round": 12,
+      "seconds": 0.020825308980420232,
+      "seed": 111
+    },
+    {
+      "length": 48,
+      "method": "nonlinear",
+      "position": 3,
+      "round": 12,
+      "seconds": 0.021497995126992464,
+      "seed": 111
+    },
+    {
+      "length": 48,
+      "method": "attention",
+      "position": 0,
+      "round": 13,
+      "seconds": 0.026436927961185575,
+      "seed": 111
+    },
+    {
+      "length": 48,
+      "method": "mlp",
+      "position": 1,
+      "round": 13,
+      "seconds": 0.020912931067869067,
+      "seed": 111
+    },
+    {
+      "length": 48,
+      "method": "nonlinear",
+      "position": 2,
+      "round": 13,
+      "seconds": 0.021902977023273706,
+      "seed": 111
+    },
+    {
+      "length": 48,
+      "method": "pool",
+      "position": 3,
+      "round": 13,
+      "seconds": 0.021002854919061065,
+      "seed": 111
+    },
+    {
+      "length": 48,
+      "method": "mlp",
+      "position": 0,
+      "round": 14,
+      "seconds": 0.021305267931893468,
+      "seed": 111
+    },
+    {
+      "length": 48,
+      "method": "nonlinear",
+      "position": 1,
+      "round": 14,
+      "seconds": 0.021681698970496655,
+      "seed": 111
+    },
+    {
+      "length": 48,
+      "method": "pool",
+      "position": 2,
+      "round": 14,
+      "seconds": 0.020370135782286525,
+      "seed": 111
+    },
+    {
+      "length": 48,
+      "method": "attention",
+      "position": 3,
+      "round": 14,
+      "seconds": 0.027105897897854447,
+      "seed": 111
+    },
+    {
+      "length": 48,
+      "method": "nonlinear",
+      "position": 0,
+      "round": 15,
+      "seconds": 0.021696279989555478,
+      "seed": 111
+    },
+    {
+      "length": 48,
+      "method": "pool",
+      "position": 1,
+      "round": 15,
+      "seconds": 0.02070883405394852,
+      "seed": 111
+    },
+    {
+      "length": 48,
+      "method": "attention",
+      "position": 2,
+      "round": 15,
+      "seconds": 0.027027364121749997,
+      "seed": 111
+    },
+    {
+      "length": 48,
+      "method": "mlp",
+      "position": 3,
+      "round": 15,
+      "seconds": 0.020747066009789705,
+      "seed": 111
+    },
+    {
+      "length": 48,
+      "method": "pool",
+      "position": 0,
+      "round": 16,
+      "seconds": 0.021649789065122604,
+      "seed": 111
+    },
+    {
+      "length": 48,
+      "method": "attention",
+      "position": 1,
+      "round": 16,
+      "seconds": 0.027043177047744393,
+      "seed": 111
+    },
+    {
+      "length": 48,
+      "method": "mlp",
+      "position": 2,
+      "round": 16,
+      "seconds": 0.020780464867129922,
+      "seed": 111
+    },
+    {
+      "length": 48,
+      "method": "nonlinear",
+      "position": 3,
+      "round": 16,
+      "seconds": 0.021496759029105306,
+      "seed": 111
+    },
+    {
+      "length": 48,
+      "method": "attention",
+      "position": 0,
+      "round": 17,
+      "seconds": 0.026950852014124393,
+      "seed": 111
+    },
+    {
+      "length": 48,
+      "method": "mlp",
+      "position": 1,
+      "round": 17,
+      "seconds": 0.02004611911252141,
+      "seed": 111
+    },
+    {
+      "length": 48,
+      "method": "nonlinear",
+      "position": 2,
+      "round": 17,
+      "seconds": 0.021334880031645298,
+      "seed": 111
+    },
+    {
+      "length": 48,
+      "method": "pool",
+      "position": 3,
+      "round": 17,
+      "seconds": 0.020094492007046938,
+      "seed": 111
+    },
+    {
+      "length": 48,
+      "method": "mlp",
+      "position": 0,
+      "round": 18,
+      "seconds": 0.020302588818594813,
+      "seed": 111
+    },
+    {
+      "length": 48,
+      "method": "nonlinear",
+      "position": 1,
+      "round": 18,
+      "seconds": 0.020794492913410068,
+      "seed": 111
+    },
+    {
+      "length": 48,
+      "method": "pool",
+      "position": 2,
+      "round": 18,
+      "seconds": 0.02075093099847436,
+      "seed": 111
+    },
+    {
+      "length": 48,
+      "method": "attention",
+      "position": 3,
+      "round": 18,
+      "seconds": 0.02453078399412334,
+      "seed": 111
+    },
+    {
+      "length": 48,
+      "method": "nonlinear",
+      "position": 0,
+      "round": 19,
+      "seconds": 0.02070769714191556,
+      "seed": 111
+    },
+    {
+      "length": 48,
+      "method": "pool",
+      "position": 1,
+      "round": 19,
+      "seconds": 0.018696220824494958,
+      "seed": 111
+    },
+    {
+      "length": 48,
+      "method": "attention",
+      "position": 2,
+      "round": 19,
+      "seconds": 0.027757422998547554,
+      "seed": 111
+    },
+    {
+      "length": 48,
+      "method": "mlp",
+      "position": 3,
+      "round": 19,
+      "seconds": 0.021668820874765515,
+      "seed": 111
+    },
+    {
+      "length": 48,
+      "method": "pool",
+      "position": 0,
+      "round": 20,
+      "seconds": 0.021744908997789025,
+      "seed": 111
+    },
+    {
+      "length": 48,
+      "method": "attention",
+      "position": 1,
+      "round": 20,
+      "seconds": 0.027332221856340766,
+      "seed": 111
+    },
+    {
+      "length": 48,
+      "method": "mlp",
+      "position": 2,
+      "round": 20,
+      "seconds": 0.018246354069560766,
+      "seed": 111
+    },
+    {
+      "length": 48,
+      "method": "nonlinear",
+      "position": 3,
+      "round": 20,
+      "seconds": 0.020468916976824403,
+      "seed": 111
+    },
+    {
+      "length": 48,
+      "method": "attention",
+      "position": 0,
+      "round": 21,
+      "seconds": 0.02669144910760224,
+      "seed": 111
+    },
+    {
+      "length": 48,
+      "method": "mlp",
+      "position": 1,
+      "round": 21,
+      "seconds": 0.019227275857701898,
+      "seed": 111
+    },
+    {
+      "length": 48,
+      "method": "nonlinear",
+      "position": 2,
+      "round": 21,
+      "seconds": 0.02146517811343074,
+      "seed": 111
+    },
+    {
+      "length": 48,
+      "method": "pool",
+      "position": 3,
+      "round": 21,
+      "seconds": 0.019440016942098737,
+      "seed": 111
+    },
+    {
+      "length": 48,
+      "method": "mlp",
+      "position": 0,
+      "round": 22,
+      "seconds": 0.019386406987905502,
+      "seed": 111
+    },
+    {
+      "length": 48,
+      "method": "nonlinear",
+      "position": 1,
+      "round": 22,
+      "seconds": 0.02010092488490045,
+      "seed": 111
+    },
+    {
+      "length": 48,
+      "method": "pool",
+      "position": 2,
+      "round": 22,
+      "seconds": 0.01942378282546997,
+      "seed": 111
+    },
+    {
+      "length": 48,
+      "method": "attention",
+      "position": 3,
+      "round": 22,
+      "seconds": 0.025378544814884663,
+      "seed": 111
+    },
+    {
+      "length": 48,
+      "method": "nonlinear",
+      "position": 0,
+      "round": 23,
+      "seconds": 0.020986174000427127,
+      "seed": 111
+    },
+    {
+      "length": 48,
+      "method": "pool",
+      "position": 1,
+      "round": 23,
+      "seconds": 0.01919665397144854,
+      "seed": 111
+    },
+    {
+      "length": 48,
+      "method": "attention",
+      "position": 2,
+      "round": 23,
+      "seconds": 0.02486271085217595,
+      "seed": 111
+    },
+    {
+      "length": 48,
+      "method": "mlp",
+      "position": 3,
+      "round": 23,
+      "seconds": 0.019522832008078694,
+      "seed": 111
+    },
+    {
+      "length": 48,
+      "method": "pool",
+      "position": 0,
+      "round": 24,
+      "seconds": 0.019196033012121916,
+      "seed": 111
+    },
+    {
+      "length": 48,
+      "method": "attention",
+      "position": 1,
+      "round": 24,
+      "seconds": 0.025827984092757106,
+      "seed": 111
+    },
+    {
+      "length": 48,
+      "method": "mlp",
+      "position": 2,
+      "round": 24,
+      "seconds": 0.020717383129522204,
+      "seed": 111
+    },
+    {
+      "length": 48,
+      "method": "nonlinear",
+      "position": 3,
+      "round": 24,
+      "seconds": 0.02162086102180183,
+      "seed": 111
+    },
+    {
+      "length": 48,
+      "method": "attention",
+      "position": 0,
+      "round": 25,
+      "seconds": 0.02617552992887795,
+      "seed": 111
+    },
+    {
+      "length": 48,
+      "method": "mlp",
+      "position": 1,
+      "round": 25,
+      "seconds": 0.01998000591993332,
+      "seed": 111
+    },
+    {
+      "length": 48,
+      "method": "nonlinear",
+      "position": 2,
+      "round": 25,
+      "seconds": 0.020478768972679973,
+      "seed": 111
+    },
+    {
+      "length": 48,
+      "method": "pool",
+      "position": 3,
+      "round": 25,
+      "seconds": 0.017932187067344785,
+      "seed": 111
+    },
+    {
+      "length": 48,
+      "method": "mlp",
+      "position": 0,
+      "round": 26,
+      "seconds": 0.014830183936282992,
+      "seed": 111
+    },
+    {
+      "length": 48,
+      "method": "nonlinear",
+      "position": 1,
+      "round": 26,
+      "seconds": 0.01728850300423801,
+      "seed": 111
+    },
+    {
+      "length": 48,
+      "method": "pool",
+      "position": 2,
+      "round": 26,
+      "seconds": 0.019331733928993344,
+      "seed": 111
+    },
+    {
+      "length": 48,
+      "method": "attention",
+      "position": 3,
+      "round": 26,
+      "seconds": 0.027171646943315864,
+      "seed": 111
+    },
+    {
+      "length": 48,
+      "method": "nonlinear",
+      "position": 0,
+      "round": 27,
+      "seconds": 0.020654500927776098,
+      "seed": 111
+    },
+    {
+      "length": 48,
+      "method": "pool",
+      "position": 1,
+      "round": 27,
+      "seconds": 0.02033472084440291,
+      "seed": 111
+    },
+    {
+      "length": 48,
+      "method": "attention",
+      "position": 2,
+      "round": 27,
+      "seconds": 0.02495865896344185,
+      "seed": 111
+    },
+    {
+      "length": 48,
+      "method": "mlp",
+      "position": 3,
+      "round": 27,
+      "seconds": 0.02064113807864487,
+      "seed": 111
+    },
+    {
+      "length": 48,
+      "method": "pool",
+      "position": 0,
+      "round": 28,
+      "seconds": 0.021462721982970834,
+      "seed": 111
+    },
+    {
+      "length": 48,
+      "method": "attention",
+      "position": 1,
+      "round": 28,
+      "seconds": 0.025815922068431973,
+      "seed": 111
+    },
+    {
+      "length": 48,
+      "method": "mlp",
+      "position": 2,
+      "round": 28,
+      "seconds": 0.020517768105491996,
+      "seed": 111
+    },
+    {
+      "length": 48,
+      "method": "nonlinear",
+      "position": 3,
+      "round": 28,
+      "seconds": 0.021741417003795505,
+      "seed": 111
+    },
+    {
+      "length": 48,
+      "method": "attention",
+      "position": 0,
+      "round": 29,
+      "seconds": 0.025949008064344525,
+      "seed": 111
+    },
+    {
+      "length": 48,
+      "method": "mlp",
+      "position": 1,
+      "round": 29,
+      "seconds": 0.020677761873230338,
+      "seed": 111
+    },
+    {
+      "length": 48,
+      "method": "nonlinear",
+      "position": 2,
+      "round": 29,
+      "seconds": 0.02054090378805995,
+      "seed": 111
+    },
+    {
+      "length": 48,
+      "method": "pool",
+      "position": 3,
+      "round": 29,
+      "seconds": 0.020689978962764144,
+      "seed": 111
+    },
+    {
+      "length": 48,
+      "method": "mlp",
+      "position": 0,
+      "round": 30,
+      "seconds": 0.019342208048328757,
+      "seed": 111
+    },
+    {
+      "length": 48,
+      "method": "nonlinear",
+      "position": 1,
+      "round": 30,
+      "seconds": 0.019686233950778842,
+      "seed": 111
+    },
+    {
+      "length": 48,
+      "method": "pool",
+      "position": 2,
+      "round": 30,
+      "seconds": 0.016803726088255644,
+      "seed": 111
+    },
+    {
+      "length": 48,
+      "method": "attention",
+      "position": 3,
+      "round": 30,
+      "seconds": 0.025490728905424476,
+      "seed": 111
+    },
+    {
+      "length": 48,
+      "method": "nonlinear",
+      "position": 0,
+      "round": 31,
+      "seconds": 0.02085670200176537,
+      "seed": 111
+    },
+    {
+      "length": 48,
+      "method": "pool",
+      "position": 1,
+      "round": 31,
+      "seconds": 0.019499945919960737,
+      "seed": 111
+    },
+    {
+      "length": 48,
+      "method": "attention",
+      "position": 2,
+      "round": 31,
+      "seconds": 0.026221144013106823,
+      "seed": 111
+    },
+    {
+      "length": 48,
+      "method": "mlp",
+      "position": 3,
+      "round": 31,
+      "seconds": 0.017725330078974366,
+      "seed": 111
+    },
+    {
+      "length": 72,
+      "method": "pool",
+      "position": 0,
+      "round": 0,
+      "seconds": 0.04572311509400606,
+      "seed": 111
+    },
+    {
+      "length": 72,
+      "method": "attention",
+      "position": 1,
+      "round": 0,
+      "seconds": 0.04805869096890092,
+      "seed": 111
+    },
+    {
+      "length": 72,
+      "method": "nonlinear",
+      "position": 2,
+      "round": 0,
+      "seconds": 0.04064884386025369,
+      "seed": 111
+    },
+    {
+      "length": 72,
+      "method": "mlp",
+      "position": 3,
+      "round": 0,
+      "seconds": 0.042269747937098145,
+      "seed": 111
+    },
+    {
+      "length": 72,
+      "method": "attention",
+      "position": 0,
+      "round": 1,
+      "seconds": 0.04904108005575836,
+      "seed": 111
+    },
+    {
+      "length": 72,
+      "method": "nonlinear",
+      "position": 1,
+      "round": 1,
+      "seconds": 0.0409331729169935,
+      "seed": 111
+    },
+    {
+      "length": 72,
+      "method": "mlp",
+      "position": 2,
+      "round": 1,
+      "seconds": 0.03713707602582872,
+      "seed": 111
+    },
+    {
+      "length": 72,
+      "method": "pool",
+      "position": 3,
+      "round": 1,
+      "seconds": 0.03999893111176789,
+      "seed": 111
+    },
+    {
+      "length": 72,
+      "method": "nonlinear",
+      "position": 0,
+      "round": 2,
+      "seconds": 0.041093606036156416,
+      "seed": 111
+    },
+    {
+      "length": 72,
+      "method": "mlp",
+      "position": 1,
+      "round": 2,
+      "seconds": 0.041321573080495,
+      "seed": 111
+    },
+    {
+      "length": 72,
+      "method": "pool",
+      "position": 2,
+      "round": 2,
+      "seconds": 0.03792990813963115,
+      "seed": 111
+    },
+    {
+      "length": 72,
+      "method": "attention",
+      "position": 3,
+      "round": 2,
+      "seconds": 0.04504228197038174,
+      "seed": 111
+    },
+    {
+      "length": 72,
+      "method": "mlp",
+      "position": 0,
+      "round": 3,
+      "seconds": 0.03953725006431341,
+      "seed": 111
+    },
+    {
+      "length": 72,
+      "method": "pool",
+      "position": 1,
+      "round": 3,
+      "seconds": 0.03897638991475105,
+      "seed": 111
+    },
+    {
+      "length": 72,
+      "method": "attention",
+      "position": 2,
+      "round": 3,
+      "seconds": 0.05059566022828221,
+      "seed": 111
+    },
+    {
+      "length": 72,
+      "method": "nonlinear",
+      "position": 3,
+      "round": 3,
+      "seconds": 0.03964943019673228,
+      "seed": 111
+    },
+    {
+      "length": 72,
+      "method": "pool",
+      "position": 0,
+      "round": 4,
+      "seconds": 0.03925138199701905,
+      "seed": 111
+    },
+    {
+      "length": 72,
+      "method": "attention",
+      "position": 1,
+      "round": 4,
+      "seconds": 0.052054404048249125,
+      "seed": 111
+    },
+    {
+      "length": 72,
+      "method": "nonlinear",
+      "position": 2,
+      "round": 4,
+      "seconds": 0.040453657042235136,
+      "seed": 111
+    },
+    {
+      "length": 72,
+      "method": "mlp",
+      "position": 3,
+      "round": 4,
+      "seconds": 0.039810300106182694,
+      "seed": 111
+    },
+    {
+      "length": 72,
+      "method": "attention",
+      "position": 0,
+      "round": 5,
+      "seconds": 0.04742672014981508,
+      "seed": 111
+    },
+    {
+      "length": 72,
+      "method": "nonlinear",
+      "position": 1,
+      "round": 5,
+      "seconds": 0.041575511917471886,
+      "seed": 111
+    },
+    {
+      "length": 72,
+      "method": "mlp",
+      "position": 2,
+      "round": 5,
+      "seconds": 0.03955789399333298,
+      "seed": 111
+    },
+    {
+      "length": 72,
+      "method": "pool",
+      "position": 3,
+      "round": 5,
+      "seconds": 0.0389564570505172,
+      "seed": 111
+    },
+    {
+      "length": 72,
+      "method": "nonlinear",
+      "position": 0,
+      "round": 6,
+      "seconds": 0.04295588913373649,
+      "seed": 111
+    },
+    {
+      "length": 72,
+      "method": "mlp",
+      "position": 1,
+      "round": 6,
+      "seconds": 0.0392210700083524,
+      "seed": 111
+    },
+    {
+      "length": 72,
+      "method": "pool",
+      "position": 2,
+      "round": 6,
+      "seconds": 0.035391916055232286,
+      "seed": 111
+    },
+    {
+      "length": 72,
+      "method": "attention",
+      "position": 3,
+      "round": 6,
+      "seconds": 0.04392775800079107,
+      "seed": 111
+    },
+    {
+      "length": 72,
+      "method": "mlp",
+      "position": 0,
+      "round": 7,
+      "seconds": 0.036251401994377375,
+      "seed": 111
+    },
+    {
+      "length": 72,
+      "method": "pool",
+      "position": 1,
+      "round": 7,
+      "seconds": 0.034145383862778544,
+      "seed": 111
+    },
+    {
+      "length": 72,
+      "method": "attention",
+      "position": 2,
+      "round": 7,
+      "seconds": 0.043703136034309864,
+      "seed": 111
+    },
+    {
+      "length": 72,
+      "method": "nonlinear",
+      "position": 3,
+      "round": 7,
+      "seconds": 0.040846436051651835,
+      "seed": 111
+    },
+    {
+      "length": 72,
+      "method": "pool",
+      "position": 0,
+      "round": 8,
+      "seconds": 0.038150219013914466,
+      "seed": 111
+    },
+    {
+      "length": 72,
+      "method": "attention",
+      "position": 1,
+      "round": 8,
+      "seconds": 0.056268604937940836,
+      "seed": 111
+    },
+    {
+      "length": 72,
+      "method": "nonlinear",
+      "position": 2,
+      "round": 8,
+      "seconds": 0.03954759705811739,
+      "seed": 111
+    },
+    {
+      "length": 72,
+      "method": "mlp",
+      "position": 3,
+      "round": 8,
+      "seconds": 0.03999254386872053,
+      "seed": 111
+    },
+    {
+      "length": 72,
+      "method": "attention",
+      "position": 0,
+      "round": 9,
+      "seconds": 0.05571707687340677,
+      "seed": 111
+    },
+    {
+      "length": 72,
+      "method": "nonlinear",
+      "position": 1,
+      "round": 9,
+      "seconds": 0.03917023609392345,
+      "seed": 111
+    },
+    {
+      "length": 72,
+      "method": "mlp",
+      "position": 2,
+      "round": 9,
+      "seconds": 0.03969100210815668,
+      "seed": 111
+    },
+    {
+      "length": 72,
+      "method": "pool",
+      "position": 3,
+      "round": 9,
+      "seconds": 0.0385715349111706,
+      "seed": 111
+    },
+    {
+      "length": 72,
+      "method": "nonlinear",
+      "position": 0,
+      "round": 10,
+      "seconds": 0.038873308105394244,
+      "seed": 111
+    },
+    {
+      "length": 72,
+      "method": "mlp",
+      "position": 1,
+      "round": 10,
+      "seconds": 0.040497210109606385,
+      "seed": 111
+    },
+    {
+      "length": 72,
+      "method": "pool",
+      "position": 2,
+      "round": 10,
+      "seconds": 0.03790133213624358,
+      "seed": 111
+    },
+    {
+      "length": 72,
+      "method": "attention",
+      "position": 3,
+      "round": 10,
+      "seconds": 0.04410042497329414,
+      "seed": 111
+    },
+    {
+      "length": 72,
+      "method": "mlp",
+      "position": 0,
+      "round": 11,
+      "seconds": 0.03185588004998863,
+      "seed": 111
+    },
+    {
+      "length": 72,
+      "method": "pool",
+      "position": 1,
+      "round": 11,
+      "seconds": 0.03972950205206871,
+      "seed": 111
+    },
+    {
+      "length": 72,
+      "method": "attention",
+      "position": 2,
+      "round": 11,
+      "seconds": 0.04343304387293756,
+      "seed": 111
+    },
+    {
+      "length": 72,
+      "method": "nonlinear",
+      "position": 3,
+      "round": 11,
+      "seconds": 0.03947187587618828,
+      "seed": 111
+    },
+    {
+      "length": 72,
+      "method": "pool",
+      "position": 0,
+      "round": 12,
+      "seconds": 0.04431009804829955,
+      "seed": 111
+    },
+    {
+      "length": 72,
+      "method": "attention",
+      "position": 1,
+      "round": 12,
+      "seconds": 0.04746820195578039,
+      "seed": 111
+    },
+    {
+      "length": 72,
+      "method": "nonlinear",
+      "position": 2,
+      "round": 12,
+      "seconds": 0.03744692401960492,
+      "seed": 111
+    },
+    {
+      "length": 72,
+      "method": "mlp",
+      "position": 3,
+      "round": 12,
+      "seconds": 0.036392485024407506,
+      "seed": 111
+    },
+    {
+      "length": 72,
+      "method": "attention",
+      "position": 0,
+      "round": 13,
+      "seconds": 0.045631514163687825,
+      "seed": 111
+    },
+    {
+      "length": 72,
+      "method": "nonlinear",
+      "position": 1,
+      "round": 13,
+      "seconds": 0.03949550096876919,
+      "seed": 111
+    },
+    {
+      "length": 72,
+      "method": "mlp",
+      "position": 2,
+      "round": 13,
+      "seconds": 0.03800881304778159,
+      "seed": 111
+    },
+    {
+      "length": 72,
+      "method": "pool",
+      "position": 3,
+      "round": 13,
+      "seconds": 0.036844541085883975,
+      "seed": 111
+    },
+    {
+      "length": 72,
+      "method": "nonlinear",
+      "position": 0,
+      "round": 14,
+      "seconds": 0.03927477402612567,
+      "seed": 111
+    },
+    {
+      "length": 72,
+      "method": "mlp",
+      "position": 1,
+      "round": 14,
+      "seconds": 0.03808194096200168,
+      "seed": 111
+    },
+    {
+      "length": 72,
+      "method": "pool",
+      "position": 2,
+      "round": 14,
+      "seconds": 0.06501589296385646,
+      "seed": 111
+    },
+    {
+      "length": 72,
+      "method": "attention",
+      "position": 3,
+      "round": 14,
+      "seconds": 0.08923051995225251,
+      "seed": 111
+    },
+    {
+      "length": 72,
+      "method": "mlp",
+      "position": 0,
+      "round": 15,
+      "seconds": 0.040287520037963986,
+      "seed": 111
+    },
+    {
+      "length": 72,
+      "method": "pool",
+      "position": 1,
+      "round": 15,
+      "seconds": 0.06521077710203826,
+      "seed": 111
+    },
+    {
+      "length": 72,
+      "method": "attention",
+      "position": 2,
+      "round": 15,
+      "seconds": 0.04587949998676777,
+      "seed": 111
+    },
+    {
+      "length": 72,
+      "method": "nonlinear",
+      "position": 3,
+      "round": 15,
+      "seconds": 0.040895813843235373,
+      "seed": 111
+    },
+    {
+      "length": 72,
+      "method": "pool",
+      "position": 0,
+      "round": 16,
+      "seconds": 0.037763459142297506,
+      "seed": 111
+    },
+    {
+      "length": 72,
+      "method": "attention",
+      "position": 1,
+      "round": 16,
+      "seconds": 0.04646027088165283,
+      "seed": 111
+    },
+    {
+      "length": 72,
+      "method": "nonlinear",
+      "position": 2,
+      "round": 16,
+      "seconds": 0.037570361979305744,
+      "seed": 111
+    },
+    {
+      "length": 72,
+      "method": "mlp",
+      "position": 3,
+      "round": 16,
+      "seconds": 0.036478516878560185,
+      "seed": 111
+    },
+    {
+      "length": 72,
+      "method": "attention",
+      "position": 0,
+      "round": 17,
+      "seconds": 0.044980939012020826,
+      "seed": 111
+    },
+    {
+      "length": 72,
+      "method": "nonlinear",
+      "position": 1,
+      "round": 17,
+      "seconds": 0.03950070892460644,
+      "seed": 111
+    },
+    {
+      "length": 72,
+      "method": "mlp",
+      "position": 2,
+      "round": 17,
+      "seconds": 0.040823473827913404,
+      "seed": 111
+    },
+    {
+      "length": 72,
+      "method": "pool",
+      "position": 3,
+      "round": 17,
+      "seconds": 0.03816595207899809,
+      "seed": 111
+    },
+    {
+      "length": 72,
+      "method": "nonlinear",
+      "position": 0,
+      "round": 18,
+      "seconds": 0.03875979804433882,
+      "seed": 111
+    },
+    {
+      "length": 72,
+      "method": "mlp",
+      "position": 1,
+      "round": 18,
+      "seconds": 0.032594613963738084,
+      "seed": 111
+    },
+    {
+      "length": 72,
+      "method": "pool",
+      "position": 2,
+      "round": 18,
+      "seconds": 0.03913707914762199,
+      "seed": 111
+    },
+    {
+      "length": 72,
+      "method": "attention",
+      "position": 3,
+      "round": 18,
+      "seconds": 0.04738084110431373,
+      "seed": 111
+    },
+    {
+      "length": 72,
+      "method": "mlp",
+      "position": 0,
+      "round": 19,
+      "seconds": 0.040709292981773615,
+      "seed": 111
+    },
+    {
+      "length": 72,
+      "method": "pool",
+      "position": 1,
+      "round": 19,
+      "seconds": 0.03898003417998552,
+      "seed": 111
+    },
+    {
+      "length": 72,
+      "method": "attention",
+      "position": 2,
+      "round": 19,
+      "seconds": 0.046877935994416475,
+      "seed": 111
+    },
+    {
+      "length": 72,
+      "method": "nonlinear",
+      "position": 3,
+      "round": 19,
+      "seconds": 0.03528235689736903,
+      "seed": 111
+    },
+    {
+      "length": 72,
+      "method": "pool",
+      "position": 0,
+      "round": 20,
+      "seconds": 0.03819182491861284,
+      "seed": 111
+    },
+    {
+      "length": 72,
+      "method": "attention",
+      "position": 1,
+      "round": 20,
+      "seconds": 0.04308409197255969,
+      "seed": 111
+    },
+    {
+      "length": 72,
+      "method": "nonlinear",
+      "position": 2,
+      "round": 20,
+      "seconds": 0.03999173687770963,
+      "seed": 111
+    },
+    {
+      "length": 72,
+      "method": "mlp",
+      "position": 3,
+      "round": 20,
+      "seconds": 0.03621939499862492,
+      "seed": 111
+    },
+    {
+      "length": 72,
+      "method": "attention",
+      "position": 0,
+      "round": 21,
+      "seconds": 0.04427662002854049,
+      "seed": 111
+    },
+    {
+      "length": 72,
+      "method": "nonlinear",
+      "position": 1,
+      "round": 21,
+      "seconds": 0.033857288071885705,
+      "seed": 111
+    },
+    {
+      "length": 72,
+      "method": "mlp",
+      "position": 2,
+      "round": 21,
+      "seconds": 0.03894401085563004,
+      "seed": 111
+    },
+    {
+      "length": 72,
+      "method": "pool",
+      "position": 3,
+      "round": 21,
+      "seconds": 0.030985408928245306,
+      "seed": 111
+    },
+    {
+      "length": 72,
+      "method": "nonlinear",
+      "position": 0,
+      "round": 22,
+      "seconds": 0.04090148606337607,
+      "seed": 111
+    },
+    {
+      "length": 72,
+      "method": "mlp",
+      "position": 1,
+      "round": 22,
+      "seconds": 0.03982585691846907,
+      "seed": 111
+    },
+    {
+      "length": 72,
+      "method": "pool",
+      "position": 2,
+      "round": 22,
+      "seconds": 0.04069201205857098,
+      "seed": 111
+    },
+    {
+      "length": 72,
+      "method": "attention",
+      "position": 3,
+      "round": 22,
+      "seconds": 0.04822624218650162,
+      "seed": 111
+    },
+    {
+      "length": 72,
+      "method": "mlp",
+      "position": 0,
+      "round": 23,
+      "seconds": 0.03826221404597163,
+      "seed": 111
+    },
+    {
+      "length": 72,
+      "method": "pool",
+      "position": 1,
+      "round": 23,
+      "seconds": 0.04092250810936093,
+      "seed": 111
+    },
+    {
+      "length": 72,
+      "method": "attention",
+      "position": 2,
+      "round": 23,
+      "seconds": 0.04805337614379823,
+      "seed": 111
+    },
+    {
+      "length": 72,
+      "method": "nonlinear",
+      "position": 3,
+      "round": 23,
+      "seconds": 0.04079410806298256,
+      "seed": 111
+    },
+    {
+      "length": 72,
+      "method": "pool",
+      "position": 0,
+      "round": 24,
+      "seconds": 0.03844546596519649,
+      "seed": 111
+    },
+    {
+      "length": 72,
+      "method": "attention",
+      "position": 1,
+      "round": 24,
+      "seconds": 0.0472766209859401,
+      "seed": 111
+    },
+    {
+      "length": 72,
+      "method": "nonlinear",
+      "position": 2,
+      "round": 24,
+      "seconds": 0.040105276042595506,
+      "seed": 111
+    },
+    {
+      "length": 72,
+      "method": "mlp",
+      "position": 3,
+      "round": 24,
+      "seconds": 0.03737322986125946,
+      "seed": 111
+    },
+    {
+      "length": 72,
+      "method": "attention",
+      "position": 0,
+      "round": 25,
+      "seconds": 0.04859702801331878,
+      "seed": 111
+    },
+    {
+      "length": 72,
+      "method": "nonlinear",
+      "position": 1,
+      "round": 25,
+      "seconds": 0.039202420972287655,
+      "seed": 111
+    },
+    {
+      "length": 72,
+      "method": "mlp",
+      "position": 2,
+      "round": 25,
+      "seconds": 0.03864549100399017,
+      "seed": 111
+    },
+    {
+      "length": 72,
+      "method": "pool",
+      "position": 3,
+      "round": 25,
+      "seconds": 0.04027579980902374,
+      "seed": 111
+    },
+    {
+      "length": 72,
+      "method": "nonlinear",
+      "position": 0,
+      "round": 26,
+      "seconds": 0.03927546110935509,
+      "seed": 111
+    },
+    {
+      "length": 72,
+      "method": "mlp",
+      "position": 1,
+      "round": 26,
+      "seconds": 0.03669126611202955,
+      "seed": 111
+    },
+    {
+      "length": 72,
+      "method": "pool",
+      "position": 2,
+      "round": 26,
+      "seconds": 0.03898877580650151,
+      "seed": 111
+    },
+    {
+      "length": 72,
+      "method": "attention",
+      "position": 3,
+      "round": 26,
+      "seconds": 0.050604603020474315,
+      "seed": 111
+    },
+    {
+      "length": 72,
+      "method": "mlp",
+      "position": 0,
+      "round": 27,
+      "seconds": 0.04086306691169739,
+      "seed": 111
+    },
+    {
+      "length": 72,
+      "method": "pool",
+      "position": 1,
+      "round": 27,
+      "seconds": 0.03877500398084521,
+      "seed": 111
+    },
+    {
+      "length": 72,
+      "method": "attention",
+      "position": 2,
+      "round": 27,
+      "seconds": 0.04433324211277068,
+      "seed": 111
+    },
+    {
+      "length": 72,
+      "method": "nonlinear",
+      "position": 3,
+      "round": 27,
+      "seconds": 0.038588309893384576,
+      "seed": 111
+    },
+    {
+      "length": 72,
+      "method": "pool",
+      "position": 0,
+      "round": 28,
+      "seconds": 0.04080787883140147,
+      "seed": 111
+    },
+    {
+      "length": 72,
+      "method": "attention",
+      "position": 1,
+      "round": 28,
+      "seconds": 0.04306272999383509,
+      "seed": 111
+    },
+    {
+      "length": 72,
+      "method": "nonlinear",
+      "position": 2,
+      "round": 28,
+      "seconds": 0.03800853807479143,
+      "seed": 111
+    },
+    {
+      "length": 72,
+      "method": "mlp",
+      "position": 3,
+      "round": 28,
+      "seconds": 0.04049535491503775,
+      "seed": 111
+    },
+    {
+      "length": 72,
+      "method": "attention",
+      "position": 0,
+      "round": 29,
+      "seconds": 0.05429169395938516,
+      "seed": 111
+    },
+    {
+      "length": 72,
+      "method": "nonlinear",
+      "position": 1,
+      "round": 29,
+      "seconds": 0.04357405100017786,
+      "seed": 111
+    },
+    {
+      "length": 72,
+      "method": "mlp",
+      "position": 2,
+      "round": 29,
+      "seconds": 0.045414058957248926,
+      "seed": 111
+    },
+    {
+      "length": 72,
+      "method": "pool",
+      "position": 3,
+      "round": 29,
+      "seconds": 0.04609309579245746,
+      "seed": 111
+    },
+    {
+      "length": 72,
+      "method": "nonlinear",
+      "position": 0,
+      "round": 30,
+      "seconds": 0.04703891207464039,
+      "seed": 111
+    },
+    {
+      "length": 72,
+      "method": "mlp",
+      "position": 1,
+      "round": 30,
+      "seconds": 0.04521957389079034,
+      "seed": 111
+    },
+    {
+      "length": 72,
+      "method": "pool",
+      "position": 2,
+      "round": 30,
+      "seconds": 0.045864535961300135,
+      "seed": 111
+    },
+    {
+      "length": 72,
+      "method": "attention",
+      "position": 3,
+      "round": 30,
+      "seconds": 0.055636826902627945,
+      "seed": 111
+    },
+    {
+      "length": 72,
+      "method": "mlp",
+      "position": 0,
+      "round": 31,
+      "seconds": 0.04367660800926387,
+      "seed": 111
+    },
+    {
+      "length": 72,
+      "method": "pool",
+      "position": 1,
+      "round": 31,
+      "seconds": 0.0418853098526597,
+      "seed": 111
+    },
+    {
+      "length": 72,
+      "method": "attention",
+      "position": 2,
+      "round": 31,
+      "seconds": 0.05687988200224936,
+      "seed": 111
+    },
+    {
+      "length": 72,
+      "method": "nonlinear",
+      "position": 3,
+      "round": 31,
+      "seconds": 0.047422617906704545,
+      "seed": 111
+    },
+    {
+      "length": 96,
+      "method": "attention",
+      "position": 0,
+      "round": 0,
+      "seconds": 0.08673022291623056,
+      "seed": 111
+    },
+    {
+      "length": 96,
+      "method": "pool",
+      "position": 1,
+      "round": 0,
+      "seconds": 0.06868682196363807,
+      "seed": 111
+    },
+    {
+      "length": 96,
+      "method": "nonlinear",
+      "position": 2,
+      "round": 0,
+      "seconds": 0.07564133987762034,
+      "seed": 111
+    },
+    {
+      "length": 96,
+      "method": "mlp",
+      "position": 3,
+      "round": 0,
+      "seconds": 0.07358111697249115,
+      "seed": 111
+    },
+    {
+      "length": 96,
+      "method": "pool",
+      "position": 0,
+      "round": 1,
+      "seconds": 0.07386930380016565,
+      "seed": 111
+    },
+    {
+      "length": 96,
+      "method": "nonlinear",
+      "position": 1,
+      "round": 1,
+      "seconds": 0.07302948203869164,
+      "seed": 111
+    },
+    {
+      "length": 96,
+      "method": "mlp",
+      "position": 2,
+      "round": 1,
+      "seconds": 0.06790151703171432,
+      "seed": 111
+    },
+    {
+      "length": 96,
+      "method": "attention",
+      "position": 3,
+      "round": 1,
+      "seconds": 0.08779827482067049,
+      "seed": 111
+    },
+    {
+      "length": 96,
+      "method": "nonlinear",
+      "position": 0,
+      "round": 2,
+      "seconds": 0.07547582197003067,
+      "seed": 111
+    },
+    {
+      "length": 96,
+      "method": "mlp",
+      "position": 1,
+      "round": 2,
+      "seconds": 0.07293025497347116,
+      "seed": 111
+    },
+    {
+      "length": 96,
+      "method": "attention",
+      "position": 2,
+      "round": 2,
+      "seconds": 0.08209800417535007,
+      "seed": 111
+    },
+    {
+      "length": 96,
+      "method": "pool",
+      "position": 3,
+      "round": 2,
+      "seconds": 0.0696992080193013,
+      "seed": 111
+    },
+    {
+      "length": 96,
+      "method": "mlp",
+      "position": 0,
+      "round": 3,
+      "seconds": 0.07097645895555615,
+      "seed": 111
+    },
+    {
+      "length": 96,
+      "method": "attention",
+      "position": 1,
+      "round": 3,
+      "seconds": 0.08834481611847878,
+      "seed": 111
+    },
+    {
+      "length": 96,
+      "method": "pool",
+      "position": 2,
+      "round": 3,
+      "seconds": 0.07381767896004021,
+      "seed": 111
+    },
+    {
+      "length": 96,
+      "method": "nonlinear",
+      "position": 3,
+      "round": 3,
+      "seconds": 0.0740097479429096,
+      "seed": 111
+    },
+    {
+      "length": 96,
+      "method": "attention",
+      "position": 0,
+      "round": 4,
+      "seconds": 0.08596643502824008,
+      "seed": 111
+    },
+    {
+      "length": 96,
+      "method": "pool",
+      "position": 1,
+      "round": 4,
+      "seconds": 0.07406538794748485,
+      "seed": 111
+    },
+    {
+      "length": 96,
+      "method": "nonlinear",
+      "position": 2,
+      "round": 4,
+      "seconds": 0.07589209685102105,
+      "seed": 111
+    },
+    {
+      "length": 96,
+      "method": "mlp",
+      "position": 3,
+      "round": 4,
+      "seconds": 0.07180133205838501,
+      "seed": 111
+    },
+    {
+      "length": 96,
+      "method": "pool",
+      "position": 0,
+      "round": 5,
+      "seconds": 0.06900892616249621,
+      "seed": 111
+    },
+    {
+      "length": 96,
+      "method": "nonlinear",
+      "position": 1,
+      "round": 5,
+      "seconds": 0.07495625596493483,
+      "seed": 111
+    },
+    {
+      "length": 96,
+      "method": "mlp",
+      "position": 2,
+      "round": 5,
+      "seconds": 0.0728254069108516,
+      "seed": 111
+    },
+    {
+      "length": 96,
+      "method": "attention",
+      "position": 3,
+      "round": 5,
+      "seconds": 0.0880503358785063,
+      "seed": 111
+    },
+    {
+      "length": 96,
+      "method": "nonlinear",
+      "position": 0,
+      "round": 6,
+      "seconds": 0.07198711205273867,
+      "seed": 111
+    },
+    {
+      "length": 96,
+      "method": "mlp",
+      "position": 1,
+      "round": 6,
+      "seconds": 0.07066445192322135,
+      "seed": 111
+    },
+    {
+      "length": 96,
+      "method": "attention",
+      "position": 2,
+      "round": 6,
+      "seconds": 0.08808889100328088,
+      "seed": 111
+    },
+    {
+      "length": 96,
+      "method": "pool",
+      "position": 3,
+      "round": 6,
+      "seconds": 0.0730055388994515,
+      "seed": 111
+    },
+    {
+      "length": 96,
+      "method": "mlp",
+      "position": 0,
+      "round": 7,
+      "seconds": 0.07084195991046727,
+      "seed": 111
+    },
+    {
+      "length": 96,
+      "method": "attention",
+      "position": 1,
+      "round": 7,
+      "seconds": 0.08097397489473224,
+      "seed": 111
+    },
+    {
+      "length": 96,
+      "method": "pool",
+      "position": 2,
+      "round": 7,
+      "seconds": 0.06159728206694126,
+      "seed": 111
+    },
+    {
+      "length": 96,
+      "method": "nonlinear",
+      "position": 3,
+      "round": 7,
+      "seconds": 0.06558467610739172,
+      "seed": 111
+    },
+    {
+      "length": 96,
+      "method": "attention",
+      "position": 0,
+      "round": 8,
+      "seconds": 0.07294591097161174,
+      "seed": 111
+    },
+    {
+      "length": 96,
+      "method": "pool",
+      "position": 1,
+      "round": 8,
+      "seconds": 0.06274059903807938,
+      "seed": 111
+    },
+    {
+      "length": 96,
+      "method": "nonlinear",
+      "position": 2,
+      "round": 8,
+      "seconds": 0.061277570901438594,
+      "seed": 111
+    },
+    {
+      "length": 96,
+      "method": "mlp",
+      "position": 3,
+      "round": 8,
+      "seconds": 0.061639224877581,
+      "seed": 111
+    },
+    {
+      "length": 96,
+      "method": "pool",
+      "position": 0,
+      "round": 9,
+      "seconds": 0.06103878282010555,
+      "seed": 111
+    },
+    {
+      "length": 96,
+      "method": "nonlinear",
+      "position": 1,
+      "round": 9,
+      "seconds": 0.061528949066996574,
+      "seed": 111
+    },
+    {
+      "length": 96,
+      "method": "mlp",
+      "position": 2,
+      "round": 9,
+      "seconds": 0.06787958787754178,
+      "seed": 111
+    },
+    {
+      "length": 96,
+      "method": "attention",
+      "position": 3,
+      "round": 9,
+      "seconds": 0.07027404312975705,
+      "seed": 111
+    },
+    {
+      "length": 96,
+      "method": "nonlinear",
+      "position": 0,
+      "round": 10,
+      "seconds": 0.060509494971483946,
+      "seed": 111
+    },
+    {
+      "length": 96,
+      "method": "mlp",
+      "position": 1,
+      "round": 10,
+      "seconds": 0.06384340301156044,
+      "seed": 111
+    },
+    {
+      "length": 96,
+      "method": "attention",
+      "position": 2,
+      "round": 10,
+      "seconds": 0.07105682184919715,
+      "seed": 111
+    },
+    {
+      "length": 96,
+      "method": "pool",
+      "position": 3,
+      "round": 10,
+      "seconds": 0.05955031607300043,
+      "seed": 111
+    },
+    {
+      "length": 96,
+      "method": "mlp",
+      "position": 0,
+      "round": 11,
+      "seconds": 0.05898932786658406,
+      "seed": 111
+    },
+    {
+      "length": 96,
+      "method": "attention",
+      "position": 1,
+      "round": 11,
+      "seconds": 0.06855446984991431,
+      "seed": 111
+    },
+    {
+      "length": 96,
+      "method": "pool",
+      "position": 2,
+      "round": 11,
+      "seconds": 0.06089063105173409,
+      "seed": 111
+    },
+    {
+      "length": 96,
+      "method": "nonlinear",
+      "position": 3,
+      "round": 11,
+      "seconds": 0.061626486014574766,
+      "seed": 111
+    },
+    {
+      "length": 96,
+      "method": "attention",
+      "position": 0,
+      "round": 12,
+      "seconds": 0.07756314217112958,
+      "seed": 111
+    },
+    {
+      "length": 96,
+      "method": "pool",
+      "position": 1,
+      "round": 12,
+      "seconds": 0.06008502212353051,
+      "seed": 111
+    },
+    {
+      "length": 96,
+      "method": "nonlinear",
+      "position": 2,
+      "round": 12,
+      "seconds": 0.06049079610966146,
+      "seed": 111
+    },
+    {
+      "length": 96,
+      "method": "mlp",
+      "position": 3,
+      "round": 12,
+      "seconds": 0.06135583482682705,
+      "seed": 111
+    },
+    {
+      "length": 96,
+      "method": "pool",
+      "position": 0,
+      "round": 13,
+      "seconds": 0.05999526917003095,
+      "seed": 111
+    },
+    {
+      "length": 96,
+      "method": "nonlinear",
+      "position": 1,
+      "round": 13,
+      "seconds": 0.060890607070177794,
+      "seed": 111
+    },
+    {
+      "length": 96,
+      "method": "mlp",
+      "position": 2,
+      "round": 13,
+      "seconds": 0.05969611112959683,
+      "seed": 111
+    },
+    {
+      "length": 96,
+      "method": "attention",
+      "position": 3,
+      "round": 13,
+      "seconds": 0.07010076497681439,
+      "seed": 111
+    },
+    {
+      "length": 96,
+      "method": "nonlinear",
+      "position": 0,
+      "round": 14,
+      "seconds": 0.060459393076598644,
+      "seed": 111
+    },
+    {
+      "length": 96,
+      "method": "mlp",
+      "position": 1,
+      "round": 14,
+      "seconds": 0.05894751101732254,
+      "seed": 111
+    },
+    {
+      "length": 96,
+      "method": "attention",
+      "position": 2,
+      "round": 14,
+      "seconds": 0.06258433102630079,
+      "seed": 111
+    },
+    {
+      "length": 96,
+      "method": "pool",
+      "position": 3,
+      "round": 14,
+      "seconds": 0.06178481807000935,
+      "seed": 111
+    },
+    {
+      "length": 96,
+      "method": "mlp",
+      "position": 0,
+      "round": 15,
+      "seconds": 0.06313261482864618,
+      "seed": 111
+    },
+    {
+      "length": 96,
+      "method": "attention",
+      "position": 1,
+      "round": 15,
+      "seconds": 0.07018202496692538,
+      "seed": 111
+    },
+    {
+      "length": 96,
+      "method": "pool",
+      "position": 2,
+      "round": 15,
+      "seconds": 0.05939938500523567,
+      "seed": 111
+    },
+    {
+      "length": 96,
+      "method": "nonlinear",
+      "position": 3,
+      "round": 15,
+      "seconds": 0.060997156193479896,
+      "seed": 111
+    },
+    {
+      "length": 96,
+      "method": "attention",
+      "position": 0,
+      "round": 16,
+      "seconds": 0.07322809216566384,
+      "seed": 111
+    },
+    {
+      "length": 96,
+      "method": "pool",
+      "position": 1,
+      "round": 16,
+      "seconds": 0.054718693951144814,
+      "seed": 111
+    },
+    {
+      "length": 96,
+      "method": "nonlinear",
+      "position": 2,
+      "round": 16,
+      "seconds": 0.0559901159722358,
+      "seed": 111
+    },
+    {
+      "length": 96,
+      "method": "mlp",
+      "position": 3,
+      "round": 16,
+      "seconds": 0.06769261904992163,
+      "seed": 111
+    },
+    {
+      "length": 96,
+      "method": "pool",
+      "position": 0,
+      "round": 17,
+      "seconds": 0.06341040600091219,
+      "seed": 111
+    },
+    {
+      "length": 96,
+      "method": "nonlinear",
+      "position": 1,
+      "round": 17,
+      "seconds": 0.06498975795693696,
+      "seed": 111
+    },
+    {
+      "length": 96,
+      "method": "mlp",
+      "position": 2,
+      "round": 17,
+      "seconds": 0.06369040510617197,
+      "seed": 111
+    },
+    {
+      "length": 96,
+      "method": "attention",
+      "position": 3,
+      "round": 17,
+      "seconds": 0.07515420904383063,
+      "seed": 111
+    },
+    {
+      "length": 96,
+      "method": "nonlinear",
+      "position": 0,
+      "round": 18,
+      "seconds": 0.06286166911013424,
+      "seed": 111
+    },
+    {
+      "length": 96,
+      "method": "mlp",
+      "position": 1,
+      "round": 18,
+      "seconds": 0.062273499090224504,
+      "seed": 111
+    },
+    {
+      "length": 96,
+      "method": "attention",
+      "position": 2,
+      "round": 18,
+      "seconds": 0.07201259210705757,
+      "seed": 111
+    },
+    {
+      "length": 96,
+      "method": "pool",
+      "position": 3,
+      "round": 18,
+      "seconds": 0.06448788312263787,
+      "seed": 111
+    },
+    {
+      "length": 96,
+      "method": "mlp",
+      "position": 0,
+      "round": 19,
+      "seconds": 0.0565900718793273,
+      "seed": 111
+    },
+    {
+      "length": 96,
+      "method": "attention",
+      "position": 1,
+      "round": 19,
+      "seconds": 0.0715115771163255,
+      "seed": 111
+    },
+    {
+      "length": 96,
+      "method": "pool",
+      "position": 2,
+      "round": 19,
+      "seconds": 0.06164829805493355,
+      "seed": 111
+    },
+    {
+      "length": 96,
+      "method": "nonlinear",
+      "position": 3,
+      "round": 19,
+      "seconds": 0.060617125825956464,
+      "seed": 111
+    },
+    {
+      "length": 96,
+      "method": "attention",
+      "position": 0,
+      "round": 20,
+      "seconds": 0.07200492708943784,
+      "seed": 111
+    },
+    {
+      "length": 96,
+      "method": "pool",
+      "position": 1,
+      "round": 20,
+      "seconds": 0.06675970298238099,
+      "seed": 111
+    },
+    {
+      "length": 96,
+      "method": "nonlinear",
+      "position": 2,
+      "round": 20,
+      "seconds": 0.06506918906234205,
+      "seed": 111
+    },
+    {
+      "length": 96,
+      "method": "mlp",
+      "position": 3,
+      "round": 20,
+      "seconds": 0.06587226199917495,
+      "seed": 111
+    },
+    {
+      "length": 96,
+      "method": "pool",
+      "position": 0,
+      "round": 21,
+      "seconds": 0.06475046603009105,
+      "seed": 111
+    },
+    {
+      "length": 96,
+      "method": "nonlinear",
+      "position": 1,
+      "round": 21,
+      "seconds": 0.0649753250181675,
+      "seed": 111
+    },
+    {
+      "length": 96,
+      "method": "mlp",
+      "position": 2,
+      "round": 21,
+      "seconds": 0.06313441786915064,
+      "seed": 111
+    },
+    {
+      "length": 96,
+      "method": "attention",
+      "position": 3,
+      "round": 21,
+      "seconds": 0.07153562898747623,
+      "seed": 111
+    },
+    {
+      "length": 96,
+      "method": "nonlinear",
+      "position": 0,
+      "round": 22,
+      "seconds": 0.06341871991753578,
+      "seed": 111
+    },
+    {
+      "length": 96,
+      "method": "mlp",
+      "position": 1,
+      "round": 22,
+      "seconds": 0.061588653130456805,
+      "seed": 111
+    },
+    {
+      "length": 96,
+      "method": "attention",
+      "position": 2,
+      "round": 22,
+      "seconds": 0.07132311793975532,
+      "seed": 111
+    },
+    {
+      "length": 96,
+      "method": "pool",
+      "position": 3,
+      "round": 22,
+      "seconds": 0.06171140098012984,
+      "seed": 111
+    },
+    {
+      "length": 96,
+      "method": "mlp",
+      "position": 0,
+      "round": 23,
+      "seconds": 0.06565474905073643,
+      "seed": 111
+    },
+    {
+      "length": 96,
+      "method": "attention",
+      "position": 1,
+      "round": 23,
+      "seconds": 0.07041162392124534,
+      "seed": 111
+    },
+    {
+      "length": 96,
+      "method": "pool",
+      "position": 2,
+      "round": 23,
+      "seconds": 0.06081962282769382,
+      "seed": 111
+    },
+    {
+      "length": 96,
+      "method": "nonlinear",
+      "position": 3,
+      "round": 23,
+      "seconds": 0.05755117698572576,
+      "seed": 111
+    },
+    {
+      "length": 96,
+      "method": "attention",
+      "position": 0,
+      "round": 24,
+      "seconds": 0.06829626299440861,
+      "seed": 111
+    },
+    {
+      "length": 96,
+      "method": "pool",
+      "position": 1,
+      "round": 24,
+      "seconds": 0.06350481184199452,
+      "seed": 111
+    },
+    {
+      "length": 96,
+      "method": "nonlinear",
+      "position": 2,
+      "round": 24,
+      "seconds": 0.06590246502310038,
+      "seed": 111
+    },
+    {
+      "length": 96,
+      "method": "mlp",
+      "position": 3,
+      "round": 24,
+      "seconds": 0.06579132797196507,
+      "seed": 111
+    },
+    {
+      "length": 96,
+      "method": "pool",
+      "position": 0,
+      "round": 25,
+      "seconds": 0.05779071897268295,
+      "seed": 111
+    },
+    {
+      "length": 96,
+      "method": "nonlinear",
+      "position": 1,
+      "round": 25,
+      "seconds": 0.05960834794677794,
+      "seed": 111
+    },
+    {
+      "length": 96,
+      "method": "mlp",
+      "position": 2,
+      "round": 25,
+      "seconds": 0.061064522014930844,
+      "seed": 111
+    },
+    {
+      "length": 96,
+      "method": "attention",
+      "position": 3,
+      "round": 25,
+      "seconds": 0.07409028010442853,
+      "seed": 111
+    },
+    {
+      "length": 96,
+      "method": "nonlinear",
+      "position": 0,
+      "round": 26,
+      "seconds": 0.05864232289604843,
+      "seed": 111
+    },
+    {
+      "length": 96,
+      "method": "mlp",
+      "position": 1,
+      "round": 26,
+      "seconds": 0.05793028185144067,
+      "seed": 111
+    },
+    {
+      "length": 96,
+      "method": "attention",
+      "position": 2,
+      "round": 26,
+      "seconds": 0.07340624905191362,
+      "seed": 111
+    },
+    {
+      "length": 96,
+      "method": "pool",
+      "position": 3,
+      "round": 26,
+      "seconds": 0.06367067410610616,
+      "seed": 111
+    },
+    {
+      "length": 96,
+      "method": "mlp",
+      "position": 0,
+      "round": 27,
+      "seconds": 0.0636397791095078,
+      "seed": 111
+    },
+    {
+      "length": 96,
+      "method": "attention",
+      "position": 1,
+      "round": 27,
+      "seconds": 0.07366532809101045,
+      "seed": 111
+    },
+    {
+      "length": 96,
+      "method": "pool",
+      "position": 2,
+      "round": 27,
+      "seconds": 0.06200642301701009,
+      "seed": 111
+    },
+    {
+      "length": 96,
+      "method": "nonlinear",
+      "position": 3,
+      "round": 27,
+      "seconds": 0.062034746864810586,
+      "seed": 111
+    },
+    {
+      "length": 96,
+      "method": "attention",
+      "position": 0,
+      "round": 28,
+      "seconds": 0.0702603911049664,
+      "seed": 111
+    },
+    {
+      "length": 96,
+      "method": "pool",
+      "position": 1,
+      "round": 28,
+      "seconds": 0.061529363971203566,
+      "seed": 111
+    },
+    {
+      "length": 96,
+      "method": "nonlinear",
+      "position": 2,
+      "round": 28,
+      "seconds": 0.062025006860494614,
+      "seed": 111
+    },
+    {
+      "length": 96,
+      "method": "mlp",
+      "position": 3,
+      "round": 28,
+      "seconds": 0.06324963504448533,
+      "seed": 111
+    },
+    {
+      "length": 96,
+      "method": "pool",
+      "position": 0,
+      "round": 29,
+      "seconds": 0.0624794471077621,
+      "seed": 111
+    },
+    {
+      "length": 96,
+      "method": "nonlinear",
+      "position": 1,
+      "round": 29,
+      "seconds": 0.06426306790672243,
+      "seed": 111
+    },
+    {
+      "length": 96,
+      "method": "mlp",
+      "position": 2,
+      "round": 29,
+      "seconds": 0.0619151359423995,
+      "seed": 111
+    },
+    {
+      "length": 96,
+      "method": "attention",
+      "position": 3,
+      "round": 29,
+      "seconds": 0.07055643806234002,
+      "seed": 111
+    },
+    {
+      "length": 96,
+      "method": "nonlinear",
+      "position": 0,
+      "round": 30,
+      "seconds": 0.06437187897972763,
+      "seed": 111
+    },
+    {
+      "length": 96,
+      "method": "mlp",
+      "position": 1,
+      "round": 30,
+      "seconds": 0.061236720997840166,
+      "seed": 111
+    },
+    {
+      "length": 96,
+      "method": "attention",
+      "position": 2,
+      "round": 30,
+      "seconds": 0.0667731030844152,
+      "seed": 111
+    },
+    {
+      "length": 96,
+      "method": "pool",
+      "position": 3,
+      "round": 30,
+      "seconds": 0.0577168429736048,
+      "seed": 111
+    },
+    {
+      "length": 96,
+      "method": "mlp",
+      "position": 0,
+      "round": 31,
+      "seconds": 0.054661551024764776,
+      "seed": 111
+    },
+    {
+      "length": 96,
+      "method": "attention",
+      "position": 1,
+      "round": 31,
+      "seconds": 0.07097221608273685,
+      "seed": 111
+    },
+    {
+      "length": 96,
+      "method": "pool",
+      "position": 2,
+      "round": 31,
+      "seconds": 0.060307306004688144,
+      "seed": 111
+    },
+    {
+      "length": 96,
+      "method": "nonlinear",
+      "position": 3,
+      "round": 31,
+      "seconds": 0.06294792704284191,
+      "seed": 111
+    },
+    {
+      "length": 48,
+      "method": "pool",
+      "position": 0,
+      "round": 0,
+      "seconds": 0.019878899911418557,
+      "seed": 222
+    },
+    {
+      "length": 48,
+      "method": "mlp",
+      "position": 1,
+      "round": 0,
+      "seconds": 0.01906671212054789,
+      "seed": 222
+    },
+    {
+      "length": 48,
+      "method": "nonlinear",
+      "position": 2,
+      "round": 0,
+      "seconds": 0.020344689954072237,
+      "seed": 222
+    },
+    {
+      "length": 48,
+      "method": "attention",
+      "position": 3,
+      "round": 0,
+      "seconds": 0.024931589141488075,
+      "seed": 222
+    },
+    {
+      "length": 48,
+      "method": "mlp",
+      "position": 0,
+      "round": 1,
+      "seconds": 0.018899870105087757,
+      "seed": 222
+    },
+    {
+      "length": 48,
+      "method": "nonlinear",
+      "position": 1,
+      "round": 1,
+      "seconds": 0.019895873963832855,
+      "seed": 222
+    },
+    {
+      "length": 48,
+      "method": "attention",
+      "position": 2,
+      "round": 1,
+      "seconds": 0.025318779051303864,
+      "seed": 222
+    },
+    {
+      "length": 48,
+      "method": "pool",
+      "position": 3,
+      "round": 1,
+      "seconds": 0.022437443025410175,
+      "seed": 222
+    },
+    {
+      "length": 48,
+      "method": "nonlinear",
+      "position": 0,
+      "round": 2,
+      "seconds": 0.020293005043640733,
+      "seed": 222
+    },
+    {
+      "length": 48,
+      "method": "attention",
+      "position": 1,
+      "round": 2,
+      "seconds": 0.024553638184443116,
+      "seed": 222
+    },
+    {
+      "length": 48,
+      "method": "pool",
+      "position": 2,
+      "round": 2,
+      "seconds": 0.020621472038328648,
+      "seed": 222
+    },
+    {
+      "length": 48,
+      "method": "mlp",
+      "position": 3,
+      "round": 2,
+      "seconds": 0.019827573094516993,
+      "seed": 222
+    },
+    {
+      "length": 48,
+      "method": "attention",
+      "position": 0,
+      "round": 3,
+      "seconds": 0.022005995037034154,
+      "seed": 222
+    },
+    {
+      "length": 48,
+      "method": "pool",
+      "position": 1,
+      "round": 3,
+      "seconds": 0.01923595299012959,
+      "seed": 222
+    },
+    {
+      "length": 48,
+      "method": "mlp",
+      "position": 2,
+      "round": 3,
+      "seconds": 0.0192919191904366,
+      "seed": 222
+    },
+    {
+      "length": 48,
+      "method": "nonlinear",
+      "position": 3,
+      "round": 3,
+      "seconds": 0.019982444122433662,
+      "seed": 222
+    },
+    {
+      "length": 48,
+      "method": "pool",
+      "position": 0,
+      "round": 4,
+      "seconds": 0.02008273103274405,
+      "seed": 222
+    },
+    {
+      "length": 48,
+      "method": "mlp",
+      "position": 1,
+      "round": 4,
+      "seconds": 0.019415597897022963,
+      "seed": 222
+    },
+    {
+      "length": 48,
+      "method": "nonlinear",
+      "position": 2,
+      "round": 4,
+      "seconds": 0.017079895129427314,
+      "seed": 222
+    },
+    {
+      "length": 48,
+      "method": "attention",
+      "position": 3,
+      "round": 4,
+      "seconds": 0.023961738916113973,
+      "seed": 222
+    },
+    {
+      "length": 48,
+      "method": "mlp",
+      "position": 0,
+      "round": 5,
+      "seconds": 0.02029768587090075,
+      "seed": 222
+    },
+    {
+      "length": 48,
+      "method": "nonlinear",
+      "position": 1,
+      "round": 5,
+      "seconds": 0.020997536135837436,
+      "seed": 222
+    },
+    {
+      "length": 48,
+      "method": "attention",
+      "position": 2,
+      "round": 5,
+      "seconds": 0.024404366966336966,
+      "seed": 222
+    },
+    {
+      "length": 48,
+      "method": "pool",
+      "position": 3,
+      "round": 5,
+      "seconds": 0.020508382003754377,
+      "seed": 222
+    },
+    {
+      "length": 48,
+      "method": "nonlinear",
+      "position": 0,
+      "round": 6,
+      "seconds": 0.02127228118479252,
+      "seed": 222
+    },
+    {
+      "length": 48,
+      "method": "attention",
+      "position": 1,
+      "round": 6,
+      "seconds": 0.024064539931714535,
+      "seed": 222
+    },
+    {
+      "length": 48,
+      "method": "pool",
+      "position": 2,
+      "round": 6,
+      "seconds": 0.020961797097697854,
+      "seed": 222
+    },
+    {
+      "length": 48,
+      "method": "mlp",
+      "position": 3,
+      "round": 6,
+      "seconds": 0.01856479002162814,
+      "seed": 222
+    },
+    {
+      "length": 48,
+      "method": "attention",
+      "position": 0,
+      "round": 7,
+      "seconds": 0.026401496026664972,
+      "seed": 222
+    },
+    {
+      "length": 48,
+      "method": "pool",
+      "position": 1,
+      "round": 7,
+      "seconds": 0.019202722003683448,
+      "seed": 222
+    },
+    {
+      "length": 48,
+      "method": "mlp",
+      "position": 2,
+      "round": 7,
+      "seconds": 0.01857606298290193,
+      "seed": 222
+    },
+    {
+      "length": 48,
+      "method": "nonlinear",
+      "position": 3,
+      "round": 7,
+      "seconds": 0.020115447929129004,
+      "seed": 222
+    },
+    {
+      "length": 48,
+      "method": "pool",
+      "position": 0,
+      "round": 8,
+      "seconds": 0.02218578988686204,
+      "seed": 222
+    },
+    {
+      "length": 48,
+      "method": "mlp",
+      "position": 1,
+      "round": 8,
+      "seconds": 0.021329220151528716,
+      "seed": 222
+    },
+    {
+      "length": 48,
+      "method": "nonlinear",
+      "position": 2,
+      "round": 8,
+      "seconds": 0.02066007605753839,
+      "seed": 222
+    },
+    {
+      "length": 48,
+      "method": "attention",
+      "position": 3,
+      "round": 8,
+      "seconds": 0.02530208695679903,
+      "seed": 222
+    },
+    {
+      "length": 48,
+      "method": "mlp",
+      "position": 0,
+      "round": 9,
+      "seconds": 0.020040578907355666,
+      "seed": 222
+    },
+    {
+      "length": 48,
+      "method": "nonlinear",
+      "position": 1,
+      "round": 9,
+      "seconds": 0.02005584817379713,
+      "seed": 222
+    },
+    {
+      "length": 48,
+      "method": "attention",
+      "position": 2,
+      "round": 9,
+      "seconds": 0.025030467193573713,
+      "seed": 222
+    },
+    {
+      "length": 48,
+      "method": "pool",
+      "position": 3,
+      "round": 9,
+      "seconds": 0.019666135078296065,
+      "seed": 222
+    },
+    {
+      "length": 48,
+      "method": "nonlinear",
+      "position": 0,
+      "round": 10,
+      "seconds": 0.021135206101462245,
+      "seed": 222
+    },
+    {
+      "length": 48,
+      "method": "attention",
+      "position": 1,
+      "round": 10,
+      "seconds": 0.024404934840276837,
+      "seed": 222
+    },
+    {
+      "length": 48,
+      "method": "pool",
+      "position": 2,
+      "round": 10,
+      "seconds": 0.015314223011955619,
+      "seed": 222
+    },
+    {
+      "length": 48,
+      "method": "mlp",
+      "position": 3,
+      "round": 10,
+      "seconds": 0.015169324818998575,
+      "seed": 222
+    },
+    {
+      "length": 48,
+      "method": "attention",
+      "position": 0,
+      "round": 11,
+      "seconds": 0.023645987967029214,
+      "seed": 222
+    },
+    {
+      "length": 48,
+      "method": "pool",
+      "position": 1,
+      "round": 11,
+      "seconds": 0.020164774963632226,
+      "seed": 222
+    },
+    {
+      "length": 48,
+      "method": "mlp",
+      "position": 2,
+      "round": 11,
+      "seconds": 0.018845946062356234,
+      "seed": 222
+    },
+    {
+      "length": 48,
+      "method": "nonlinear",
+      "position": 3,
+      "round": 11,
+      "seconds": 0.02189037506468594,
+      "seed": 222
+    },
+    {
+      "length": 48,
+      "method": "pool",
+      "position": 0,
+      "round": 12,
+      "seconds": 0.01945374603383243,
+      "seed": 222
+    },
+    {
+      "length": 48,
+      "method": "mlp",
+      "position": 1,
+      "round": 12,
+      "seconds": 0.020787538029253483,
+      "seed": 222
+    },
+    {
+      "length": 48,
+      "method": "nonlinear",
+      "position": 2,
+      "round": 12,
+      "seconds": 0.024980294983834028,
+      "seed": 222
+    },
+    {
+      "length": 48,
+      "method": "attention",
+      "position": 3,
+      "round": 12,
+      "seconds": 0.02588388416916132,
+      "seed": 222
+    },
+    {
+      "length": 48,
+      "method": "mlp",
+      "position": 0,
+      "round": 13,
+      "seconds": 0.021085964981466532,
+      "seed": 222
+    },
+    {
+      "length": 48,
+      "method": "nonlinear",
+      "position": 1,
+      "round": 13,
+      "seconds": 0.021059151040390134,
+      "seed": 222
+    },
+    {
+      "length": 48,
+      "method": "attention",
+      "position": 2,
+      "round": 13,
+      "seconds": 0.028310972033068538,
+      "seed": 222
+    },
+    {
+      "length": 48,
+      "method": "pool",
+      "position": 3,
+      "round": 13,
+      "seconds": 0.022195023950189352,
+      "seed": 222
+    },
+    {
+      "length": 48,
+      "method": "nonlinear",
+      "position": 0,
+      "round": 14,
+      "seconds": 0.02208579797297716,
+      "seed": 222
+    },
+    {
+      "length": 48,
+      "method": "attention",
+      "position": 1,
+      "round": 14,
+      "seconds": 0.02442825585603714,
+      "seed": 222
+    },
+    {
+      "length": 48,
+      "method": "pool",
+      "position": 2,
+      "round": 14,
+      "seconds": 0.019871575059369206,
+      "seed": 222
+    },
+    {
+      "length": 48,
+      "method": "mlp",
+      "position": 3,
+      "round": 14,
+      "seconds": 0.021925467997789383,
+      "seed": 222
+    },
+    {
+      "length": 48,
+      "method": "attention",
+      "position": 0,
+      "round": 15,
+      "seconds": 0.025244707008823752,
+      "seed": 222
+    },
+    {
+      "length": 48,
+      "method": "pool",
+      "position": 1,
+      "round": 15,
+      "seconds": 0.020117135951295495,
+      "seed": 222
+    },
+    {
+      "length": 48,
+      "method": "mlp",
+      "position": 2,
+      "round": 15,
+      "seconds": 0.02032533590681851,
+      "seed": 222
+    },
+    {
+      "length": 48,
+      "method": "nonlinear",
+      "position": 3,
+      "round": 15,
+      "seconds": 0.024409865029156208,
+      "seed": 222
+    },
+    {
+      "length": 48,
+      "method": "pool",
+      "position": 0,
+      "round": 16,
+      "seconds": 0.02143654297105968,
+      "seed": 222
+    },
+    {
+      "length": 48,
+      "method": "mlp",
+      "position": 1,
+      "round": 16,
+      "seconds": 0.019447588128969073,
+      "seed": 222
+    },
+    {
+      "length": 48,
+      "method": "nonlinear",
+      "position": 2,
+      "round": 16,
+      "seconds": 0.022425297182053328,
+      "seed": 222
+    },
+    {
+      "length": 48,
+      "method": "attention",
+      "position": 3,
+      "round": 16,
+      "seconds": 0.02560484502464533,
+      "seed": 222
+    },
+    {
+      "length": 48,
+      "method": "mlp",
+      "position": 0,
+      "round": 17,
+      "seconds": 0.020752560114488006,
+      "seed": 222
+    },
+    {
+      "length": 48,
+      "method": "nonlinear",
+      "position": 1,
+      "round": 17,
+      "seconds": 0.02108280104584992,
+      "seed": 222
+    },
+    {
+      "length": 48,
+      "method": "attention",
+      "position": 2,
+      "round": 17,
+      "seconds": 0.024791168980300426,
+      "seed": 222
+    },
+    {
+      "length": 48,
+      "method": "pool",
+      "position": 3,
+      "round": 17,
+      "seconds": 0.02080941991880536,
+      "seed": 222
+    },
+    {
+      "length": 48,
+      "method": "nonlinear",
+      "position": 0,
+      "round": 18,
+      "seconds": 0.022087827092036605,
+      "seed": 222
+    },
+    {
+      "length": 48,
+      "method": "attention",
+      "position": 1,
+      "round": 18,
+      "seconds": 0.02632690593600273,
+      "seed": 222
+    },
+    {
+      "length": 48,
+      "method": "pool",
+      "position": 2,
+      "round": 18,
+      "seconds": 0.019543492002412677,
+      "seed": 222
+    },
+    {
+      "length": 48,
+      "method": "mlp",
+      "position": 3,
+      "round": 18,
+      "seconds": 0.019593307049944997,
+      "seed": 222
+    },
+    {
+      "length": 48,
+      "method": "attention",
+      "position": 0,
+      "round": 19,
+      "seconds": 0.026198606938123703,
+      "seed": 222
+    },
+    {
+      "length": 48,
+      "method": "pool",
+      "position": 1,
+      "round": 19,
+      "seconds": 0.019791946979239583,
+      "seed": 222
+    },
+    {
+      "length": 48,
+      "method": "mlp",
+      "position": 2,
+      "round": 19,
+      "seconds": 0.020017540082335472,
+      "seed": 222
+    },
+    {
+      "length": 48,
+      "method": "nonlinear",
+      "position": 3,
+      "round": 19,
+      "seconds": 0.020844985032454133,
+      "seed": 222
+    },
+    {
+      "length": 48,
+      "method": "pool",
+      "position": 0,
+      "round": 20,
+      "seconds": 0.01942037488333881,
+      "seed": 222
+    },
+    {
+      "length": 48,
+      "method": "mlp",
+      "position": 1,
+      "round": 20,
+      "seconds": 0.019752774154767394,
+      "seed": 222
+    },
+    {
+      "length": 48,
+      "method": "nonlinear",
+      "position": 2,
+      "round": 20,
+      "seconds": 0.02048072498291731,
+      "seed": 222
+    },
+    {
+      "length": 48,
+      "method": "attention",
+      "position": 3,
+      "round": 20,
+      "seconds": 0.024867079919204116,
+      "seed": 222
+    },
+    {
+      "length": 48,
+      "method": "mlp",
+      "position": 0,
+      "round": 21,
+      "seconds": 0.01660077110864222,
+      "seed": 222
+    },
+    {
+      "length": 48,
+      "method": "nonlinear",
+      "position": 1,
+      "round": 21,
+      "seconds": 0.020797838922590017,
+      "seed": 222
+    },
+    {
+      "length": 48,
+      "method": "attention",
+      "position": 2,
+      "round": 21,
+      "seconds": 0.02715210011228919,
+      "seed": 222
+    },
+    {
+      "length": 48,
+      "method": "pool",
+      "position": 3,
+      "round": 21,
+      "seconds": 0.022309801075607538,
+      "seed": 222
+    },
+    {
+      "length": 48,
+      "method": "nonlinear",
+      "position": 0,
+      "round": 22,
+      "seconds": 0.021378715988248587,
+      "seed": 222
+    },
+    {
+      "length": 48,
+      "method": "attention",
+      "position": 1,
+      "round": 22,
+      "seconds": 0.027364453999325633,
+      "seed": 222
+    },
+    {
+      "length": 48,
+      "method": "pool",
+      "position": 2,
+      "round": 22,
+      "seconds": 0.02134190802462399,
+      "seed": 222
+    },
+    {
+      "length": 48,
+      "method": "mlp",
+      "position": 3,
+      "round": 22,
+      "seconds": 0.020819280995056033,
+      "seed": 222
+    },
+    {
+      "length": 48,
+      "method": "attention",
+      "position": 0,
+      "round": 23,
+      "seconds": 0.027265333104878664,
+      "seed": 222
+    },
+    {
+      "length": 48,
+      "method": "pool",
+      "position": 1,
+      "round": 23,
+      "seconds": 0.02070175902917981,
+      "seed": 222
+    },
+    {
+      "length": 48,
+      "method": "mlp",
+      "position": 2,
+      "round": 23,
+      "seconds": 0.02064610505476594,
+      "seed": 222
+    },
+    {
+      "length": 48,
+      "method": "nonlinear",
+      "position": 3,
+      "round": 23,
+      "seconds": 0.021234086016193032,
+      "seed": 222
+    },
+    {
+      "length": 48,
+      "method": "pool",
+      "position": 0,
+      "round": 24,
+      "seconds": 0.020751208066940308,
+      "seed": 222
+    },
+    {
+      "length": 48,
+      "method": "mlp",
+      "position": 1,
+      "round": 24,
+      "seconds": 0.020133330952376127,
+      "seed": 222
+    },
+    {
+      "length": 48,
+      "method": "nonlinear",
+      "position": 2,
+      "round": 24,
+      "seconds": 0.02115032309666276,
+      "seed": 222
+    },
+    {
+      "length": 48,
+      "method": "attention",
+      "position": 3,
+      "round": 24,
+      "seconds": 0.0246933710295707,
+      "seed": 222
+    },
+    {
+      "length": 48,
+      "method": "mlp",
+      "position": 0,
+      "round": 25,
+      "seconds": 0.02107346197590232,
+      "seed": 222
+    },
+    {
+      "length": 48,
+      "method": "nonlinear",
+      "position": 1,
+      "round": 25,
+      "seconds": 0.022710151970386505,
+      "seed": 222
+    },
+    {
+      "length": 48,
+      "method": "attention",
+      "position": 2,
+      "round": 25,
+      "seconds": 0.02686385507695377,
+      "seed": 222
+    },
+    {
+      "length": 48,
+      "method": "pool",
+      "position": 3,
+      "round": 25,
+      "seconds": 0.019918004982173443,
+      "seed": 222
+    },
+    {
+      "length": 48,
+      "method": "nonlinear",
+      "position": 0,
+      "round": 26,
+      "seconds": 0.02030889503657818,
+      "seed": 222
+    },
+    {
+      "length": 48,
+      "method": "attention",
+      "position": 1,
+      "round": 26,
+      "seconds": 0.025326841976493597,
+      "seed": 222
+    },
+    {
+      "length": 48,
+      "method": "pool",
+      "position": 2,
+      "round": 26,
+      "seconds": 0.016320958035066724,
+      "seed": 222
+    },
+    {
+      "length": 48,
+      "method": "mlp",
+      "position": 3,
+      "round": 26,
+      "seconds": 0.018568470142781734,
+      "seed": 222
+    },
+    {
+      "length": 48,
+      "method": "attention",
+      "position": 0,
+      "round": 27,
+      "seconds": 0.027541314950212836,
+      "seed": 222
+    },
+    {
+      "length": 48,
+      "method": "pool",
+      "position": 1,
+      "round": 27,
+      "seconds": 0.020293490029871464,
+      "seed": 222
+    },
+    {
+      "length": 48,
+      "method": "mlp",
+      "position": 2,
+      "round": 27,
+      "seconds": 0.020565876038745046,
+      "seed": 222
+    },
+    {
+      "length": 48,
+      "method": "nonlinear",
+      "position": 3,
+      "round": 27,
+      "seconds": 0.021742579992860556,
+      "seed": 222
+    },
+    {
+      "length": 48,
+      "method": "pool",
+      "position": 0,
+      "round": 28,
+      "seconds": 0.020135686034336686,
+      "seed": 222
+    },
+    {
+      "length": 48,
+      "method": "mlp",
+      "position": 1,
+      "round": 28,
+      "seconds": 0.02043339586816728,
+      "seed": 222
+    },
+    {
+      "length": 48,
+      "method": "nonlinear",
+      "position": 2,
+      "round": 28,
+      "seconds": 0.022102710092440248,
+      "seed": 222
+    },
+    {
+      "length": 48,
+      "method": "attention",
+      "position": 3,
+      "round": 28,
+      "seconds": 0.02720444882288575,
+      "seed": 222
+    },
+    {
+      "length": 48,
+      "method": "mlp",
+      "position": 0,
+      "round": 29,
+      "seconds": 0.020950360223650932,
+      "seed": 222
+    },
+    {
+      "length": 48,
+      "method": "nonlinear",
+      "position": 1,
+      "round": 29,
+      "seconds": 0.022060623159632087,
+      "seed": 222
+    },
+    {
+      "length": 48,
+      "method": "attention",
+      "position": 2,
+      "round": 29,
+      "seconds": 0.027810131898149848,
+      "seed": 222
+    },
+    {
+      "length": 48,
+      "method": "pool",
+      "position": 3,
+      "round": 29,
+      "seconds": 0.02084700600244105,
+      "seed": 222
+    },
+    {
+      "length": 48,
+      "method": "nonlinear",
+      "position": 0,
+      "round": 30,
+      "seconds": 0.021608400158584118,
+      "seed": 222
+    },
+    {
+      "length": 48,
+      "method": "attention",
+      "position": 1,
+      "round": 30,
+      "seconds": 0.027485573198646307,
+      "seed": 222
+    },
+    {
+      "length": 48,
+      "method": "pool",
+      "position": 2,
+      "round": 30,
+      "seconds": 0.020649169106036425,
+      "seed": 222
+    },
+    {
+      "length": 48,
+      "method": "mlp",
+      "position": 3,
+      "round": 30,
+      "seconds": 0.020878644892945886,
+      "seed": 222
+    },
+    {
+      "length": 48,
+      "method": "attention",
+      "position": 0,
+      "round": 31,
+      "seconds": 0.025883170077577233,
+      "seed": 222
+    },
+    {
+      "length": 48,
+      "method": "pool",
+      "position": 1,
+      "round": 31,
+      "seconds": 0.021029066992923617,
+      "seed": 222
+    },
+    {
+      "length": 48,
+      "method": "mlp",
+      "position": 2,
+      "round": 31,
+      "seconds": 0.019564114045351744,
+      "seed": 222
+    },
+    {
+      "length": 48,
+      "method": "nonlinear",
+      "position": 3,
+      "round": 31,
+      "seconds": 0.019962376914918423,
+      "seed": 222
+    },
+    {
+      "length": 72,
+      "method": "attention",
+      "position": 0,
+      "round": 0,
+      "seconds": 0.045009644934907556,
+      "seed": 222
+    },
+    {
+      "length": 72,
+      "method": "nonlinear",
+      "position": 1,
+      "round": 0,
+      "seconds": 0.038756123976781964,
+      "seed": 222
+    },
+    {
+      "length": 72,
+      "method": "mlp",
+      "position": 2,
+      "round": 0,
+      "seconds": 0.03627331997267902,
+      "seed": 222
+    },
+    {
+      "length": 72,
+      "method": "pool",
+      "position": 3,
+      "round": 0,
+      "seconds": 0.03668422717601061,
+      "seed": 222
+    },
+    {
+      "length": 72,
+      "method": "nonlinear",
+      "position": 0,
+      "round": 1,
+      "seconds": 0.039853653870522976,
+      "seed": 222
+    },
+    {
+      "length": 72,
+      "method": "mlp",
+      "position": 1,
+      "round": 1,
+      "seconds": 0.03872757195495069,
+      "seed": 222
+    },
+    {
+      "length": 72,
+      "method": "pool",
+      "position": 2,
+      "round": 1,
+      "seconds": 0.039488698821514845,
+      "seed": 222
+    },
+    {
+      "length": 72,
+      "method": "attention",
+      "position": 3,
+      "round": 1,
+      "seconds": 0.048274421133100986,
+      "seed": 222
+    },
+    {
+      "length": 72,
+      "method": "mlp",
+      "position": 0,
+      "round": 2,
+      "seconds": 0.04001425299793482,
+      "seed": 222
+    },
+    {
+      "length": 72,
+      "method": "pool",
+      "position": 1,
+      "round": 2,
+      "seconds": 0.039932390209287405,
+      "seed": 222
+    },
+    {
+      "length": 72,
+      "method": "attention",
+      "position": 2,
+      "round": 2,
+      "seconds": 0.04717807099223137,
+      "seed": 222
+    },
+    {
+      "length": 72,
+      "method": "nonlinear",
+      "position": 3,
+      "round": 2,
+      "seconds": 0.038914281176403165,
+      "seed": 222
+    },
+    {
+      "length": 72,
+      "method": "pool",
+      "position": 0,
+      "round": 3,
+      "seconds": 0.03739599301479757,
+      "seed": 222
+    },
+    {
+      "length": 72,
+      "method": "attention",
+      "position": 1,
+      "round": 3,
+      "seconds": 0.04639738705009222,
+      "seed": 222
+    },
+    {
+      "length": 72,
+      "method": "nonlinear",
+      "position": 2,
+      "round": 3,
+      "seconds": 0.03880690596997738,
+      "seed": 222
+    },
+    {
+      "length": 72,
+      "method": "mlp",
+      "position": 3,
+      "round": 3,
+      "seconds": 0.03802973497658968,
+      "seed": 222
+    },
+    {
+      "length": 72,
+      "method": "attention",
+      "position": 0,
+      "round": 4,
+      "seconds": 0.04522956209257245,
+      "seed": 222
+    },
+    {
+      "length": 72,
+      "method": "nonlinear",
+      "position": 1,
+      "round": 4,
+      "seconds": 0.03843393502756953,
+      "seed": 222
+    },
+    {
+      "length": 72,
+      "method": "mlp",
+      "position": 2,
+      "round": 4,
+      "seconds": 0.040984599851071835,
+      "seed": 222
+    },
+    {
+      "length": 72,
+      "method": "pool",
+      "position": 3,
+      "round": 4,
+      "seconds": 0.03676837915554643,
+      "seed": 222
+    },
+    {
+      "length": 72,
+      "method": "nonlinear",
+      "position": 0,
+      "round": 5,
+      "seconds": 0.04227795312181115,
+      "seed": 222
+    },
+    {
+      "length": 72,
+      "method": "mlp",
+      "position": 1,
+      "round": 5,
+      "seconds": 0.04039518698118627,
+      "seed": 222
+    },
+    {
+      "length": 72,
+      "method": "pool",
+      "position": 2,
+      "round": 5,
+      "seconds": 0.03979710186831653,
+      "seed": 222
+    },
+    {
+      "length": 72,
+      "method": "attention",
+      "position": 3,
+      "round": 5,
+      "seconds": 0.04443152900785208,
+      "seed": 222
+    },
+    {
+      "length": 72,
+      "method": "mlp",
+      "position": 0,
+      "round": 6,
+      "seconds": 0.038947132881730795,
+      "seed": 222
+    },
+    {
+      "length": 72,
+      "method": "pool",
+      "position": 1,
+      "round": 6,
+      "seconds": 0.03853939916007221,
+      "seed": 222
+    },
+    {
+      "length": 72,
+      "method": "attention",
+      "position": 2,
+      "round": 6,
+      "seconds": 0.04523703386075795,
+      "seed": 222
+    },
+    {
+      "length": 72,
+      "method": "nonlinear",
+      "position": 3,
+      "round": 6,
+      "seconds": 0.039549948181957006,
+      "seed": 222
+    },
+    {
+      "length": 72,
+      "method": "pool",
+      "position": 0,
+      "round": 7,
+      "seconds": 0.03881336306221783,
+      "seed": 222
+    },
+    {
+      "length": 72,
+      "method": "attention",
+      "position": 1,
+      "round": 7,
+      "seconds": 0.04680643999017775,
+      "seed": 222
+    },
+    {
+      "length": 72,
+      "method": "nonlinear",
+      "position": 2,
+      "round": 7,
+      "seconds": 0.03816908388398588,
+      "seed": 222
+    },
+    {
+      "length": 72,
+      "method": "mlp",
+      "position": 3,
+      "round": 7,
+      "seconds": 0.03730395995080471,
+      "seed": 222
+    },
+    {
+      "length": 72,
+      "method": "attention",
+      "position": 0,
+      "round": 8,
+      "seconds": 0.0464951959438622,
+      "seed": 222
+    },
+    {
+      "length": 72,
+      "method": "nonlinear",
+      "position": 1,
+      "round": 8,
+      "seconds": 0.03958834917284548,
+      "seed": 222
+    },
+    {
+      "length": 72,
+      "method": "mlp",
+      "position": 2,
+      "round": 8,
+      "seconds": 0.037355280946940184,
+      "seed": 222
+    },
+    {
+      "length": 72,
+      "method": "pool",
+      "position": 3,
+      "round": 8,
+      "seconds": 0.03750731307081878,
+      "seed": 222
+    },
+    {
+      "length": 72,
+      "method": "nonlinear",
+      "position": 0,
+      "round": 9,
+      "seconds": 0.03835411602631211,
+      "seed": 222
+    },
+    {
+      "length": 72,
+      "method": "mlp",
+      "position": 1,
+      "round": 9,
+      "seconds": 0.038628388196229935,
+      "seed": 222
+    },
+    {
+      "length": 72,
+      "method": "pool",
+      "position": 2,
+      "round": 9,
+      "seconds": 0.03667269507423043,
+      "seed": 222
+    },
+    {
+      "length": 72,
+      "method": "attention",
+      "position": 3,
+      "round": 9,
+      "seconds": 0.04300922201946378,
+      "seed": 222
+    },
+    {
+      "length": 72,
+      "method": "mlp",
+      "position": 0,
+      "round": 10,
+      "seconds": 0.03632437880150974,
+      "seed": 222
+    },
+    {
+      "length": 72,
+      "method": "pool",
+      "position": 1,
+      "round": 10,
+      "seconds": 0.038739651907235384,
+      "seed": 222
+    },
+    {
+      "length": 72,
+      "method": "attention",
+      "position": 2,
+      "round": 10,
+      "seconds": 0.045303561026230454,
+      "seed": 222
+    },
+    {
+      "length": 72,
+      "method": "nonlinear",
+      "position": 3,
+      "round": 10,
+      "seconds": 0.03736291592940688,
+      "seed": 222
+    },
+    {
+      "length": 72,
+      "method": "pool",
+      "position": 0,
+      "round": 11,
+      "seconds": 0.03837724099867046,
+      "seed": 222
+    },
+    {
+      "length": 72,
+      "method": "attention",
+      "position": 1,
+      "round": 11,
+      "seconds": 0.04543722211383283,
+      "seed": 222
+    },
+    {
+      "length": 72,
+      "method": "nonlinear",
+      "position": 2,
+      "round": 11,
+      "seconds": 0.04057165211997926,
+      "seed": 222
+    },
+    {
+      "length": 72,
+      "method": "mlp",
+      "position": 3,
+      "round": 11,
+      "seconds": 0.03991387505084276,
+      "seed": 222
+    },
+    {
+      "length": 72,
+      "method": "attention",
+      "position": 0,
+      "round": 12,
+      "seconds": 0.048255045898258686,
+      "seed": 222
+    },
+    {
+      "length": 72,
+      "method": "nonlinear",
+      "position": 1,
+      "round": 12,
+      "seconds": 0.03669296600855887,
+      "seed": 222
+    },
+    {
+      "length": 72,
+      "method": "mlp",
+      "position": 2,
+      "round": 12,
+      "seconds": 0.03938150708563626,
+      "seed": 222
+    },
+    {
+      "length": 72,
+      "method": "pool",
+      "position": 3,
+      "round": 12,
+      "seconds": 0.03794198017567396,
+      "seed": 222
+    },
+    {
+      "length": 72,
+      "method": "nonlinear",
+      "position": 0,
+      "round": 13,
+      "seconds": 0.03848063014447689,
+      "seed": 222
+    },
+    {
+      "length": 72,
+      "method": "mlp",
+      "position": 1,
+      "round": 13,
+      "seconds": 0.03919794806279242,
+      "seed": 222
+    },
+    {
+      "length": 72,
+      "method": "pool",
+      "position": 2,
+      "round": 13,
+      "seconds": 0.03980855201371014,
+      "seed": 222
+    },
+    {
+      "length": 72,
+      "method": "attention",
+      "position": 3,
+      "round": 13,
+      "seconds": 0.04897532216273248,
+      "seed": 222
+    },
+    {
+      "length": 72,
+      "method": "mlp",
+      "position": 0,
+      "round": 14,
+      "seconds": 0.03744071116670966,
+      "seed": 222
+    },
+    {
+      "length": 72,
+      "method": "pool",
+      "position": 1,
+      "round": 14,
+      "seconds": 0.03506372217088938,
+      "seed": 222
+    },
+    {
+      "length": 72,
+      "method": "attention",
+      "position": 2,
+      "round": 14,
+      "seconds": 0.04617493995465338,
+      "seed": 222
+    },
+    {
+      "length": 72,
+      "method": "nonlinear",
+      "position": 3,
+      "round": 14,
+      "seconds": 0.03873462392948568,
+      "seed": 222
+    },
+    {
+      "length": 72,
+      "method": "pool",
+      "position": 0,
+      "round": 15,
+      "seconds": 0.03754406701773405,
+      "seed": 222
+    },
+    {
+      "length": 72,
+      "method": "attention",
+      "position": 1,
+      "round": 15,
+      "seconds": 0.048904558178037405,
+      "seed": 222
+    },
+    {
+      "length": 72,
+      "method": "nonlinear",
+      "position": 2,
+      "round": 15,
+      "seconds": 0.04248493490740657,
+      "seed": 222
+    },
+    {
+      "length": 72,
+      "method": "mlp",
+      "position": 3,
+      "round": 15,
+      "seconds": 0.039668581914156675,
+      "seed": 222
+    },
+    {
+      "length": 72,
+      "method": "attention",
+      "position": 0,
+      "round": 16,
+      "seconds": 0.047398689202964306,
+      "seed": 222
+    },
+    {
+      "length": 72,
+      "method": "nonlinear",
+      "position": 1,
+      "round": 16,
+      "seconds": 0.03805293398909271,
+      "seed": 222
+    },
+    {
+      "length": 72,
+      "method": "mlp",
+      "position": 2,
+      "round": 16,
+      "seconds": 0.040931422961875796,
+      "seed": 222
+    },
+    {
+      "length": 72,
+      "method": "pool",
+      "position": 3,
+      "round": 16,
+      "seconds": 0.04075498995371163,
+      "seed": 222
+    },
+    {
+      "length": 72,
+      "method": "nonlinear",
+      "position": 0,
+      "round": 17,
+      "seconds": 0.04107787297107279,
+      "seed": 222
+    },
+    {
+      "length": 72,
+      "method": "mlp",
+      "position": 1,
+      "round": 17,
+      "seconds": 0.03843468916602433,
+      "seed": 222
+    },
+    {
+      "length": 72,
+      "method": "pool",
+      "position": 2,
+      "round": 17,
+      "seconds": 0.03933871304616332,
+      "seed": 222
+    },
+    {
+      "length": 72,
+      "method": "attention",
+      "position": 3,
+      "round": 17,
+      "seconds": 0.046990400878712535,
+      "seed": 222
+    },
+    {
+      "length": 72,
+      "method": "mlp",
+      "position": 0,
+      "round": 18,
+      "seconds": 0.0384989099111408,
+      "seed": 222
+    },
+    {
+      "length": 72,
+      "method": "pool",
+      "position": 1,
+      "round": 18,
+      "seconds": 0.039188741939142346,
+      "seed": 222
+    },
+    {
+      "length": 72,
+      "method": "attention",
+      "position": 2,
+      "round": 18,
+      "seconds": 0.04850845015607774,
+      "seed": 222
+    },
+    {
+      "length": 72,
+      "method": "nonlinear",
+      "position": 3,
+      "round": 18,
+      "seconds": 0.035056889988482,
+      "seed": 222
+    },
+    {
+      "length": 72,
+      "method": "pool",
+      "position": 0,
+      "round": 19,
+      "seconds": 0.03770560282282531,
+      "seed": 222
+    },
+    {
+      "length": 72,
+      "method": "attention",
+      "position": 1,
+      "round": 19,
+      "seconds": 0.04502149811014533,
+      "seed": 222
+    },
+    {
+      "length": 72,
+      "method": "nonlinear",
+      "position": 2,
+      "round": 19,
+      "seconds": 0.04016067204065621,
+      "seed": 222
+    },
+    {
+      "length": 72,
+      "method": "mlp",
+      "position": 3,
+      "round": 19,
+      "seconds": 0.0385128790512681,
+      "seed": 222
+    },
+    {
+      "length": 72,
+      "method": "attention",
+      "position": 0,
+      "round": 20,
+      "seconds": 0.04842483997344971,
+      "seed": 222
+    },
+    {
+      "length": 72,
+      "method": "nonlinear",
+      "position": 1,
+      "round": 20,
+      "seconds": 0.03896016604267061,
+      "seed": 222
+    },
+    {
+      "length": 72,
+      "method": "mlp",
+      "position": 2,
+      "round": 20,
+      "seconds": 0.039100602036342025,
+      "seed": 222
+    },
+    {
+      "length": 72,
+      "method": "pool",
+      "position": 3,
+      "round": 20,
+      "seconds": 0.03961596800945699,
+      "seed": 222
+    },
+    {
+      "length": 72,
+      "method": "nonlinear",
+      "position": 0,
+      "round": 21,
+      "seconds": 0.03895772295072675,
+      "seed": 222
+    },
+    {
+      "length": 72,
+      "method": "mlp",
+      "position": 1,
+      "round": 21,
+      "seconds": 0.038710051914677024,
+      "seed": 222
+    },
+    {
+      "length": 72,
+      "method": "pool",
+      "position": 2,
+      "round": 21,
+      "seconds": 0.03935416089370847,
+      "seed": 222
+    },
+    {
+      "length": 72,
+      "method": "attention",
+      "position": 3,
+      "round": 21,
+      "seconds": 0.047862064093351364,
+      "seed": 222
+    },
+    {
+      "length": 72,
+      "method": "mlp",
+      "position": 0,
+      "round": 22,
+      "seconds": 0.03778090514242649,
+      "seed": 222
+    },
+    {
+      "length": 72,
+      "method": "pool",
+      "position": 1,
+      "round": 22,
+      "seconds": 0.03768938104622066,
+      "seed": 222
+    },
+    {
+      "length": 72,
+      "method": "attention",
+      "position": 2,
+      "round": 22,
+      "seconds": 0.04694748087786138,
+      "seed": 222
+    },
+    {
+      "length": 72,
+      "method": "nonlinear",
+      "position": 3,
+      "round": 22,
+      "seconds": 0.0405486689414829,
+      "seed": 222
+    },
+    {
+      "length": 72,
+      "method": "pool",
+      "position": 0,
+      "round": 23,
+      "seconds": 0.0394901551771909,
+      "seed": 222
+    },
+    {
+      "length": 72,
+      "method": "attention",
+      "position": 1,
+      "round": 23,
+      "seconds": 0.048207752173766494,
+      "seed": 222
+    },
+    {
+      "length": 72,
+      "method": "nonlinear",
+      "position": 2,
+      "round": 23,
+      "seconds": 0.04027694487012923,
+      "seed": 222
+    },
+    {
+      "length": 72,
+      "method": "mlp",
+      "position": 3,
+      "round": 23,
+      "seconds": 0.03754362580366433,
+      "seed": 222
+    },
+    {
+      "length": 72,
+      "method": "attention",
+      "position": 0,
+      "round": 24,
+      "seconds": 0.040246290853247046,
+      "seed": 222
+    },
+    {
+      "length": 72,
+      "method": "nonlinear",
+      "position": 1,
+      "round": 24,
+      "seconds": 0.03899439796805382,
+      "seed": 222
+    },
+    {
+      "length": 72,
+      "method": "mlp",
+      "position": 2,
+      "round": 24,
+      "seconds": 0.037458557868376374,
+      "seed": 222
+    },
+    {
+      "length": 72,
+      "method": "pool",
+      "position": 3,
+      "round": 24,
+      "seconds": 0.03554031508974731,
+      "seed": 222
+    },
+    {
+      "length": 72,
+      "method": "nonlinear",
+      "position": 0,
+      "round": 25,
+      "seconds": 0.04122912394814193,
+      "seed": 222
+    },
+    {
+      "length": 72,
+      "method": "mlp",
+      "position": 1,
+      "round": 25,
+      "seconds": 0.03886438487097621,
+      "seed": 222
+    },
+    {
+      "length": 72,
+      "method": "pool",
+      "position": 2,
+      "round": 25,
+      "seconds": 0.04069358785636723,
+      "seed": 222
+    },
+    {
+      "length": 72,
+      "method": "attention",
+      "position": 3,
+      "round": 25,
+      "seconds": 0.04540751897729933,
+      "seed": 222
+    },
+    {
+      "length": 72,
+      "method": "mlp",
+      "position": 0,
+      "round": 26,
+      "seconds": 0.04058628296479583,
+      "seed": 222
+    },
+    {
+      "length": 72,
+      "method": "pool",
+      "position": 1,
+      "round": 26,
+      "seconds": 0.03811117401346564,
+      "seed": 222
+    },
+    {
+      "length": 72,
+      "method": "attention",
+      "position": 2,
+      "round": 26,
+      "seconds": 0.0466774208471179,
+      "seed": 222
+    },
+    {
+      "length": 72,
+      "method": "nonlinear",
+      "position": 3,
+      "round": 26,
+      "seconds": 0.0388582949526608,
+      "seed": 222
+    },
+    {
+      "length": 72,
+      "method": "pool",
+      "position": 0,
+      "round": 27,
+      "seconds": 0.038315773010253906,
+      "seed": 222
+    },
+    {
+      "length": 72,
+      "method": "attention",
+      "position": 1,
+      "round": 27,
+      "seconds": 0.04619180201552808,
+      "seed": 222
+    },
+    {
+      "length": 72,
+      "method": "nonlinear",
+      "position": 2,
+      "round": 27,
+      "seconds": 0.04032936505973339,
+      "seed": 222
+    },
+    {
+      "length": 72,
+      "method": "mlp",
+      "position": 3,
+      "round": 27,
+      "seconds": 0.039560646982863545,
+      "seed": 222
+    },
+    {
+      "length": 72,
+      "method": "attention",
+      "position": 0,
+      "round": 28,
+      "seconds": 0.043090649880468845,
+      "seed": 222
+    },
+    {
+      "length": 72,
+      "method": "nonlinear",
+      "position": 1,
+      "round": 28,
+      "seconds": 0.03593600098975003,
+      "seed": 222
+    },
+    {
+      "length": 72,
+      "method": "mlp",
+      "position": 2,
+      "round": 28,
+      "seconds": 0.035135657992213964,
+      "seed": 222
+    },
+    {
+      "length": 72,
+      "method": "pool",
+      "position": 3,
+      "round": 28,
+      "seconds": 0.03854094515554607,
+      "seed": 222
+    },
+    {
+      "length": 72,
+      "method": "nonlinear",
+      "position": 0,
+      "round": 29,
+      "seconds": 0.03659002482891083,
+      "seed": 222
+    },
+    {
+      "length": 72,
+      "method": "mlp",
+      "position": 1,
+      "round": 29,
+      "seconds": 0.03573047718964517,
+      "seed": 222
+    },
+    {
+      "length": 72,
+      "method": "pool",
+      "position": 2,
+      "round": 29,
+      "seconds": 0.036677025025710464,
+      "seed": 222
+    },
+    {
+      "length": 72,
+      "method": "attention",
+      "position": 3,
+      "round": 29,
+      "seconds": 0.04626325215213001,
+      "seed": 222
+    },
+    {
+      "length": 72,
+      "method": "mlp",
+      "position": 0,
+      "round": 30,
+      "seconds": 0.03661564108915627,
+      "seed": 222
+    },
+    {
+      "length": 72,
+      "method": "pool",
+      "position": 1,
+      "round": 30,
+      "seconds": 0.03749862406402826,
+      "seed": 222
+    },
+    {
+      "length": 72,
+      "method": "attention",
+      "position": 2,
+      "round": 30,
+      "seconds": 0.04584553721360862,
+      "seed": 222
+    },
+    {
+      "length": 72,
+      "method": "nonlinear",
+      "position": 3,
+      "round": 30,
+      "seconds": 0.04164675995707512,
+      "seed": 222
+    },
+    {
+      "length": 72,
+      "method": "pool",
+      "position": 0,
+      "round": 31,
+      "seconds": 0.0401530300732702,
+      "seed": 222
+    },
+    {
+      "length": 72,
+      "method": "attention",
+      "position": 1,
+      "round": 31,
+      "seconds": 0.04668329190462828,
+      "seed": 222
+    },
+    {
+      "length": 72,
+      "method": "nonlinear",
+      "position": 2,
+      "round": 31,
+      "seconds": 0.0395414677914232,
+      "seed": 222
+    },
+    {
+      "length": 72,
+      "method": "mlp",
+      "position": 3,
+      "round": 31,
+      "seconds": 0.039465256966650486,
+      "seed": 222
+    },
+    {
+      "length": 96,
+      "method": "nonlinear",
+      "position": 0,
+      "round": 0,
+      "seconds": 0.0669143651612103,
+      "seed": 222
+    },
+    {
+      "length": 96,
+      "method": "mlp",
+      "position": 1,
+      "round": 0,
+      "seconds": 0.06842243997380137,
+      "seed": 222
+    },
+    {
+      "length": 96,
+      "method": "attention",
+      "position": 2,
+      "round": 0,
+      "seconds": 0.07366228196769953,
+      "seed": 222
+    },
+    {
+      "length": 96,
+      "method": "pool",
+      "position": 3,
+      "round": 0,
+      "seconds": 0.06219251290895045,
+      "seed": 222
+    },
+    {
+      "length": 96,
+      "method": "mlp",
+      "position": 0,
+      "round": 1,
+      "seconds": 0.06119801290333271,
+      "seed": 222
+    },
+    {
+      "length": 96,
+      "method": "attention",
+      "position": 1,
+      "round": 1,
+      "seconds": 0.0709723699837923,
+      "seed": 222
+    },
+    {
+      "length": 96,
+      "method": "pool",
+      "position": 2,
+      "round": 1,
+      "seconds": 0.062463453970849514,
+      "seed": 222
+    },
+    {
+      "length": 96,
+      "method": "nonlinear",
+      "position": 3,
+      "round": 1,
+      "seconds": 0.06305441400036216,
+      "seed": 222
+    },
+    {
+      "length": 96,
+      "method": "attention",
+      "position": 0,
+      "round": 2,
+      "seconds": 0.07402316201478243,
+      "seed": 222
+    },
+    {
+      "length": 96,
+      "method": "pool",
+      "position": 1,
+      "round": 2,
+      "seconds": 0.05956553900614381,
+      "seed": 222
+    },
+    {
+      "length": 96,
+      "method": "nonlinear",
+      "position": 2,
+      "round": 2,
+      "seconds": 0.06548126600682735,
+      "seed": 222
+    },
+    {
+      "length": 96,
+      "method": "mlp",
+      "position": 3,
+      "round": 2,
+      "seconds": 0.0635105730034411,
+      "seed": 222
+    },
+    {
+      "length": 96,
+      "method": "pool",
+      "position": 0,
+      "round": 3,
+      "seconds": 0.06514365202747285,
+      "seed": 222
+    },
+    {
+      "length": 96,
+      "method": "nonlinear",
+      "position": 1,
+      "round": 3,
+      "seconds": 0.06345341796986759,
+      "seed": 222
+    },
+    {
+      "length": 96,
+      "method": "mlp",
+      "position": 2,
+      "round": 3,
+      "seconds": 0.060950367944315076,
+      "seed": 222
+    },
+    {
+      "length": 96,
+      "method": "attention",
+      "position": 3,
+      "round": 3,
+      "seconds": 0.06912221084348857,
+      "seed": 222
+    },
+    {
+      "length": 96,
+      "method": "nonlinear",
+      "position": 0,
+      "round": 4,
+      "seconds": 0.06169529398903251,
+      "seed": 222
+    },
+    {
+      "length": 96,
+      "method": "mlp",
+      "position": 1,
+      "round": 4,
+      "seconds": 0.05855622887611389,
+      "seed": 222
+    },
+    {
+      "length": 96,
+      "method": "attention",
+      "position": 2,
+      "round": 4,
+      "seconds": 0.06842432101257145,
+      "seed": 222
+    },
+    {
+      "length": 96,
+      "method": "pool",
+      "position": 3,
+      "round": 4,
+      "seconds": 0.06089256098493934,
+      "seed": 222
+    },
+    {
+      "length": 96,
+      "method": "mlp",
+      "position": 0,
+      "round": 5,
+      "seconds": 0.05554845300503075,
+      "seed": 222
+    },
+    {
+      "length": 96,
+      "method": "attention",
+      "position": 1,
+      "round": 5,
+      "seconds": 0.07124881399795413,
+      "seed": 222
+    },
+    {
+      "length": 96,
+      "method": "pool",
+      "position": 2,
+      "round": 5,
+      "seconds": 0.06166255008429289,
+      "seed": 222
+    },
+    {
+      "length": 96,
+      "method": "nonlinear",
+      "position": 3,
+      "round": 5,
+      "seconds": 0.06462232186459005,
+      "seed": 222
+    },
+    {
+      "length": 96,
+      "method": "attention",
+      "position": 0,
+      "round": 6,
+      "seconds": 0.07670564507134259,
+      "seed": 222
+    },
+    {
+      "length": 96,
+      "method": "pool",
+      "position": 1,
+      "round": 6,
+      "seconds": 0.06359682092443109,
+      "seed": 222
+    },
+    {
+      "length": 96,
+      "method": "nonlinear",
+      "position": 2,
+      "round": 6,
+      "seconds": 0.06512025813572109,
+      "seed": 222
+    },
+    {
+      "length": 96,
+      "method": "mlp",
+      "position": 3,
+      "round": 6,
+      "seconds": 0.061968690948560834,
+      "seed": 222
+    },
+    {
+      "length": 96,
+      "method": "pool",
+      "position": 0,
+      "round": 7,
+      "seconds": 0.06486751395277679,
+      "seed": 222
+    },
+    {
+      "length": 96,
+      "method": "nonlinear",
+      "position": 1,
+      "round": 7,
+      "seconds": 0.06286327005364001,
+      "seed": 222
+    },
+    {
+      "length": 96,
+      "method": "mlp",
+      "position": 2,
+      "round": 7,
+      "seconds": 0.0557846671435982,
+      "seed": 222
+    },
+    {
+      "length": 96,
+      "method": "attention",
+      "position": 3,
+      "round": 7,
+      "seconds": 0.06692863488569856,
+      "seed": 222
+    },
+    {
+      "length": 96,
+      "method": "nonlinear",
+      "position": 0,
+      "round": 8,
+      "seconds": 0.06024586083367467,
+      "seed": 222
+    },
+    {
+      "length": 96,
+      "method": "mlp",
+      "position": 1,
+      "round": 8,
+      "seconds": 0.05984759912826121,
+      "seed": 222
+    },
+    {
+      "length": 96,
+      "method": "attention",
+      "position": 2,
+      "round": 8,
+      "seconds": 0.06876172591000795,
+      "seed": 222
+    },
+    {
+      "length": 96,
+      "method": "pool",
+      "position": 3,
+      "round": 8,
+      "seconds": 0.05777411907911301,
+      "seed": 222
+    },
+    {
+      "length": 96,
+      "method": "mlp",
+      "position": 0,
+      "round": 9,
+      "seconds": 0.06381926988251507,
+      "seed": 222
+    },
+    {
+      "length": 96,
+      "method": "attention",
+      "position": 1,
+      "round": 9,
+      "seconds": 0.06848050514236093,
+      "seed": 222
+    },
+    {
+      "length": 96,
+      "method": "pool",
+      "position": 2,
+      "round": 9,
+      "seconds": 0.05964611400850117,
+      "seed": 222
+    },
+    {
+      "length": 96,
+      "method": "nonlinear",
+      "position": 3,
+      "round": 9,
+      "seconds": 0.05983064998872578,
+      "seed": 222
+    },
+    {
+      "length": 96,
+      "method": "attention",
+      "position": 0,
+      "round": 10,
+      "seconds": 0.07218731008470058,
+      "seed": 222
+    },
+    {
+      "length": 96,
+      "method": "pool",
+      "position": 1,
+      "round": 10,
+      "seconds": 0.06384256505407393,
+      "seed": 222
+    },
+    {
+      "length": 96,
+      "method": "nonlinear",
+      "position": 2,
+      "round": 10,
+      "seconds": 0.06624318403191864,
+      "seed": 222
+    },
+    {
+      "length": 96,
+      "method": "mlp",
+      "position": 3,
+      "round": 10,
+      "seconds": 0.05649597104638815,
+      "seed": 222
+    },
+    {
+      "length": 96,
+      "method": "pool",
+      "position": 0,
+      "round": 11,
+      "seconds": 0.06136854691430926,
+      "seed": 222
+    },
+    {
+      "length": 96,
+      "method": "nonlinear",
+      "position": 1,
+      "round": 11,
+      "seconds": 0.06537091708742082,
+      "seed": 222
+    },
+    {
+      "length": 96,
+      "method": "mlp",
+      "position": 2,
+      "round": 11,
+      "seconds": 0.06179869105108082,
+      "seed": 222
+    },
+    {
+      "length": 96,
+      "method": "attention",
+      "position": 3,
+      "round": 11,
+      "seconds": 0.06996359908953309,
+      "seed": 222
+    },
+    {
+      "length": 96,
+      "method": "nonlinear",
+      "position": 0,
+      "round": 12,
+      "seconds": 0.061060675885528326,
+      "seed": 222
+    },
+    {
+      "length": 96,
+      "method": "mlp",
+      "position": 1,
+      "round": 12,
+      "seconds": 0.06006128992885351,
+      "seed": 222
+    },
+    {
+      "length": 96,
+      "method": "attention",
+      "position": 2,
+      "round": 12,
+      "seconds": 0.0743359460029751,
+      "seed": 222
+    },
+    {
+      "length": 96,
+      "method": "pool",
+      "position": 3,
+      "round": 12,
+      "seconds": 0.0646044600289315,
+      "seed": 222
+    },
+    {
+      "length": 96,
+      "method": "mlp",
+      "position": 0,
+      "round": 13,
+      "seconds": 0.06011443119496107,
+      "seed": 222
+    },
+    {
+      "length": 96,
+      "method": "attention",
+      "position": 1,
+      "round": 13,
+      "seconds": 0.07411397504620254,
+      "seed": 222
+    },
+    {
+      "length": 96,
+      "method": "pool",
+      "position": 2,
+      "round": 13,
+      "seconds": 0.06255778484046459,
+      "seed": 222
+    },
+    {
+      "length": 96,
+      "method": "nonlinear",
+      "position": 3,
+      "round": 13,
+      "seconds": 0.059578876942396164,
+      "seed": 222
+    },
+    {
+      "length": 96,
+      "method": "attention",
+      "position": 0,
+      "round": 14,
+      "seconds": 0.0681579599622637,
+      "seed": 222
+    },
+    {
+      "length": 96,
+      "method": "pool",
+      "position": 1,
+      "round": 14,
+      "seconds": 0.05701323808170855,
+      "seed": 222
+    },
+    {
+      "length": 96,
+      "method": "nonlinear",
+      "position": 2,
+      "round": 14,
+      "seconds": 0.05858328891918063,
+      "seed": 222
+    },
+    {
+      "length": 96,
+      "method": "mlp",
+      "position": 3,
+      "round": 14,
+      "seconds": 0.05676666693761945,
+      "seed": 222
+    },
+    {
+      "length": 96,
+      "method": "pool",
+      "position": 0,
+      "round": 15,
+      "seconds": 0.05850381404161453,
+      "seed": 222
+    },
+    {
+      "length": 96,
+      "method": "nonlinear",
+      "position": 1,
+      "round": 15,
+      "seconds": 0.06290623708628118,
+      "seed": 222
+    },
+    {
+      "length": 96,
+      "method": "mlp",
+      "position": 2,
+      "round": 15,
+      "seconds": 0.06118711200542748,
+      "seed": 222
+    },
+    {
+      "length": 96,
+      "method": "attention",
+      "position": 3,
+      "round": 15,
+      "seconds": 0.06938905688002706,
+      "seed": 222
+    },
+    {
+      "length": 96,
+      "method": "nonlinear",
+      "position": 0,
+      "round": 16,
+      "seconds": 0.06514219800010324,
+      "seed": 222
+    },
+    {
+      "length": 96,
+      "method": "mlp",
+      "position": 1,
+      "round": 16,
+      "seconds": 0.06156406900845468,
+      "seed": 222
+    },
+    {
+      "length": 96,
+      "method": "attention",
+      "position": 2,
+      "round": 16,
+      "seconds": 0.06875719199888408,
+      "seed": 222
+    },
+    {
+      "length": 96,
+      "method": "pool",
+      "position": 3,
+      "round": 16,
+      "seconds": 0.05808580107986927,
+      "seed": 222
+    },
+    {
+      "length": 96,
+      "method": "mlp",
+      "position": 0,
+      "round": 17,
+      "seconds": 0.058312795124948025,
+      "seed": 222
+    },
+    {
+      "length": 96,
+      "method": "attention",
+      "position": 1,
+      "round": 17,
+      "seconds": 0.07109551504254341,
+      "seed": 222
+    },
+    {
+      "length": 96,
+      "method": "pool",
+      "position": 2,
+      "round": 17,
+      "seconds": 0.056953891180455685,
+      "seed": 222
+    },
+    {
+      "length": 96,
+      "method": "nonlinear",
+      "position": 3,
+      "round": 17,
+      "seconds": 0.05840931902639568,
+      "seed": 222
+    },
+    {
+      "length": 96,
+      "method": "attention",
+      "position": 0,
+      "round": 18,
+      "seconds": 0.06764087709598243,
+      "seed": 222
+    },
+    {
+      "length": 96,
+      "method": "pool",
+      "position": 1,
+      "round": 18,
+      "seconds": 0.05769956111907959,
+      "seed": 222
+    },
+    {
+      "length": 96,
+      "method": "nonlinear",
+      "position": 2,
+      "round": 18,
+      "seconds": 0.05809910618700087,
+      "seed": 222
+    },
+    {
+      "length": 96,
+      "method": "mlp",
+      "position": 3,
+      "round": 18,
+      "seconds": 0.057685173815116286,
+      "seed": 222
+    },
+    {
+      "length": 96,
+      "method": "pool",
+      "position": 0,
+      "round": 19,
+      "seconds": 0.0582093030679971,
+      "seed": 222
+    },
+    {
+      "length": 96,
+      "method": "nonlinear",
+      "position": 1,
+      "round": 19,
+      "seconds": 0.05876512289978564,
+      "seed": 222
+    },
+    {
+      "length": 96,
+      "method": "mlp",
+      "position": 2,
+      "round": 19,
+      "seconds": 0.057604214176535606,
+      "seed": 222
+    },
+    {
+      "length": 96,
+      "method": "attention",
+      "position": 3,
+      "round": 19,
+      "seconds": 0.06854609493166208,
+      "seed": 222
+    },
+    {
+      "length": 96,
+      "method": "nonlinear",
+      "position": 0,
+      "round": 20,
+      "seconds": 0.05817797500640154,
+      "seed": 222
+    },
+    {
+      "length": 96,
+      "method": "mlp",
+      "position": 1,
+      "round": 20,
+      "seconds": 0.05623459490016103,
+      "seed": 222
+    },
+    {
+      "length": 96,
+      "method": "attention",
+      "position": 2,
+      "round": 20,
+      "seconds": 0.07206740695983171,
+      "seed": 222
+    },
+    {
+      "length": 96,
+      "method": "pool",
+      "position": 3,
+      "round": 20,
+      "seconds": 0.06385935097932816,
+      "seed": 222
+    },
+    {
+      "length": 96,
+      "method": "mlp",
+      "position": 0,
+      "round": 21,
+      "seconds": 0.06198169314302504,
+      "seed": 222
+    },
+    {
+      "length": 96,
+      "method": "attention",
+      "position": 1,
+      "round": 21,
+      "seconds": 0.07561752200126648,
+      "seed": 222
+    },
+    {
+      "length": 96,
+      "method": "pool",
+      "position": 2,
+      "round": 21,
+      "seconds": 0.059322756016626954,
+      "seed": 222
+    },
+    {
+      "length": 96,
+      "method": "nonlinear",
+      "position": 3,
+      "round": 21,
+      "seconds": 0.0618489570915699,
+      "seed": 222
+    },
+    {
+      "length": 96,
+      "method": "attention",
+      "position": 0,
+      "round": 22,
+      "seconds": 0.07124999887309968,
+      "seed": 222
+    },
+    {
+      "length": 96,
+      "method": "pool",
+      "position": 1,
+      "round": 22,
+      "seconds": 0.06068421294912696,
+      "seed": 222
+    },
+    {
+      "length": 96,
+      "method": "nonlinear",
+      "position": 2,
+      "round": 22,
+      "seconds": 0.060980396112427115,
+      "seed": 222
+    },
+    {
+      "length": 96,
+      "method": "mlp",
+      "position": 3,
+      "round": 22,
+      "seconds": 0.059606040827929974,
+      "seed": 222
+    },
+    {
+      "length": 96,
+      "method": "pool",
+      "position": 0,
+      "round": 23,
+      "seconds": 0.06087663094513118,
+      "seed": 222
+    },
+    {
+      "length": 96,
+      "method": "nonlinear",
+      "position": 1,
+      "round": 23,
+      "seconds": 0.06299366592429578,
+      "seed": 222
+    },
+    {
+      "length": 96,
+      "method": "mlp",
+      "position": 2,
+      "round": 23,
+      "seconds": 0.05864969803951681,
+      "seed": 222
+    },
+    {
+      "length": 96,
+      "method": "attention",
+      "position": 3,
+      "round": 23,
+      "seconds": 0.07159752678126097,
+      "seed": 222
+    },
+    {
+      "length": 96,
+      "method": "nonlinear",
+      "position": 0,
+      "round": 24,
+      "seconds": 0.06401692191138864,
+      "seed": 222
+    },
+    {
+      "length": 96,
+      "method": "mlp",
+      "position": 1,
+      "round": 24,
+      "seconds": 0.06166211608797312,
+      "seed": 222
+    },
+    {
+      "length": 96,
+      "method": "attention",
+      "position": 2,
+      "round": 24,
+      "seconds": 0.07645096094347537,
+      "seed": 222
+    },
+    {
+      "length": 96,
+      "method": "pool",
+      "position": 3,
+      "round": 24,
+      "seconds": 0.07548134494572878,
+      "seed": 222
+    },
+    {
+      "length": 96,
+      "method": "mlp",
+      "position": 0,
+      "round": 25,
+      "seconds": 0.10942923417314887,
+      "seed": 222
+    },
+    {
+      "length": 96,
+      "method": "attention",
+      "position": 1,
+      "round": 25,
+      "seconds": 0.07487556617707014,
+      "seed": 222
+    },
+    {
+      "length": 96,
+      "method": "pool",
+      "position": 2,
+      "round": 25,
+      "seconds": 0.06128357211127877,
+      "seed": 222
+    },
+    {
+      "length": 96,
+      "method": "nonlinear",
+      "position": 3,
+      "round": 25,
+      "seconds": 0.06511019100435078,
+      "seed": 222
+    },
+    {
+      "length": 96,
+      "method": "attention",
+      "position": 0,
+      "round": 26,
+      "seconds": 0.07754584192298353,
+      "seed": 222
+    },
+    {
+      "length": 96,
+      "method": "pool",
+      "position": 1,
+      "round": 26,
+      "seconds": 0.06382456398569047,
+      "seed": 222
+    },
+    {
+      "length": 96,
+      "method": "nonlinear",
+      "position": 2,
+      "round": 26,
+      "seconds": 0.06482499302364886,
+      "seed": 222
+    },
+    {
+      "length": 96,
+      "method": "mlp",
+      "position": 3,
+      "round": 26,
+      "seconds": 0.06161716300994158,
+      "seed": 222
+    },
+    {
+      "length": 96,
+      "method": "pool",
+      "position": 0,
+      "round": 27,
+      "seconds": 0.06309739290736616,
+      "seed": 222
+    },
+    {
+      "length": 96,
+      "method": "nonlinear",
+      "position": 1,
+      "round": 27,
+      "seconds": 0.07083458499982953,
+      "seed": 222
+    },
+    {
+      "length": 96,
+      "method": "mlp",
+      "position": 2,
+      "round": 27,
+      "seconds": 0.06510454299859703,
+      "seed": 222
+    },
+    {
+      "length": 96,
+      "method": "attention",
+      "position": 3,
+      "round": 27,
+      "seconds": 0.06998086697421968,
+      "seed": 222
+    },
+    {
+      "length": 96,
+      "method": "nonlinear",
+      "position": 0,
+      "round": 28,
+      "seconds": 0.060776906087994576,
+      "seed": 222
+    },
+    {
+      "length": 96,
+      "method": "mlp",
+      "position": 1,
+      "round": 28,
+      "seconds": 0.05917063192464411,
+      "seed": 222
+    },
+    {
+      "length": 96,
+      "method": "attention",
+      "position": 2,
+      "round": 28,
+      "seconds": 0.07338584191165864,
+      "seed": 222
+    },
+    {
+      "length": 96,
+      "method": "pool",
+      "position": 3,
+      "round": 28,
+      "seconds": 0.06306376797147095,
+      "seed": 222
+    },
+    {
+      "length": 96,
+      "method": "mlp",
+      "position": 0,
+      "round": 29,
+      "seconds": 0.05893699801526964,
+      "seed": 222
+    },
+    {
+      "length": 96,
+      "method": "attention",
+      "position": 1,
+      "round": 29,
+      "seconds": 0.07512531406246126,
+      "seed": 222
+    },
+    {
+      "length": 96,
+      "method": "pool",
+      "position": 2,
+      "round": 29,
+      "seconds": 0.06013834592886269,
+      "seed": 222
+    },
+    {
+      "length": 96,
+      "method": "nonlinear",
+      "position": 3,
+      "round": 29,
+      "seconds": 0.05810064706020057,
+      "seed": 222
+    },
+    {
+      "length": 96,
+      "method": "attention",
+      "position": 0,
+      "round": 30,
+      "seconds": 0.07494028215296566,
+      "seed": 222
+    },
+    {
+      "length": 96,
+      "method": "pool",
+      "position": 1,
+      "round": 30,
+      "seconds": 0.05996583588421345,
+      "seed": 222
+    },
+    {
+      "length": 96,
+      "method": "nonlinear",
+      "position": 2,
+      "round": 30,
+      "seconds": 0.05951573303900659,
+      "seed": 222
+    },
+    {
+      "length": 96,
+      "method": "mlp",
+      "position": 3,
+      "round": 30,
+      "seconds": 0.060299512930214405,
+      "seed": 222
+    },
+    {
+      "length": 96,
+      "method": "pool",
+      "position": 0,
+      "round": 31,
+      "seconds": 0.05690332408994436,
+      "seed": 222
+    },
+    {
+      "length": 96,
+      "method": "nonlinear",
+      "position": 1,
+      "round": 31,
+      "seconds": 0.05936041800305247,
+      "seed": 222
+    },
+    {
+      "length": 96,
+      "method": "mlp",
+      "position": 2,
+      "round": 31,
+      "seconds": 0.0596639618743211,
+      "seed": 222
+    },
+    {
+      "length": 96,
+      "method": "attention",
+      "position": 3,
+      "round": 31,
+      "seconds": 0.07294592703692615,
+      "seed": 222
+    },
+    {
+      "length": 48,
+      "method": "mlp",
+      "position": 0,
+      "round": 0,
+      "seconds": 0.02042488195002079,
+      "seed": 333
+    },
+    {
+      "length": 48,
+      "method": "attention",
+      "position": 1,
+      "round": 0,
+      "seconds": 0.025877612177282572,
+      "seed": 333
+    },
+    {
+      "length": 48,
+      "method": "pool",
+      "position": 2,
+      "round": 0,
+      "seconds": 0.019390220055356622,
+      "seed": 333
+    },
+    {
+      "length": 48,
+      "method": "nonlinear",
+      "position": 3,
+      "round": 0,
+      "seconds": 0.02018011803738773,
+      "seed": 333
+    },
+    {
+      "length": 48,
+      "method": "attention",
+      "position": 0,
+      "round": 1,
+      "seconds": 0.02539902296848595,
+      "seed": 333
+    },
+    {
+      "length": 48,
+      "method": "pool",
+      "position": 1,
+      "round": 1,
+      "seconds": 0.02093840204179287,
+      "seed": 333
+    },
+    {
+      "length": 48,
+      "method": "nonlinear",
+      "position": 2,
+      "round": 1,
+      "seconds": 0.021742505952715874,
+      "seed": 333
+    },
+    {
+      "length": 48,
+      "method": "mlp",
+      "position": 3,
+      "round": 1,
+      "seconds": 0.022645338904112577,
+      "seed": 333
+    },
+    {
+      "length": 48,
+      "method": "pool",
+      "position": 0,
+      "round": 2,
+      "seconds": 0.020623735850676894,
+      "seed": 333
+    },
+    {
+      "length": 48,
+      "method": "nonlinear",
+      "position": 1,
+      "round": 2,
+      "seconds": 0.021776068955659866,
+      "seed": 333
+    },
+    {
+      "length": 48,
+      "method": "mlp",
+      "position": 2,
+      "round": 2,
+      "seconds": 0.02232354087755084,
+      "seed": 333
+    },
+    {
+      "length": 48,
+      "method": "attention",
+      "position": 3,
+      "round": 2,
+      "seconds": 0.025750569999217987,
+      "seed": 333
+    },
+    {
+      "length": 48,
+      "method": "nonlinear",
+      "position": 0,
+      "round": 3,
+      "seconds": 0.020669131074100733,
+      "seed": 333
+    },
+    {
+      "length": 48,
+      "method": "mlp",
+      "position": 1,
+      "round": 3,
+      "seconds": 0.01995476009324193,
+      "seed": 333
+    },
+    {
+      "length": 48,
+      "method": "attention",
+      "position": 2,
+      "round": 3,
+      "seconds": 0.026081907795742154,
+      "seed": 333
+    },
+    {
+      "length": 48,
+      "method": "pool",
+      "position": 3,
+      "round": 3,
+      "seconds": 0.02032435592263937,
+      "seed": 333
+    },
+    {
+      "length": 48,
+      "method": "mlp",
+      "position": 0,
+      "round": 4,
+      "seconds": 0.020662456983700395,
+      "seed": 333
+    },
+    {
+      "length": 48,
+      "method": "attention",
+      "position": 1,
+      "round": 4,
+      "seconds": 0.02674493589438498,
+      "seed": 333
+    },
+    {
+      "length": 48,
+      "method": "pool",
+      "position": 2,
+      "round": 4,
+      "seconds": 0.01991797611117363,
+      "seed": 333
+    },
+    {
+      "length": 48,
+      "method": "nonlinear",
+      "position": 3,
+      "round": 4,
+      "seconds": 0.02075706096366048,
+      "seed": 333
+    },
+    {
+      "length": 48,
+      "method": "attention",
+      "position": 0,
+      "round": 5,
+      "seconds": 0.02498388011008501,
+      "seed": 333
+    },
+    {
+      "length": 48,
+      "method": "pool",
+      "position": 1,
+      "round": 5,
+      "seconds": 0.020636538043618202,
+      "seed": 333
+    },
+    {
+      "length": 48,
+      "method": "nonlinear",
+      "position": 2,
+      "round": 5,
+      "seconds": 0.02137872204184532,
+      "seed": 333
+    },
+    {
+      "length": 48,
+      "method": "mlp",
+      "position": 3,
+      "round": 5,
+      "seconds": 0.02031665900722146,
+      "seed": 333
+    },
+    {
+      "length": 48,
+      "method": "pool",
+      "position": 0,
+      "round": 6,
+      "seconds": 0.020495238015428185,
+      "seed": 333
+    },
+    {
+      "length": 48,
+      "method": "nonlinear",
+      "position": 1,
+      "round": 6,
+      "seconds": 0.02057417086325586,
+      "seed": 333
+    },
+    {
+      "length": 48,
+      "method": "mlp",
+      "position": 2,
+      "round": 6,
+      "seconds": 0.02173130796290934,
+      "seed": 333
+    },
+    {
+      "length": 48,
+      "method": "attention",
+      "position": 3,
+      "round": 6,
+      "seconds": 0.02744502993300557,
+      "seed": 333
+    },
+    {
+      "length": 48,
+      "method": "nonlinear",
+      "position": 0,
+      "round": 7,
+      "seconds": 0.022374561987817287,
+      "seed": 333
+    },
+    {
+      "length": 48,
+      "method": "mlp",
+      "position": 1,
+      "round": 7,
+      "seconds": 0.020788383902981877,
+      "seed": 333
+    },
+    {
+      "length": 48,
+      "method": "attention",
+      "position": 2,
+      "round": 7,
+      "seconds": 0.02626470196992159,
+      "seed": 333
+    },
+    {
+      "length": 48,
+      "method": "pool",
+      "position": 3,
+      "round": 7,
+      "seconds": 0.02040102891623974,
+      "seed": 333
+    },
+    {
+      "length": 48,
+      "method": "mlp",
+      "position": 0,
+      "round": 8,
+      "seconds": 0.021349047077819705,
+      "seed": 333
+    },
+    {
+      "length": 48,
+      "method": "attention",
+      "position": 1,
+      "round": 8,
+      "seconds": 0.027738091070204973,
+      "seed": 333
+    },
+    {
+      "length": 48,
+      "method": "pool",
+      "position": 2,
+      "round": 8,
+      "seconds": 0.021075817057862878,
+      "seed": 333
+    },
+    {
+      "length": 48,
+      "method": "nonlinear",
+      "position": 3,
+      "round": 8,
+      "seconds": 0.0219672538805753,
+      "seed": 333
+    },
+    {
+      "length": 48,
+      "method": "attention",
+      "position": 0,
+      "round": 9,
+      "seconds": 0.025478685973212123,
+      "seed": 333
+    },
+    {
+      "length": 48,
+      "method": "pool",
+      "position": 1,
+      "round": 9,
+      "seconds": 0.021006497088819742,
+      "seed": 333
+    },
+    {
+      "length": 48,
+      "method": "nonlinear",
+      "position": 2,
+      "round": 9,
+      "seconds": 0.022628746926784515,
+      "seed": 333
+    },
+    {
+      "length": 48,
+      "method": "mlp",
+      "position": 3,
+      "round": 9,
+      "seconds": 0.0210800189524889,
+      "seed": 333
+    },
+    {
+      "length": 48,
+      "method": "pool",
+      "position": 0,
+      "round": 10,
+      "seconds": 0.02165678213350475,
+      "seed": 333
+    },
+    {
+      "length": 48,
+      "method": "nonlinear",
+      "position": 1,
+      "round": 10,
+      "seconds": 0.021505781915038824,
+      "seed": 333
+    },
+    {
+      "length": 48,
+      "method": "mlp",
+      "position": 2,
+      "round": 10,
+      "seconds": 0.020937818102538586,
+      "seed": 333
+    },
+    {
+      "length": 48,
+      "method": "attention",
+      "position": 3,
+      "round": 10,
+      "seconds": 0.027608971809968352,
+      "seed": 333
+    },
+    {
+      "length": 48,
+      "method": "nonlinear",
+      "position": 0,
+      "round": 11,
+      "seconds": 0.02017751312814653,
+      "seed": 333
+    },
+    {
+      "length": 48,
+      "method": "mlp",
+      "position": 1,
+      "round": 11,
+      "seconds": 0.019784667994827032,
+      "seed": 333
+    },
+    {
+      "length": 48,
+      "method": "attention",
+      "position": 2,
+      "round": 11,
+      "seconds": 0.027240797877311707,
+      "seed": 333
+    },
+    {
+      "length": 48,
+      "method": "pool",
+      "position": 3,
+      "round": 11,
+      "seconds": 0.02124676713719964,
+      "seed": 333
+    },
+    {
+      "length": 48,
+      "method": "mlp",
+      "position": 0,
+      "round": 12,
+      "seconds": 0.020656591979786754,
+      "seed": 333
+    },
+    {
+      "length": 48,
+      "method": "attention",
+      "position": 1,
+      "round": 12,
+      "seconds": 0.027091498021036386,
+      "seed": 333
+    },
+    {
+      "length": 48,
+      "method": "pool",
+      "position": 2,
+      "round": 12,
+      "seconds": 0.02048526704311371,
+      "seed": 333
+    },
+    {
+      "length": 48,
+      "method": "nonlinear",
+      "position": 3,
+      "round": 12,
+      "seconds": 0.02100058295764029,
+      "seed": 333
+    },
+    {
+      "length": 48,
+      "method": "attention",
+      "position": 0,
+      "round": 13,
+      "seconds": 0.027877521002665162,
+      "seed": 333
+    },
+    {
+      "length": 48,
+      "method": "pool",
+      "position": 1,
+      "round": 13,
+      "seconds": 0.021152877015993,
+      "seed": 333
+    },
+    {
+      "length": 48,
+      "method": "nonlinear",
+      "position": 2,
+      "round": 13,
+      "seconds": 0.020368464989587665,
+      "seed": 333
+    },
+    {
+      "length": 48,
+      "method": "mlp",
+      "position": 3,
+      "round": 13,
+      "seconds": 0.020221861079335213,
+      "seed": 333
+    },
+    {
+      "length": 48,
+      "method": "pool",
+      "position": 0,
+      "round": 14,
+      "seconds": 0.020826773950830102,
+      "seed": 333
+    },
+    {
+      "length": 48,
+      "method": "nonlinear",
+      "position": 1,
+      "round": 14,
+      "seconds": 0.022576381918042898,
+      "seed": 333
+    },
+    {
+      "length": 48,
+      "method": "mlp",
+      "position": 2,
+      "round": 14,
+      "seconds": 0.02056088112294674,
+      "seed": 333
+    },
+    {
+      "length": 48,
+      "method": "attention",
+      "position": 3,
+      "round": 14,
+      "seconds": 0.026284431107342243,
+      "seed": 333
+    },
+    {
+      "length": 48,
+      "method": "nonlinear",
+      "position": 0,
+      "round": 15,
+      "seconds": 0.02103127888403833,
+      "seed": 333
+    },
+    {
+      "length": 48,
+      "method": "mlp",
+      "position": 1,
+      "round": 15,
+      "seconds": 0.019069761969149113,
+      "seed": 333
+    },
+    {
+      "length": 48,
+      "method": "attention",
+      "position": 2,
+      "round": 15,
+      "seconds": 0.026133382925763726,
+      "seed": 333
+    },
+    {
+      "length": 48,
+      "method": "pool",
+      "position": 3,
+      "round": 15,
+      "seconds": 0.018496586941182613,
+      "seed": 333
+    },
+    {
+      "length": 48,
+      "method": "mlp",
+      "position": 0,
+      "round": 16,
+      "seconds": 0.02054649917408824,
+      "seed": 333
+    },
+    {
+      "length": 48,
+      "method": "attention",
+      "position": 1,
+      "round": 16,
+      "seconds": 0.0242516309954226,
+      "seed": 333
+    },
+    {
+      "length": 48,
+      "method": "pool",
+      "position": 2,
+      "round": 16,
+      "seconds": 0.020363244926556945,
+      "seed": 333
+    },
+    {
+      "length": 48,
+      "method": "nonlinear",
+      "position": 3,
+      "round": 16,
+      "seconds": 0.02071027597412467,
+      "seed": 333
+    },
+    {
+      "length": 48,
+      "method": "attention",
+      "position": 0,
+      "round": 17,
+      "seconds": 0.02542247693054378,
+      "seed": 333
+    },
+    {
+      "length": 48,
+      "method": "pool",
+      "position": 1,
+      "round": 17,
+      "seconds": 0.019995651207864285,
+      "seed": 333
+    },
+    {
+      "length": 48,
+      "method": "nonlinear",
+      "position": 2,
+      "round": 17,
+      "seconds": 0.02018626593053341,
+      "seed": 333
+    },
+    {
+      "length": 48,
+      "method": "mlp",
+      "position": 3,
+      "round": 17,
+      "seconds": 0.019561054185032845,
+      "seed": 333
+    },
+    {
+      "length": 48,
+      "method": "pool",
+      "position": 0,
+      "round": 18,
+      "seconds": 0.02103908103890717,
+      "seed": 333
+    },
+    {
+      "length": 48,
+      "method": "nonlinear",
+      "position": 1,
+      "round": 18,
+      "seconds": 0.02103833295404911,
+      "seed": 333
+    },
+    {
+      "length": 48,
+      "method": "mlp",
+      "position": 2,
+      "round": 18,
+      "seconds": 0.021005268907174468,
+      "seed": 333
+    },
+    {
+      "length": 48,
+      "method": "attention",
+      "position": 3,
+      "round": 18,
+      "seconds": 0.026429699966683984,
+      "seed": 333
+    },
+    {
+      "length": 48,
+      "method": "nonlinear",
+      "position": 0,
+      "round": 19,
+      "seconds": 0.021195231936872005,
+      "seed": 333
+    },
+    {
+      "length": 48,
+      "method": "mlp",
+      "position": 1,
+      "round": 19,
+      "seconds": 0.02022549300454557,
+      "seed": 333
+    },
+    {
+      "length": 48,
+      "method": "attention",
+      "position": 2,
+      "round": 19,
+      "seconds": 0.026606915052980185,
+      "seed": 333
+    },
+    {
+      "length": 48,
+      "method": "pool",
+      "position": 3,
+      "round": 19,
+      "seconds": 0.021293864818289876,
+      "seed": 333
+    },
+    {
+      "length": 48,
+      "method": "mlp",
+      "position": 0,
+      "round": 20,
+      "seconds": 0.020634878892451525,
+      "seed": 333
+    },
+    {
+      "length": 48,
+      "method": "attention",
+      "position": 1,
+      "round": 20,
+      "seconds": 0.026288955938071012,
+      "seed": 333
+    },
+    {
+      "length": 48,
+      "method": "pool",
+      "position": 2,
+      "round": 20,
+      "seconds": 0.019965117098763585,
+      "seed": 333
+    },
+    {
+      "length": 48,
+      "method": "nonlinear",
+      "position": 3,
+      "round": 20,
+      "seconds": 0.021801572991535068,
+      "seed": 333
+    },
+    {
+      "length": 48,
+      "method": "attention",
+      "position": 0,
+      "round": 21,
+      "seconds": 0.026458597043529153,
+      "seed": 333
+    },
+    {
+      "length": 48,
+      "method": "pool",
+      "position": 1,
+      "round": 21,
+      "seconds": 0.02045042417012155,
+      "seed": 333
+    },
+    {
+      "length": 48,
+      "method": "nonlinear",
+      "position": 2,
+      "round": 21,
+      "seconds": 0.02076465613208711,
+      "seed": 333
+    },
+    {
+      "length": 48,
+      "method": "mlp",
+      "position": 3,
+      "round": 21,
+      "seconds": 0.02009038906544447,
+      "seed": 333
+    },
+    {
+      "length": 48,
+      "method": "pool",
+      "position": 0,
+      "round": 22,
+      "seconds": 0.020493704127147794,
+      "seed": 333
+    },
+    {
+      "length": 48,
+      "method": "nonlinear",
+      "position": 1,
+      "round": 22,
+      "seconds": 0.021617916878312826,
+      "seed": 333
+    },
+    {
+      "length": 48,
+      "method": "mlp",
+      "position": 2,
+      "round": 22,
+      "seconds": 0.020544762024655938,
+      "seed": 333
+    },
+    {
+      "length": 48,
+      "method": "attention",
+      "position": 3,
+      "round": 22,
+      "seconds": 0.026591763831675053,
+      "seed": 333
+    },
+    {
+      "length": 48,
+      "method": "nonlinear",
+      "position": 0,
+      "round": 23,
+      "seconds": 0.02119762683287263,
+      "seed": 333
+    },
+    {
+      "length": 48,
+      "method": "mlp",
+      "position": 1,
+      "round": 23,
+      "seconds": 0.01966563705354929,
+      "seed": 333
+    },
+    {
+      "length": 48,
+      "method": "attention",
+      "position": 2,
+      "round": 23,
+      "seconds": 0.026409304002299905,
+      "seed": 333
+    },
+    {
+      "length": 48,
+      "method": "pool",
+      "position": 3,
+      "round": 23,
+      "seconds": 0.02574126422405243,
+      "seed": 333
+    },
+    {
+      "length": 48,
+      "method": "mlp",
+      "position": 0,
+      "round": 24,
+      "seconds": 0.021055154968053102,
+      "seed": 333
+    },
+    {
+      "length": 48,
+      "method": "attention",
+      "position": 1,
+      "round": 24,
+      "seconds": 0.0267198181245476,
+      "seed": 333
+    },
+    {
+      "length": 48,
+      "method": "pool",
+      "position": 2,
+      "round": 24,
+      "seconds": 0.021015475038439035,
+      "seed": 333
+    },
+    {
+      "length": 48,
+      "method": "nonlinear",
+      "position": 3,
+      "round": 24,
+      "seconds": 0.02117916406132281,
+      "seed": 333
+    },
+    {
+      "length": 48,
+      "method": "attention",
+      "position": 0,
+      "round": 25,
+      "seconds": 0.026554280892014503,
+      "seed": 333
+    },
+    {
+      "length": 48,
+      "method": "pool",
+      "position": 1,
+      "round": 25,
+      "seconds": 0.020339064998552203,
+      "seed": 333
+    },
+    {
+      "length": 48,
+      "method": "nonlinear",
+      "position": 2,
+      "round": 25,
+      "seconds": 0.02160727884620428,
+      "seed": 333
+    },
+    {
+      "length": 48,
+      "method": "mlp",
+      "position": 3,
+      "round": 25,
+      "seconds": 0.019324814900755882,
+      "seed": 333
+    },
+    {
+      "length": 48,
+      "method": "pool",
+      "position": 0,
+      "round": 26,
+      "seconds": 0.019266120856627822,
+      "seed": 333
+    },
+    {
+      "length": 48,
+      "method": "nonlinear",
+      "position": 1,
+      "round": 26,
+      "seconds": 0.02110219094902277,
+      "seed": 333
+    },
+    {
+      "length": 48,
+      "method": "mlp",
+      "position": 2,
+      "round": 26,
+      "seconds": 0.020582444965839386,
+      "seed": 333
+    },
+    {
+      "length": 48,
+      "method": "attention",
+      "position": 3,
+      "round": 26,
+      "seconds": 0.026046433951705694,
+      "seed": 333
+    },
+    {
+      "length": 48,
+      "method": "nonlinear",
+      "position": 0,
+      "round": 27,
+      "seconds": 0.021020777989178896,
+      "seed": 333
+    },
+    {
+      "length": 48,
+      "method": "mlp",
+      "position": 1,
+      "round": 27,
+      "seconds": 0.01998747093603015,
+      "seed": 333
+    },
+    {
+      "length": 48,
+      "method": "attention",
+      "position": 2,
+      "round": 27,
+      "seconds": 0.0269457611721009,
+      "seed": 333
+    },
+    {
+      "length": 48,
+      "method": "pool",
+      "position": 3,
+      "round": 27,
+      "seconds": 0.020155163947492838,
+      "seed": 333
+    },
+    {
+      "length": 48,
+      "method": "mlp",
+      "position": 0,
+      "round": 28,
+      "seconds": 0.020316013833507895,
+      "seed": 333
+    },
+    {
+      "length": 48,
+      "method": "attention",
+      "position": 1,
+      "round": 28,
+      "seconds": 0.025927296839654446,
+      "seed": 333
+    },
+    {
+      "length": 48,
+      "method": "pool",
+      "position": 2,
+      "round": 28,
+      "seconds": 0.019748593913391232,
+      "seed": 333
+    },
+    {
+      "length": 48,
+      "method": "nonlinear",
+      "position": 3,
+      "round": 28,
+      "seconds": 0.02131011802703142,
+      "seed": 333
+    },
+    {
+      "length": 48,
+      "method": "attention",
+      "position": 0,
+      "round": 29,
+      "seconds": 0.027724331011995673,
+      "seed": 333
+    },
+    {
+      "length": 48,
+      "method": "pool",
+      "position": 1,
+      "round": 29,
+      "seconds": 0.02516887499950826,
+      "seed": 333
+    },
+    {
+      "length": 48,
+      "method": "nonlinear",
+      "position": 2,
+      "round": 29,
+      "seconds": 0.02436621394008398,
+      "seed": 333
+    },
+    {
+      "length": 48,
+      "method": "mlp",
+      "position": 3,
+      "round": 29,
+      "seconds": 0.022966643096879125,
+      "seed": 333
+    },
+    {
+      "length": 48,
+      "method": "pool",
+      "position": 0,
+      "round": 30,
+      "seconds": 0.021779467118903995,
+      "seed": 333
+    },
+    {
+      "length": 48,
+      "method": "nonlinear",
+      "position": 1,
+      "round": 30,
+      "seconds": 0.02549846493639052,
+      "seed": 333
+    },
+    {
+      "length": 48,
+      "method": "mlp",
+      "position": 2,
+      "round": 30,
+      "seconds": 0.022217355901375413,
+      "seed": 333
+    },
+    {
+      "length": 48,
+      "method": "attention",
+      "position": 3,
+      "round": 30,
+      "seconds": 0.040251805912703276,
+      "seed": 333
+    },
+    {
+      "length": 48,
+      "method": "nonlinear",
+      "position": 0,
+      "round": 31,
+      "seconds": 0.024244226049631834,
+      "seed": 333
+    },
+    {
+      "length": 48,
+      "method": "mlp",
+      "position": 1,
+      "round": 31,
+      "seconds": 0.02209760108962655,
+      "seed": 333
+    },
+    {
+      "length": 48,
+      "method": "attention",
+      "position": 2,
+      "round": 31,
+      "seconds": 0.030478664906695485,
+      "seed": 333
+    },
+    {
+      "length": 48,
+      "method": "pool",
+      "position": 3,
+      "round": 31,
+      "seconds": 0.022196664940565825,
+      "seed": 333
+    },
+    {
+      "length": 72,
+      "method": "attention",
+      "position": 0,
+      "round": 0,
+      "seconds": 0.047621565172448754,
+      "seed": 333
+    },
+    {
+      "length": 72,
+      "method": "nonlinear",
+      "position": 1,
+      "round": 0,
+      "seconds": 0.0388145858887583,
+      "seed": 333
+    },
+    {
+      "length": 72,
+      "method": "pool",
+      "position": 2,
+      "round": 0,
+      "seconds": 0.0365008320659399,
+      "seed": 333
+    },
+    {
+      "length": 72,
+      "method": "mlp",
+      "position": 3,
+      "round": 0,
+      "seconds": 0.03759678709320724,
+      "seed": 333
+    },
+    {
+      "length": 72,
+      "method": "nonlinear",
+      "position": 0,
+      "round": 1,
+      "seconds": 0.03455612109974027,
+      "seed": 333
+    },
+    {
+      "length": 72,
+      "method": "pool",
+      "position": 1,
+      "round": 1,
+      "seconds": 0.03908519702963531,
+      "seed": 333
+    },
+    {
+      "length": 72,
+      "method": "mlp",
+      "position": 2,
+      "round": 1,
+      "seconds": 0.0367276631295681,
+      "seed": 333
+    },
+    {
+      "length": 72,
+      "method": "attention",
+      "position": 3,
+      "round": 1,
+      "seconds": 0.046118032885715365,
+      "seed": 333
+    },
+    {
+      "length": 72,
+      "method": "pool",
+      "position": 0,
+      "round": 2,
+      "seconds": 0.0372529870364815,
+      "seed": 333
+    },
+    {
+      "length": 72,
+      "method": "mlp",
+      "position": 1,
+      "round": 2,
+      "seconds": 0.037337841000407934,
+      "seed": 333
+    },
+    {
+      "length": 72,
+      "method": "attention",
+      "position": 2,
+      "round": 2,
+      "seconds": 0.04505556798540056,
+      "seed": 333
+    },
+    {
+      "length": 72,
+      "method": "nonlinear",
+      "position": 3,
+      "round": 2,
+      "seconds": 0.036601569037884474,
+      "seed": 333
+    },
+    {
+      "length": 72,
+      "method": "mlp",
+      "position": 0,
+      "round": 3,
+      "seconds": 0.03701054188422859,
+      "seed": 333
+    },
+    {
+      "length": 72,
+      "method": "attention",
+      "position": 1,
+      "round": 3,
+      "seconds": 0.04340508999302983,
+      "seed": 333
+    },
+    {
+      "length": 72,
+      "method": "nonlinear",
+      "position": 2,
+      "round": 3,
+      "seconds": 0.03556814300827682,
+      "seed": 333
+    },
+    {
+      "length": 72,
+      "method": "pool",
+      "position": 3,
+      "round": 3,
+      "seconds": 0.036349958973005414,
+      "seed": 333
+    },
+    {
+      "length": 72,
+      "method": "attention",
+      "position": 0,
+      "round": 4,
+      "seconds": 0.045563830994069576,
+      "seed": 333
+    },
+    {
+      "length": 72,
+      "method": "nonlinear",
+      "position": 1,
+      "round": 4,
+      "seconds": 0.03983607282862067,
+      "seed": 333
+    },
+    {
+      "length": 72,
+      "method": "pool",
+      "position": 2,
+      "round": 4,
+      "seconds": 0.04592332011088729,
+      "seed": 333
+    },
+    {
+      "length": 72,
+      "method": "mlp",
+      "position": 3,
+      "round": 4,
+      "seconds": 0.05402902909554541,
+      "seed": 333
+    },
+    {
+      "length": 72,
+      "method": "nonlinear",
+      "position": 0,
+      "round": 5,
+      "seconds": 0.051190482918173075,
+      "seed": 333
+    },
+    {
+      "length": 72,
+      "method": "pool",
+      "position": 1,
+      "round": 5,
+      "seconds": 0.04833413916639984,
+      "seed": 333
+    },
+    {
+      "length": 72,
+      "method": "mlp",
+      "position": 2,
+      "round": 5,
+      "seconds": 0.047492416109889746,
+      "seed": 333
+    },
+    {
+      "length": 72,
+      "method": "attention",
+      "position": 3,
+      "round": 5,
+      "seconds": 0.05923014506697655,
+      "seed": 333
+    },
+    {
+      "length": 72,
+      "method": "pool",
+      "position": 0,
+      "round": 6,
+      "seconds": 0.04855387401767075,
+      "seed": 333
+    },
+    {
+      "length": 72,
+      "method": "mlp",
+      "position": 1,
+      "round": 6,
+      "seconds": 0.04845727211795747,
+      "seed": 333
+    },
+    {
+      "length": 72,
+      "method": "attention",
+      "position": 2,
+      "round": 6,
+      "seconds": 0.058280854020267725,
+      "seed": 333
+    },
+    {
+      "length": 72,
+      "method": "nonlinear",
+      "position": 3,
+      "round": 6,
+      "seconds": 0.0405843451153487,
+      "seed": 333
+    },
+    {
+      "length": 72,
+      "method": "mlp",
+      "position": 0,
+      "round": 7,
+      "seconds": 0.0376087729819119,
+      "seed": 333
+    },
+    {
+      "length": 72,
+      "method": "attention",
+      "position": 1,
+      "round": 7,
+      "seconds": 0.04604506189934909,
+      "seed": 333
+    },
+    {
+      "length": 72,
+      "method": "nonlinear",
+      "position": 2,
+      "round": 7,
+      "seconds": 0.03989805211313069,
+      "seed": 333
+    },
+    {
+      "length": 72,
+      "method": "pool",
+      "position": 3,
+      "round": 7,
+      "seconds": 0.03507729200646281,
+      "seed": 333
+    },
+    {
+      "length": 72,
+      "method": "attention",
+      "position": 0,
+      "round": 8,
+      "seconds": 0.04854075307957828,
+      "seed": 333
+    },
+    {
+      "length": 72,
+      "method": "nonlinear",
+      "position": 1,
+      "round": 8,
+      "seconds": 0.040073861135169864,
+      "seed": 333
+    },
+    {
+      "length": 72,
+      "method": "pool",
+      "position": 2,
+      "round": 8,
+      "seconds": 0.03622955083847046,
+      "seed": 333
+    },
+    {
+      "length": 72,
+      "method": "mlp",
+      "position": 3,
+      "round": 8,
+      "seconds": 0.036083339946344495,
+      "seed": 333
+    },
+    {
+      "length": 72,
+      "method": "nonlinear",
+      "position": 0,
+      "round": 9,
+      "seconds": 0.03690476296469569,
+      "seed": 333
+    },
+    {
+      "length": 72,
+      "method": "pool",
+      "position": 1,
+      "round": 9,
+      "seconds": 0.035055531188845634,
+      "seed": 333
+    },
+    {
+      "length": 72,
+      "method": "mlp",
+      "position": 2,
+      "round": 9,
+      "seconds": 0.038107761880382895,
+      "seed": 333
+    },
+    {
+      "length": 72,
+      "method": "attention",
+      "position": 3,
+      "round": 9,
+      "seconds": 0.045929922023788095,
+      "seed": 333
+    },
+    {
+      "length": 72,
+      "method": "pool",
+      "position": 0,
+      "round": 10,
+      "seconds": 0.03626255597919226,
+      "seed": 333
+    },
+    {
+      "length": 72,
+      "method": "mlp",
+      "position": 1,
+      "round": 10,
+      "seconds": 0.036254509119316936,
+      "seed": 333
+    },
+    {
+      "length": 72,
+      "method": "attention",
+      "position": 2,
+      "round": 10,
+      "seconds": 0.0445844610221684,
+      "seed": 333
+    },
+    {
+      "length": 72,
+      "method": "nonlinear",
+      "position": 3,
+      "round": 10,
+      "seconds": 0.037745894864201546,
+      "seed": 333
+    },
+    {
+      "length": 72,
+      "method": "mlp",
+      "position": 0,
+      "round": 11,
+      "seconds": 0.03863163501955569,
+      "seed": 333
+    },
+    {
+      "length": 72,
+      "method": "attention",
+      "position": 1,
+      "round": 11,
+      "seconds": 0.04801160702481866,
+      "seed": 333
+    },
+    {
+      "length": 72,
+      "method": "nonlinear",
+      "position": 2,
+      "round": 11,
+      "seconds": 0.03602845105342567,
+      "seed": 333
+    },
+    {
+      "length": 72,
+      "method": "pool",
+      "position": 3,
+      "round": 11,
+      "seconds": 0.035613039042800665,
+      "seed": 333
+    },
+    {
+      "length": 72,
+      "method": "attention",
+      "position": 0,
+      "round": 12,
+      "seconds": 0.045206962851807475,
+      "seed": 333
+    },
+    {
+      "length": 72,
+      "method": "nonlinear",
+      "position": 1,
+      "round": 12,
+      "seconds": 0.03692643507383764,
+      "seed": 333
+    },
+    {
+      "length": 72,
+      "method": "pool",
+      "position": 2,
+      "round": 12,
+      "seconds": 0.03772283298894763,
+      "seed": 333
+    },
+    {
+      "length": 72,
+      "method": "mlp",
+      "position": 3,
+      "round": 12,
+      "seconds": 0.0401293458417058,
+      "seed": 333
+    },
+    {
+      "length": 72,
+      "method": "nonlinear",
+      "position": 0,
+      "round": 13,
+      "seconds": 0.036099273012951016,
+      "seed": 333
+    },
+    {
+      "length": 72,
+      "method": "pool",
+      "position": 1,
+      "round": 13,
+      "seconds": 0.03688773303292692,
+      "seed": 333
+    },
+    {
+      "length": 72,
+      "method": "mlp",
+      "position": 2,
+      "round": 13,
+      "seconds": 0.03785180393606424,
+      "seed": 333
+    },
+    {
+      "length": 72,
+      "method": "attention",
+      "position": 3,
+      "round": 13,
+      "seconds": 0.04514207714237273,
+      "seed": 333
+    },
+    {
+      "length": 72,
+      "method": "pool",
+      "position": 0,
+      "round": 14,
+      "seconds": 0.03431166289374232,
+      "seed": 333
+    },
+    {
+      "length": 72,
+      "method": "mlp",
+      "position": 1,
+      "round": 14,
+      "seconds": 0.03625889588147402,
+      "seed": 333
+    },
+    {
+      "length": 72,
+      "method": "attention",
+      "position": 2,
+      "round": 14,
+      "seconds": 0.04525943798944354,
+      "seed": 333
+    },
+    {
+      "length": 72,
+      "method": "nonlinear",
+      "position": 3,
+      "round": 14,
+      "seconds": 0.03940502810291946,
+      "seed": 333
+    },
+    {
+      "length": 72,
+      "method": "mlp",
+      "position": 0,
+      "round": 15,
+      "seconds": 0.036339376121759415,
+      "seed": 333
+    },
+    {
+      "length": 72,
+      "method": "attention",
+      "position": 1,
+      "round": 15,
+      "seconds": 0.0444945280905813,
+      "seed": 333
+    },
+    {
+      "length": 72,
+      "method": "nonlinear",
+      "position": 2,
+      "round": 15,
+      "seconds": 0.037485291017219424,
+      "seed": 333
+    },
+    {
+      "length": 72,
+      "method": "pool",
+      "position": 3,
+      "round": 15,
+      "seconds": 0.039053716929629445,
+      "seed": 333
+    },
+    {
+      "length": 72,
+      "method": "attention",
+      "position": 0,
+      "round": 16,
+      "seconds": 0.0471601530443877,
+      "seed": 333
+    },
+    {
+      "length": 72,
+      "method": "nonlinear",
+      "position": 1,
+      "round": 16,
+      "seconds": 0.04107602313160896,
+      "seed": 333
+    },
+    {
+      "length": 72,
+      "method": "pool",
+      "position": 2,
+      "round": 16,
+      "seconds": 0.0367850880138576,
+      "seed": 333
+    },
+    {
+      "length": 72,
+      "method": "mlp",
+      "position": 3,
+      "round": 16,
+      "seconds": 0.037442967062816024,
+      "seed": 333
+    },
+    {
+      "length": 72,
+      "method": "nonlinear",
+      "position": 0,
+      "round": 17,
+      "seconds": 0.03974537621252239,
+      "seed": 333
+    },
+    {
+      "length": 72,
+      "method": "pool",
+      "position": 1,
+      "round": 17,
+      "seconds": 0.03849300602450967,
+      "seed": 333
+    },
+    {
+      "length": 72,
+      "method": "mlp",
+      "position": 2,
+      "round": 17,
+      "seconds": 0.0372552340850234,
+      "seed": 333
+    },
+    {
+      "length": 72,
+      "method": "attention",
+      "position": 3,
+      "round": 17,
+      "seconds": 0.0443139320705086,
+      "seed": 333
+    },
+    {
+      "length": 72,
+      "method": "pool",
+      "position": 0,
+      "round": 18,
+      "seconds": 0.036162043921649456,
+      "seed": 333
+    },
+    {
+      "length": 72,
+      "method": "mlp",
+      "position": 1,
+      "round": 18,
+      "seconds": 0.03644270799122751,
+      "seed": 333
+    },
+    {
+      "length": 72,
+      "method": "attention",
+      "position": 2,
+      "round": 18,
+      "seconds": 0.045104669872671366,
+      "seed": 333
+    },
+    {
+      "length": 72,
+      "method": "nonlinear",
+      "position": 3,
+      "round": 18,
+      "seconds": 0.03865002002567053,
+      "seed": 333
+    },
+    {
+      "length": 72,
+      "method": "mlp",
+      "position": 0,
+      "round": 19,
+      "seconds": 0.03825289406813681,
+      "seed": 333
+    },
+    {
+      "length": 72,
+      "method": "attention",
+      "position": 1,
+      "round": 19,
+      "seconds": 0.047348621068522334,
+      "seed": 333
+    },
+    {
+      "length": 72,
+      "method": "nonlinear",
+      "position": 2,
+      "round": 19,
+      "seconds": 0.03884990909136832,
+      "seed": 333
+    },
+    {
+      "length": 72,
+      "method": "pool",
+      "position": 3,
+      "round": 19,
+      "seconds": 0.03602474299259484,
+      "seed": 333
+    },
+    {
+      "length": 72,
+      "method": "attention",
+      "position": 0,
+      "round": 20,
+      "seconds": 0.04458255413919687,
+      "seed": 333
+    },
+    {
+      "length": 72,
+      "method": "nonlinear",
+      "position": 1,
+      "round": 20,
+      "seconds": 0.037739964900538325,
+      "seed": 333
+    },
+    {
+      "length": 72,
+      "method": "pool",
+      "position": 2,
+      "round": 20,
+      "seconds": 0.035809376975521445,
+      "seed": 333
+    },
+    {
+      "length": 72,
+      "method": "mlp",
+      "position": 3,
+      "round": 20,
+      "seconds": 0.03651381889358163,
+      "seed": 333
+    },
+    {
+      "length": 72,
+      "method": "nonlinear",
+      "position": 0,
+      "round": 21,
+      "seconds": 0.03619222482666373,
+      "seed": 333
+    },
+    {
+      "length": 72,
+      "method": "pool",
+      "position": 1,
+      "round": 21,
+      "seconds": 0.03558662603609264,
+      "seed": 333
+    },
+    {
+      "length": 72,
+      "method": "mlp",
+      "position": 2,
+      "round": 21,
+      "seconds": 0.03525555692613125,
+      "seed": 333
+    },
+    {
+      "length": 72,
+      "method": "attention",
+      "position": 3,
+      "round": 21,
+      "seconds": 0.04365435312502086,
+      "seed": 333
+    },
+    {
+      "length": 72,
+      "method": "pool",
+      "position": 0,
+      "round": 22,
+      "seconds": 0.03436214500106871,
+      "seed": 333
+    },
+    {
+      "length": 72,
+      "method": "mlp",
+      "position": 1,
+      "round": 22,
+      "seconds": 0.03567970194853842,
+      "seed": 333
+    },
+    {
+      "length": 72,
+      "method": "attention",
+      "position": 2,
+      "round": 22,
+      "seconds": 0.04610766493715346,
+      "seed": 333
+    },
+    {
+      "length": 72,
+      "method": "nonlinear",
+      "position": 3,
+      "round": 22,
+      "seconds": 0.03609668300487101,
+      "seed": 333
+    },
+    {
+      "length": 72,
+      "method": "mlp",
+      "position": 0,
+      "round": 23,
+      "seconds": 0.03298077383078635,
+      "seed": 333
+    },
+    {
+      "length": 72,
+      "method": "attention",
+      "position": 1,
+      "round": 23,
+      "seconds": 0.04471725784242153,
+      "seed": 333
+    },
+    {
+      "length": 72,
+      "method": "nonlinear",
+      "position": 2,
+      "round": 23,
+      "seconds": 0.03818665095604956,
+      "seed": 333
+    },
+    {
+      "length": 72,
+      "method": "pool",
+      "position": 3,
+      "round": 23,
+      "seconds": 0.03636947716586292,
+      "seed": 333
+    },
+    {
+      "length": 72,
+      "method": "attention",
+      "position": 0,
+      "round": 24,
+      "seconds": 0.04461889807134867,
+      "seed": 333
+    },
+    {
+      "length": 72,
+      "method": "nonlinear",
+      "position": 1,
+      "round": 24,
+      "seconds": 0.03717298712581396,
+      "seed": 333
+    },
+    {
+      "length": 72,
+      "method": "pool",
+      "position": 2,
+      "round": 24,
+      "seconds": 0.03609715704806149,
+      "seed": 333
+    },
+    {
+      "length": 72,
+      "method": "mlp",
+      "position": 3,
+      "round": 24,
+      "seconds": 0.03572337608784437,
+      "seed": 333
+    },
+    {
+      "length": 72,
+      "method": "nonlinear",
+      "position": 0,
+      "round": 25,
+      "seconds": 0.03955418989062309,
+      "seed": 333
+    },
+    {
+      "length": 72,
+      "method": "pool",
+      "position": 1,
+      "round": 25,
+      "seconds": 0.044473408022895455,
+      "seed": 333
+    },
+    {
+      "length": 72,
+      "method": "mlp",
+      "position": 2,
+      "round": 25,
+      "seconds": 0.03670689417049289,
+      "seed": 333
+    },
+    {
+      "length": 72,
+      "method": "attention",
+      "position": 3,
+      "round": 25,
+      "seconds": 0.04378664982505143,
+      "seed": 333
+    },
+    {
+      "length": 72,
+      "method": "pool",
+      "position": 0,
+      "round": 26,
+      "seconds": 0.03842996805906296,
+      "seed": 333
+    },
+    {
+      "length": 72,
+      "method": "mlp",
+      "position": 1,
+      "round": 26,
+      "seconds": 0.03451272984966636,
+      "seed": 333
+    },
+    {
+      "length": 72,
+      "method": "attention",
+      "position": 2,
+      "round": 26,
+      "seconds": 0.04542013700120151,
+      "seed": 333
+    },
+    {
+      "length": 72,
+      "method": "nonlinear",
+      "position": 3,
+      "round": 26,
+      "seconds": 0.04017300810664892,
+      "seed": 333
+    },
+    {
+      "length": 72,
+      "method": "mlp",
+      "position": 0,
+      "round": 27,
+      "seconds": 0.040971062844619155,
+      "seed": 333
+    },
+    {
+      "length": 72,
+      "method": "attention",
+      "position": 1,
+      "round": 27,
+      "seconds": 0.0446869139559567,
+      "seed": 333
+    },
+    {
+      "length": 72,
+      "method": "nonlinear",
+      "position": 2,
+      "round": 27,
+      "seconds": 0.044247010024264455,
+      "seed": 333
+    },
+    {
+      "length": 72,
+      "method": "pool",
+      "position": 3,
+      "round": 27,
+      "seconds": 0.040204890072345734,
+      "seed": 333
+    },
+    {
+      "length": 72,
+      "method": "attention",
+      "position": 0,
+      "round": 28,
+      "seconds": 0.050156783079728484,
+      "seed": 333
+    },
+    {
+      "length": 72,
+      "method": "nonlinear",
+      "position": 1,
+      "round": 28,
+      "seconds": 0.040926959831267595,
+      "seed": 333
+    },
+    {
+      "length": 72,
+      "method": "pool",
+      "position": 2,
+      "round": 28,
+      "seconds": 0.03926118998788297,
+      "seed": 333
+    },
+    {
+      "length": 72,
+      "method": "mlp",
+      "position": 3,
+      "round": 28,
+      "seconds": 0.03599937097169459,
+      "seed": 333
+    },
+    {
+      "length": 72,
+      "method": "nonlinear",
+      "position": 0,
+      "round": 29,
+      "seconds": 0.04169266205281019,
+      "seed": 333
+    },
+    {
+      "length": 72,
+      "method": "pool",
+      "position": 1,
+      "round": 29,
+      "seconds": 0.05391449807211757,
+      "seed": 333
+    },
+    {
+      "length": 72,
+      "method": "mlp",
+      "position": 2,
+      "round": 29,
+      "seconds": 0.03808759106323123,
+      "seed": 333
+    },
+    {
+      "length": 72,
+      "method": "attention",
+      "position": 3,
+      "round": 29,
+      "seconds": 0.04604233708232641,
+      "seed": 333
+    },
+    {
+      "length": 72,
+      "method": "pool",
+      "position": 0,
+      "round": 30,
+      "seconds": 0.04174030595459044,
+      "seed": 333
+    },
+    {
+      "length": 72,
+      "method": "mlp",
+      "position": 1,
+      "round": 30,
+      "seconds": 0.0376234850846231,
+      "seed": 333
+    },
+    {
+      "length": 72,
+      "method": "attention",
+      "position": 2,
+      "round": 30,
+      "seconds": 0.04948812699876726,
+      "seed": 333
+    },
+    {
+      "length": 72,
+      "method": "nonlinear",
+      "position": 3,
+      "round": 30,
+      "seconds": 0.03771719220094383,
+      "seed": 333
+    },
+    {
+      "length": 72,
+      "method": "mlp",
+      "position": 0,
+      "round": 31,
+      "seconds": 0.03405192983336747,
+      "seed": 333
+    },
+    {
+      "length": 72,
+      "method": "attention",
+      "position": 1,
+      "round": 31,
+      "seconds": 0.04371806187555194,
+      "seed": 333
+    },
+    {
+      "length": 72,
+      "method": "nonlinear",
+      "position": 2,
+      "round": 31,
+      "seconds": 0.03509696992114186,
+      "seed": 333
+    },
+    {
+      "length": 72,
+      "method": "pool",
+      "position": 3,
+      "round": 31,
+      "seconds": 0.03517418587580323,
+      "seed": 333
+    },
+    {
+      "length": 96,
+      "method": "pool",
+      "position": 0,
+      "round": 0,
+      "seconds": 0.061375688994303346,
+      "seed": 333
+    },
+    {
+      "length": 96,
+      "method": "nonlinear",
+      "position": 1,
+      "round": 0,
+      "seconds": 0.0617485570255667,
+      "seed": 333
+    },
+    {
+      "length": 96,
+      "method": "attention",
+      "position": 2,
+      "round": 0,
+      "seconds": 0.07232897798530757,
+      "seed": 333
+    },
+    {
+      "length": 96,
+      "method": "mlp",
+      "position": 3,
+      "round": 0,
+      "seconds": 0.059441003017127514,
+      "seed": 333
+    },
+    {
+      "length": 96,
+      "method": "nonlinear",
+      "position": 0,
+      "round": 1,
+      "seconds": 0.058999923057854176,
+      "seed": 333
+    },
+    {
+      "length": 96,
+      "method": "attention",
+      "position": 1,
+      "round": 1,
+      "seconds": 0.0706019380595535,
+      "seed": 333
+    },
+    {
+      "length": 96,
+      "method": "mlp",
+      "position": 2,
+      "round": 1,
+      "seconds": 0.05724545894190669,
+      "seed": 333
+    },
+    {
+      "length": 96,
+      "method": "pool",
+      "position": 3,
+      "round": 1,
+      "seconds": 0.054270541993901134,
+      "seed": 333
+    },
+    {
+      "length": 96,
+      "method": "attention",
+      "position": 0,
+      "round": 2,
+      "seconds": 0.06396863097324967,
+      "seed": 333
+    },
+    {
+      "length": 96,
+      "method": "mlp",
+      "position": 1,
+      "round": 2,
+      "seconds": 0.0543688430916518,
+      "seed": 333
+    },
+    {
+      "length": 96,
+      "method": "pool",
+      "position": 2,
+      "round": 2,
+      "seconds": 0.05464405985549092,
+      "seed": 333
+    },
+    {
+      "length": 96,
+      "method": "nonlinear",
+      "position": 3,
+      "round": 2,
+      "seconds": 0.05972724407911301,
+      "seed": 333
+    },
+    {
+      "length": 96,
+      "method": "mlp",
+      "position": 0,
+      "round": 3,
+      "seconds": 0.06508188392035663,
+      "seed": 333
+    },
+    {
+      "length": 96,
+      "method": "pool",
+      "position": 1,
+      "round": 3,
+      "seconds": 0.059142570942640305,
+      "seed": 333
+    },
+    {
+      "length": 96,
+      "method": "nonlinear",
+      "position": 2,
+      "round": 3,
+      "seconds": 0.06211191299371421,
+      "seed": 333
+    },
+    {
+      "length": 96,
+      "method": "attention",
+      "position": 3,
+      "round": 3,
+      "seconds": 0.07280790503136814,
+      "seed": 333
+    },
+    {
+      "length": 96,
+      "method": "pool",
+      "position": 0,
+      "round": 4,
+      "seconds": 0.06161675206385553,
+      "seed": 333
+    },
+    {
+      "length": 96,
+      "method": "nonlinear",
+      "position": 1,
+      "round": 4,
+      "seconds": 0.07035807403735816,
+      "seed": 333
+    },
+    {
+      "length": 96,
+      "method": "attention",
+      "position": 2,
+      "round": 4,
+      "seconds": 0.07270515616983175,
+      "seed": 333
+    },
+    {
+      "length": 96,
+      "method": "mlp",
+      "position": 3,
+      "round": 4,
+      "seconds": 0.05871425103396177,
+      "seed": 333
+    },
+    {
+      "length": 96,
+      "method": "nonlinear",
+      "position": 0,
+      "round": 5,
+      "seconds": 0.062004412058740854,
+      "seed": 333
+    },
+    {
+      "length": 96,
+      "method": "attention",
+      "position": 1,
+      "round": 5,
+      "seconds": 0.074492156971246,
+      "seed": 333
+    },
+    {
+      "length": 96,
+      "method": "mlp",
+      "position": 2,
+      "round": 5,
+      "seconds": 0.06742010801099241,
+      "seed": 333
+    },
+    {
+      "length": 96,
+      "method": "pool",
+      "position": 3,
+      "round": 5,
+      "seconds": 0.06061480287462473,
+      "seed": 333
+    },
+    {
+      "length": 96,
+      "method": "attention",
+      "position": 0,
+      "round": 6,
+      "seconds": 0.07228885893709958,
+      "seed": 333
+    },
+    {
+      "length": 96,
+      "method": "mlp",
+      "position": 1,
+      "round": 6,
+      "seconds": 0.05811593495309353,
+      "seed": 333
+    },
+    {
+      "length": 96,
+      "method": "pool",
+      "position": 2,
+      "round": 6,
+      "seconds": 0.06617931392975152,
+      "seed": 333
+    },
+    {
+      "length": 96,
+      "method": "nonlinear",
+      "position": 3,
+      "round": 6,
+      "seconds": 0.060878897085785866,
+      "seed": 333
+    },
+    {
+      "length": 96,
+      "method": "mlp",
+      "position": 0,
+      "round": 7,
+      "seconds": 0.06679080403409898,
+      "seed": 333
+    },
+    {
+      "length": 96,
+      "method": "pool",
+      "position": 1,
+      "round": 7,
+      "seconds": 0.06359927100129426,
+      "seed": 333
+    },
+    {
+      "length": 96,
+      "method": "nonlinear",
+      "position": 2,
+      "round": 7,
+      "seconds": 0.06435017217881978,
+      "seed": 333
+    },
+    {
+      "length": 96,
+      "method": "attention",
+      "position": 3,
+      "round": 7,
+      "seconds": 0.06831240886822343,
+      "seed": 333
+    },
+    {
+      "length": 96,
+      "method": "pool",
+      "position": 0,
+      "round": 8,
+      "seconds": 0.06501112808473408,
+      "seed": 333
+    },
+    {
+      "length": 96,
+      "method": "nonlinear",
+      "position": 1,
+      "round": 8,
+      "seconds": 0.0588396149687469,
+      "seed": 333
+    },
+    {
+      "length": 96,
+      "method": "attention",
+      "position": 2,
+      "round": 8,
+      "seconds": 0.07127097109332681,
+      "seed": 333
+    },
+    {
+      "length": 96,
+      "method": "mlp",
+      "position": 3,
+      "round": 8,
+      "seconds": 0.05758266896009445,
+      "seed": 333
+    },
+    {
+      "length": 96,
+      "method": "nonlinear",
+      "position": 0,
+      "round": 9,
+      "seconds": 0.06854540994390845,
+      "seed": 333
+    },
+    {
+      "length": 96,
+      "method": "attention",
+      "position": 1,
+      "round": 9,
+      "seconds": 0.0718668750487268,
+      "seed": 333
+    },
+    {
+      "length": 96,
+      "method": "mlp",
+      "position": 2,
+      "round": 9,
+      "seconds": 0.06252940814010799,
+      "seed": 333
+    },
+    {
+      "length": 96,
+      "method": "pool",
+      "position": 3,
+      "round": 9,
+      "seconds": 0.056066751945763826,
+      "seed": 333
+    },
+    {
+      "length": 96,
+      "method": "attention",
+      "position": 0,
+      "round": 10,
+      "seconds": 0.07229904318228364,
+      "seed": 333
+    },
+    {
+      "length": 96,
+      "method": "mlp",
+      "position": 1,
+      "round": 10,
+      "seconds": 0.06232557399198413,
+      "seed": 333
+    },
+    {
+      "length": 96,
+      "method": "pool",
+      "position": 2,
+      "round": 10,
+      "seconds": 0.05949025088921189,
+      "seed": 333
+    },
+    {
+      "length": 96,
+      "method": "nonlinear",
+      "position": 3,
+      "round": 10,
+      "seconds": 0.05883350293152034,
+      "seed": 333
+    },
+    {
+      "length": 96,
+      "method": "mlp",
+      "position": 0,
+      "round": 11,
+      "seconds": 0.05698115495033562,
+      "seed": 333
+    },
+    {
+      "length": 96,
+      "method": "pool",
+      "position": 1,
+      "round": 11,
+      "seconds": 0.05685368808917701,
+      "seed": 333
+    },
+    {
+      "length": 96,
+      "method": "nonlinear",
+      "position": 2,
+      "round": 11,
+      "seconds": 0.05693914880976081,
+      "seed": 333
+    },
+    {
+      "length": 96,
+      "method": "attention",
+      "position": 3,
+      "round": 11,
+      "seconds": 0.07251307601109147,
+      "seed": 333
+    },
+    {
+      "length": 96,
+      "method": "pool",
+      "position": 0,
+      "round": 12,
+      "seconds": 0.06317850109189749,
+      "seed": 333
+    },
+    {
+      "length": 96,
+      "method": "nonlinear",
+      "position": 1,
+      "round": 12,
+      "seconds": 0.06177027989178896,
+      "seed": 333
+    },
+    {
+      "length": 96,
+      "method": "attention",
+      "position": 2,
+      "round": 12,
+      "seconds": 0.07007186999544501,
+      "seed": 333
+    },
+    {
+      "length": 96,
+      "method": "mlp",
+      "position": 3,
+      "round": 12,
+      "seconds": 0.060510457027703524,
+      "seed": 333
+    },
+    {
+      "length": 96,
+      "method": "nonlinear",
+      "position": 0,
+      "round": 13,
+      "seconds": 0.06431276793591678,
+      "seed": 333
+    },
+    {
+      "length": 96,
+      "method": "attention",
+      "position": 1,
+      "round": 13,
+      "seconds": 0.06923942803405225,
+      "seed": 333
+    },
+    {
+      "length": 96,
+      "method": "mlp",
+      "position": 2,
+      "round": 13,
+      "seconds": 0.0591466911137104,
+      "seed": 333
+    },
+    {
+      "length": 96,
+      "method": "pool",
+      "position": 3,
+      "round": 13,
+      "seconds": 0.06443258188664913,
+      "seed": 333
+    },
+    {
+      "length": 96,
+      "method": "attention",
+      "position": 0,
+      "round": 14,
+      "seconds": 0.07394576678052545,
+      "seed": 333
+    },
+    {
+      "length": 96,
+      "method": "mlp",
+      "position": 1,
+      "round": 14,
+      "seconds": 0.06253125215880573,
+      "seed": 333
+    },
+    {
+      "length": 96,
+      "method": "pool",
+      "position": 2,
+      "round": 14,
+      "seconds": 0.05890346295200288,
+      "seed": 333
+    },
+    {
+      "length": 96,
+      "method": "nonlinear",
+      "position": 3,
+      "round": 14,
+      "seconds": 0.058024375000968575,
+      "seed": 333
+    },
+    {
+      "length": 96,
+      "method": "mlp",
+      "position": 0,
+      "round": 15,
+      "seconds": 0.05690742004662752,
+      "seed": 333
+    },
+    {
+      "length": 96,
+      "method": "pool",
+      "position": 1,
+      "round": 15,
+      "seconds": 0.05961417290382087,
+      "seed": 333
+    },
+    {
+      "length": 96,
+      "method": "nonlinear",
+      "position": 2,
+      "round": 15,
+      "seconds": 0.063704296015203,
+      "seed": 333
+    },
+    {
+      "length": 96,
+      "method": "attention",
+      "position": 3,
+      "round": 15,
+      "seconds": 0.06908596097491682,
+      "seed": 333
+    },
+    {
+      "length": 96,
+      "method": "pool",
+      "position": 0,
+      "round": 16,
+      "seconds": 0.0603535461705178,
+      "seed": 333
+    },
+    {
+      "length": 96,
+      "method": "nonlinear",
+      "position": 1,
+      "round": 16,
+      "seconds": 0.05826197285205126,
+      "seed": 333
+    },
+    {
+      "length": 96,
+      "method": "attention",
+      "position": 2,
+      "round": 16,
+      "seconds": 0.07024793978780508,
+      "seed": 333
+    },
+    {
+      "length": 96,
+      "method": "mlp",
+      "position": 3,
+      "round": 16,
+      "seconds": 0.05519761284813285,
+      "seed": 333
+    },
+    {
+      "length": 96,
+      "method": "nonlinear",
+      "position": 0,
+      "round": 17,
+      "seconds": 0.06451685796491802,
+      "seed": 333
+    },
+    {
+      "length": 96,
+      "method": "attention",
+      "position": 1,
+      "round": 17,
+      "seconds": 0.07449995307251811,
+      "seed": 333
+    },
+    {
+      "length": 96,
+      "method": "mlp",
+      "position": 2,
+      "round": 17,
+      "seconds": 0.061802425887435675,
+      "seed": 333
+    },
+    {
+      "length": 96,
+      "method": "pool",
+      "position": 3,
+      "round": 17,
+      "seconds": 0.0631339568644762,
+      "seed": 333
+    },
+    {
+      "length": 96,
+      "method": "attention",
+      "position": 0,
+      "round": 18,
+      "seconds": 0.07517682807520032,
+      "seed": 333
+    },
+    {
+      "length": 96,
+      "method": "mlp",
+      "position": 1,
+      "round": 18,
+      "seconds": 0.0624960558488965,
+      "seed": 333
+    },
+    {
+      "length": 96,
+      "method": "pool",
+      "position": 2,
+      "round": 18,
+      "seconds": 0.0634150868281722,
+      "seed": 333
+    },
+    {
+      "length": 96,
+      "method": "nonlinear",
+      "position": 3,
+      "round": 18,
+      "seconds": 0.06439734506420791,
+      "seed": 333
+    },
+    {
+      "length": 96,
+      "method": "mlp",
+      "position": 0,
+      "round": 19,
+      "seconds": 0.05788272200152278,
+      "seed": 333
+    },
+    {
+      "length": 96,
+      "method": "pool",
+      "position": 1,
+      "round": 19,
+      "seconds": 0.0604554561432451,
+      "seed": 333
+    },
+    {
+      "length": 96,
+      "method": "nonlinear",
+      "position": 2,
+      "round": 19,
+      "seconds": 0.06474553607404232,
+      "seed": 333
+    },
+    {
+      "length": 96,
+      "method": "attention",
+      "position": 3,
+      "round": 19,
+      "seconds": 0.07060261210426688,
+      "seed": 333
+    },
+    {
+      "length": 96,
+      "method": "pool",
+      "position": 0,
+      "round": 20,
+      "seconds": 0.05773317301645875,
+      "seed": 333
+    },
+    {
+      "length": 96,
+      "method": "nonlinear",
+      "position": 1,
+      "round": 20,
+      "seconds": 0.05797156714834273,
+      "seed": 333
+    },
+    {
+      "length": 96,
+      "method": "attention",
+      "position": 2,
+      "round": 20,
+      "seconds": 0.06839898298494518,
+      "seed": 333
+    },
+    {
+      "length": 96,
+      "method": "mlp",
+      "position": 3,
+      "round": 20,
+      "seconds": 0.05988404504023492,
+      "seed": 333
+    },
+    {
+      "length": 96,
+      "method": "nonlinear",
+      "position": 0,
+      "round": 21,
+      "seconds": 0.06090720393694937,
+      "seed": 333
+    },
+    {
+      "length": 96,
+      "method": "attention",
+      "position": 1,
+      "round": 21,
+      "seconds": 0.06861923611722887,
+      "seed": 333
+    },
+    {
+      "length": 96,
+      "method": "mlp",
+      "position": 2,
+      "round": 21,
+      "seconds": 0.06437767716124654,
+      "seed": 333
+    },
+    {
+      "length": 96,
+      "method": "pool",
+      "position": 3,
+      "round": 21,
+      "seconds": 0.06146881799213588,
+      "seed": 333
+    },
+    {
+      "length": 96,
+      "method": "attention",
+      "position": 0,
+      "round": 22,
+      "seconds": 0.06871808599680662,
+      "seed": 333
+    },
+    {
+      "length": 96,
+      "method": "mlp",
+      "position": 1,
+      "round": 22,
+      "seconds": 0.056878495030105114,
+      "seed": 333
+    },
+    {
+      "length": 96,
+      "method": "pool",
+      "position": 2,
+      "round": 22,
+      "seconds": 0.05766986799426377,
+      "seed": 333
+    },
+    {
+      "length": 96,
+      "method": "nonlinear",
+      "position": 3,
+      "round": 22,
+      "seconds": 0.05873400601558387,
+      "seed": 333
+    },
+    {
+      "length": 96,
+      "method": "mlp",
+      "position": 0,
+      "round": 23,
+      "seconds": 0.056928321020677686,
+      "seed": 333
+    },
+    {
+      "length": 96,
+      "method": "pool",
+      "position": 1,
+      "round": 23,
+      "seconds": 0.05968373501673341,
+      "seed": 333
+    },
+    {
+      "length": 96,
+      "method": "nonlinear",
+      "position": 2,
+      "round": 23,
+      "seconds": 0.060932927997782826,
+      "seed": 333
+    },
+    {
+      "length": 96,
+      "method": "attention",
+      "position": 3,
+      "round": 23,
+      "seconds": 0.06776905781589448,
+      "seed": 333
+    },
+    {
+      "length": 96,
+      "method": "pool",
+      "position": 0,
+      "round": 24,
+      "seconds": 0.05923567386344075,
+      "seed": 333
+    },
+    {
+      "length": 96,
+      "method": "nonlinear",
+      "position": 1,
+      "round": 24,
+      "seconds": 0.05866830796003342,
+      "seed": 333
+    },
+    {
+      "length": 96,
+      "method": "attention",
+      "position": 2,
+      "round": 24,
+      "seconds": 0.06785840704105794,
+      "seed": 333
+    },
+    {
+      "length": 96,
+      "method": "mlp",
+      "position": 3,
+      "round": 24,
+      "seconds": 0.05966193485073745,
+      "seed": 333
+    },
+    {
+      "length": 96,
+      "method": "nonlinear",
+      "position": 0,
+      "round": 25,
+      "seconds": 0.0599363399669528,
+      "seed": 333
+    },
+    {
+      "length": 96,
+      "method": "attention",
+      "position": 1,
+      "round": 25,
+      "seconds": 0.0745422791223973,
+      "seed": 333
+    },
+    {
+      "length": 96,
+      "method": "mlp",
+      "position": 2,
+      "round": 25,
+      "seconds": 0.06070087291300297,
+      "seed": 333
+    },
+    {
+      "length": 96,
+      "method": "pool",
+      "position": 3,
+      "round": 25,
+      "seconds": 0.052800817880779505,
+      "seed": 333
+    },
+    {
+      "length": 96,
+      "method": "attention",
+      "position": 0,
+      "round": 26,
+      "seconds": 0.0681121158413589,
+      "seed": 333
+    },
+    {
+      "length": 96,
+      "method": "mlp",
+      "position": 1,
+      "round": 26,
+      "seconds": 0.058664425974711776,
+      "seed": 333
+    },
+    {
+      "length": 96,
+      "method": "pool",
+      "position": 2,
+      "round": 26,
+      "seconds": 0.057463201927021146,
+      "seed": 333
+    },
+    {
+      "length": 96,
+      "method": "nonlinear",
+      "position": 3,
+      "round": 26,
+      "seconds": 0.059515997068956494,
+      "seed": 333
+    },
+    {
+      "length": 96,
+      "method": "mlp",
+      "position": 0,
+      "round": 27,
+      "seconds": 0.05981694511137903,
+      "seed": 333
+    },
+    {
+      "length": 96,
+      "method": "pool",
+      "position": 1,
+      "round": 27,
+      "seconds": 0.05877404985949397,
+      "seed": 333
+    },
+    {
+      "length": 96,
+      "method": "nonlinear",
+      "position": 2,
+      "round": 27,
+      "seconds": 0.06517257518135011,
+      "seed": 333
+    },
+    {
+      "length": 96,
+      "method": "attention",
+      "position": 3,
+      "round": 27,
+      "seconds": 0.07179879094474018,
+      "seed": 333
+    },
+    {
+      "length": 96,
+      "method": "pool",
+      "position": 0,
+      "round": 28,
+      "seconds": 0.06163382017984986,
+      "seed": 333
+    },
+    {
+      "length": 96,
+      "method": "nonlinear",
+      "position": 1,
+      "round": 28,
+      "seconds": 0.05954568600282073,
+      "seed": 333
+    },
+    {
+      "length": 96,
+      "method": "attention",
+      "position": 2,
+      "round": 28,
+      "seconds": 0.070776297012344,
+      "seed": 333
+    },
+    {
+      "length": 96,
+      "method": "mlp",
+      "position": 3,
+      "round": 28,
+      "seconds": 0.05969131691381335,
+      "seed": 333
+    },
+    {
+      "length": 96,
+      "method": "nonlinear",
+      "position": 0,
+      "round": 29,
+      "seconds": 0.06091170711442828,
+      "seed": 333
+    },
+    {
+      "length": 96,
+      "method": "attention",
+      "position": 1,
+      "round": 29,
+      "seconds": 0.0701989340595901,
+      "seed": 333
+    },
+    {
+      "length": 96,
+      "method": "mlp",
+      "position": 2,
+      "round": 29,
+      "seconds": 0.0561065380461514,
+      "seed": 333
+    },
+    {
+      "length": 96,
+      "method": "pool",
+      "position": 3,
+      "round": 29,
+      "seconds": 0.06374057289212942,
+      "seed": 333
+    },
+    {
+      "length": 96,
+      "method": "attention",
+      "position": 0,
+      "round": 30,
+      "seconds": 0.0692010628990829,
+      "seed": 333
+    },
+    {
+      "length": 96,
+      "method": "mlp",
+      "position": 1,
+      "round": 30,
+      "seconds": 0.057023751083761454,
+      "seed": 333
+    },
+    {
+      "length": 96,
+      "method": "pool",
+      "position": 2,
+      "round": 30,
+      "seconds": 0.06198952300474048,
+      "seed": 333
+    },
+    {
+      "length": 96,
+      "method": "nonlinear",
+      "position": 3,
+      "round": 30,
+      "seconds": 0.059282791102305055,
+      "seed": 333
+    },
+    {
+      "length": 96,
+      "method": "mlp",
+      "position": 0,
+      "round": 31,
+      "seconds": 0.06233004783280194,
+      "seed": 333
+    },
+    {
+      "length": 96,
+      "method": "pool",
+      "position": 1,
+      "round": 31,
+      "seconds": 0.05998816713690758,
+      "seed": 333
+    },
+    {
+      "length": 96,
+      "method": "nonlinear",
+      "position": 2,
+      "round": 31,
+      "seconds": 0.059049936942756176,
+      "seed": 333
+    },
+    {
+      "length": 96,
+      "method": "attention",
+      "position": 3,
+      "round": 31,
+      "seconds": 0.07483759196475148,
+      "seed": 333
+    }
+  ],
+  "rounds": 32,
+  "warmup": 5
+}

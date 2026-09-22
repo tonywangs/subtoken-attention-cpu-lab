@@ -1,0 +1,1178 @@
+[
+  {
+    "checkpoint_sha256": "37c565771ddf86a0e32ee1604b43dd0370074f8d436153089460390d4c4c8fd1",
+    "initial_shared_sha256": "90037155fb48e2c2fd035087af9fddcca90e495b88e96f6329fcc861aa7ffe99",
+    "method": "mlp",
+    "parameters": 16827,
+    "seed": 111,
+    "test": {
+      "test48": {
+        "accuracy": 1.0,
+        "by_distance": {
+          "1-16": {
+            "accuracy": 1.0,
+            "correct": 650,
+            "count": 650
+          },
+          "17-32": {
+            "accuracy": 1.0,
+            "correct": 903,
+            "count": 903
+          },
+          "33-64": {
+            "accuracy": 1.0,
+            "correct": 495,
+            "count": 495
+          },
+          "65-128": {
+            "accuracy": null,
+            "correct": 0,
+            "count": 0
+          }
+        },
+        "exact_match": 1.0,
+        "loss": 0.0009516059726593085,
+        "queries": 2048,
+        "sequences": 512
+      },
+      "test72": {
+        "accuracy": 0.99658203125,
+        "by_distance": {
+          "1-16": {
+            "accuracy": 1.0,
+            "correct": 349,
+            "count": 349
+          },
+          "17-32": {
+            "accuracy": 1.0,
+            "correct": 552,
+            "count": 552
+          },
+          "33-64": {
+            "accuracy": 0.9953789279112755,
+            "correct": 1077,
+            "count": 1082
+          },
+          "65-128": {
+            "accuracy": 0.9692307692307692,
+            "correct": 63,
+            "count": 65
+          }
+        },
+        "exact_match": 0.986328125,
+        "loss": 0.01008878271386493,
+        "queries": 2048,
+        "sequences": 512
+      },
+      "test96": {
+        "accuracy": 0.99658203125,
+        "by_distance": {
+          "1-16": {
+            "accuracy": 1.0,
+            "correct": 275,
+            "count": 275
+          },
+          "17-32": {
+            "accuracy": 1.0,
+            "correct": 384,
+            "count": 384
+          },
+          "33-64": {
+            "accuracy": 0.9986876640419947,
+            "correct": 761,
+            "count": 762
+          },
+          "65-128": {
+            "accuracy": 0.9904306220095693,
+            "correct": 621,
+            "count": 627
+          }
+        },
+        "exact_match": 0.986328125,
+        "loss": 0.012418302532751113,
+        "queries": 2048,
+        "sequences": 512
+      }
+    },
+    "training_order_sha256": "f59962747c8b8a5e048507f8fc8fc3c4b39f6618c10ce67377c0cc33244fc37a",
+    "training_seconds": 53.08736055903137
+  },
+  {
+    "checkpoint_sha256": "55b54c5ea5e6f89dcd335dec048cab457a0d7507f17b8de7bde6841b6029b9eb",
+    "initial_shared_sha256": "90037155fb48e2c2fd035087af9fddcca90e495b88e96f6329fcc861aa7ffe99",
+    "method": "pool",
+    "parameters": 16745,
+    "seed": 111,
+    "test": {
+      "test48": {
+        "accuracy": 1.0,
+        "by_distance": {
+          "1-16": {
+            "accuracy": 1.0,
+            "correct": 650,
+            "count": 650
+          },
+          "17-32": {
+            "accuracy": 1.0,
+            "correct": 903,
+            "count": 903
+          },
+          "33-64": {
+            "accuracy": 1.0,
+            "correct": 495,
+            "count": 495
+          },
+          "65-128": {
+            "accuracy": null,
+            "correct": 0,
+            "count": 0
+          }
+        },
+        "exact_match": 1.0,
+        "loss": 0.0024083579337457195,
+        "queries": 2048,
+        "sequences": 512
+      },
+      "test72": {
+        "accuracy": 0.998046875,
+        "by_distance": {
+          "1-16": {
+            "accuracy": 1.0,
+            "correct": 349,
+            "count": 349
+          },
+          "17-32": {
+            "accuracy": 1.0,
+            "correct": 552,
+            "count": 552
+          },
+          "33-64": {
+            "accuracy": 0.9981515711645101,
+            "correct": 1080,
+            "count": 1082
+          },
+          "65-128": {
+            "accuracy": 0.9692307692307692,
+            "correct": 63,
+            "count": 65
+          }
+        },
+        "exact_match": 0.9921875,
+        "loss": 0.010268634068779647,
+        "queries": 2048,
+        "sequences": 512
+      },
+      "test96": {
+        "accuracy": 0.98974609375,
+        "by_distance": {
+          "1-16": {
+            "accuracy": 1.0,
+            "correct": 275,
+            "count": 275
+          },
+          "17-32": {
+            "accuracy": 1.0,
+            "correct": 384,
+            "count": 384
+          },
+          "33-64": {
+            "accuracy": 1.0,
+            "correct": 762,
+            "count": 762
+          },
+          "65-128": {
+            "accuracy": 0.9665071770334929,
+            "correct": 606,
+            "count": 627
+          }
+        },
+        "exact_match": 0.958984375,
+        "loss": 0.04151046788319945,
+        "queries": 2048,
+        "sequences": 512
+      }
+    },
+    "training_order_sha256": "f59962747c8b8a5e048507f8fc8fc3c4b39f6618c10ce67377c0cc33244fc37a",
+    "training_seconds": 53.15169242583215
+  },
+  {
+    "checkpoint_sha256": "91f5946dca052da9b5f287d79cd0bc7e1efe633b01eb4130ef0cacd02a8abb39",
+    "initial_shared_sha256": "90037155fb48e2c2fd035087af9fddcca90e495b88e96f6329fcc861aa7ffe99",
+    "method": "nonlinear",
+    "parameters": 16745,
+    "seed": 111,
+    "test": {
+      "test48": {
+        "accuracy": 1.0,
+        "by_distance": {
+          "1-16": {
+            "accuracy": 1.0,
+            "correct": 650,
+            "count": 650
+          },
+          "17-32": {
+            "accuracy": 1.0,
+            "correct": 903,
+            "count": 903
+          },
+          "33-64": {
+            "accuracy": 1.0,
+            "correct": 495,
+            "count": 495
+          },
+          "65-128": {
+            "accuracy": null,
+            "correct": 0,
+            "count": 0
+          }
+        },
+        "exact_match": 1.0,
+        "loss": 0.0018888484628405422,
+        "queries": 2048,
+        "sequences": 512
+      },
+      "test72": {
+        "accuracy": 0.9990234375,
+        "by_distance": {
+          "1-16": {
+            "accuracy": 1.0,
+            "correct": 349,
+            "count": 349
+          },
+          "17-32": {
+            "accuracy": 1.0,
+            "correct": 552,
+            "count": 552
+          },
+          "33-64": {
+            "accuracy": 0.9981515711645101,
+            "correct": 1080,
+            "count": 1082
+          },
+          "65-128": {
+            "accuracy": 1.0,
+            "correct": 65,
+            "count": 65
+          }
+        },
+        "exact_match": 0.99609375,
+        "loss": 0.006300938839558512,
+        "queries": 2048,
+        "sequences": 512
+      },
+      "test96": {
+        "accuracy": 0.99560546875,
+        "by_distance": {
+          "1-16": {
+            "accuracy": 1.0,
+            "correct": 275,
+            "count": 275
+          },
+          "17-32": {
+            "accuracy": 1.0,
+            "correct": 384,
+            "count": 384
+          },
+          "33-64": {
+            "accuracy": 0.9960629921259843,
+            "correct": 759,
+            "count": 762
+          },
+          "65-128": {
+            "accuracy": 0.9904306220095693,
+            "correct": 621,
+            "count": 627
+          }
+        },
+        "exact_match": 0.982421875,
+        "loss": 0.015063172555528581,
+        "queries": 2048,
+        "sequences": 512
+      }
+    },
+    "training_order_sha256": "f59962747c8b8a5e048507f8fc8fc3c4b39f6618c10ce67377c0cc33244fc37a",
+    "training_seconds": 55.95810455386527
+  },
+  {
+    "checkpoint_sha256": "235d898448df74b4b2f62055bafcea9494aed74bf45967ed54b25c53420e4466",
+    "initial_shared_sha256": "90037155fb48e2c2fd035087af9fddcca90e495b88e96f6329fcc861aa7ffe99",
+    "method": "attention",
+    "parameters": 16745,
+    "seed": 111,
+    "test": {
+      "test48": {
+        "accuracy": 1.0,
+        "by_distance": {
+          "1-16": {
+            "accuracy": 1.0,
+            "correct": 650,
+            "count": 650
+          },
+          "17-32": {
+            "accuracy": 1.0,
+            "correct": 903,
+            "count": 903
+          },
+          "33-64": {
+            "accuracy": 1.0,
+            "correct": 495,
+            "count": 495
+          },
+          "65-128": {
+            "accuracy": null,
+            "correct": 0,
+            "count": 0
+          }
+        },
+        "exact_match": 1.0,
+        "loss": 0.0012477745185606182,
+        "queries": 2048,
+        "sequences": 512
+      },
+      "test72": {
+        "accuracy": 0.99951171875,
+        "by_distance": {
+          "1-16": {
+            "accuracy": 1.0,
+            "correct": 349,
+            "count": 349
+          },
+          "17-32": {
+            "accuracy": 1.0,
+            "correct": 552,
+            "count": 552
+          },
+          "33-64": {
+            "accuracy": 0.9990757855822551,
+            "correct": 1081,
+            "count": 1082
+          },
+          "65-128": {
+            "accuracy": 1.0,
+            "correct": 65,
+            "count": 65
+          }
+        },
+        "exact_match": 0.998046875,
+        "loss": 0.0029090827447362244,
+        "queries": 2048,
+        "sequences": 512
+      },
+      "test96": {
+        "accuracy": 0.9892578125,
+        "by_distance": {
+          "1-16": {
+            "accuracy": 1.0,
+            "correct": 275,
+            "count": 275
+          },
+          "17-32": {
+            "accuracy": 1.0,
+            "correct": 384,
+            "count": 384
+          },
+          "33-64": {
+            "accuracy": 1.0,
+            "correct": 762,
+            "count": 762
+          },
+          "65-128": {
+            "accuracy": 0.9649122807017544,
+            "correct": 605,
+            "count": 627
+          }
+        },
+        "exact_match": 0.95703125,
+        "loss": 0.040424533654004335,
+        "queries": 2048,
+        "sequences": 512
+      }
+    },
+    "training_order_sha256": "f59962747c8b8a5e048507f8fc8fc3c4b39f6618c10ce67377c0cc33244fc37a",
+    "training_seconds": 78.08657374884933
+  },
+  {
+    "checkpoint_sha256": "eb21f7bbb399127557d6eeda808869e5c7243f1b78994ddc08d5f4719760f8c7",
+    "initial_shared_sha256": "edf28ca26e08b055ed2e664cbc1f4a842e57c33f95fdff5cac012e75e2431af0",
+    "method": "pool",
+    "parameters": 16745,
+    "seed": 222,
+    "test": {
+      "test48": {
+        "accuracy": 1.0,
+        "by_distance": {
+          "1-16": {
+            "accuracy": 1.0,
+            "correct": 632,
+            "count": 632
+          },
+          "17-32": {
+            "accuracy": 1.0,
+            "correct": 882,
+            "count": 882
+          },
+          "33-64": {
+            "accuracy": 1.0,
+            "correct": 534,
+            "count": 534
+          },
+          "65-128": {
+            "accuracy": null,
+            "correct": 0,
+            "count": 0
+          }
+        },
+        "exact_match": 1.0,
+        "loss": 0.0011626098566921428,
+        "queries": 2048,
+        "sequences": 512
+      },
+      "test72": {
+        "accuracy": 0.99951171875,
+        "by_distance": {
+          "1-16": {
+            "accuracy": 1.0,
+            "correct": 379,
+            "count": 379
+          },
+          "17-32": {
+            "accuracy": 1.0,
+            "correct": 518,
+            "count": 518
+          },
+          "33-64": {
+            "accuracy": 0.9990671641791045,
+            "correct": 1071,
+            "count": 1072
+          },
+          "65-128": {
+            "accuracy": 1.0,
+            "correct": 79,
+            "count": 79
+          }
+        },
+        "exact_match": 0.998046875,
+        "loss": 0.0029232069064164534,
+        "queries": 2048,
+        "sequences": 512
+      },
+      "test96": {
+        "accuracy": 0.9990234375,
+        "by_distance": {
+          "1-16": {
+            "accuracy": 1.0,
+            "correct": 284,
+            "count": 284
+          },
+          "17-32": {
+            "accuracy": 1.0,
+            "correct": 374,
+            "count": 374
+          },
+          "33-64": {
+            "accuracy": 0.99875,
+            "correct": 799,
+            "count": 800
+          },
+          "65-128": {
+            "accuracy": 0.9983050847457627,
+            "correct": 589,
+            "count": 590
+          }
+        },
+        "exact_match": 0.99609375,
+        "loss": 0.005863319063792005,
+        "queries": 2048,
+        "sequences": 512
+      }
+    },
+    "training_order_sha256": "d5e54a1e1c7911e787a7c99917718253697c921247cbbab95a76524421c339bc",
+    "training_seconds": 54.40538504393771
+  },
+  {
+    "checkpoint_sha256": "926e84e7c1354c9eacf87495d49bf1b2cc076d6913749eaab2195e04d57d1b34",
+    "initial_shared_sha256": "edf28ca26e08b055ed2e664cbc1f4a842e57c33f95fdff5cac012e75e2431af0",
+    "method": "nonlinear",
+    "parameters": 16745,
+    "seed": 222,
+    "test": {
+      "test48": {
+        "accuracy": 1.0,
+        "by_distance": {
+          "1-16": {
+            "accuracy": 1.0,
+            "correct": 632,
+            "count": 632
+          },
+          "17-32": {
+            "accuracy": 1.0,
+            "correct": 882,
+            "count": 882
+          },
+          "33-64": {
+            "accuracy": 1.0,
+            "correct": 534,
+            "count": 534
+          },
+          "65-128": {
+            "accuracy": null,
+            "correct": 0,
+            "count": 0
+          }
+        },
+        "exact_match": 1.0,
+        "loss": 0.0010147070352104492,
+        "queries": 2048,
+        "sequences": 512
+      },
+      "test72": {
+        "accuracy": 1.0,
+        "by_distance": {
+          "1-16": {
+            "accuracy": 1.0,
+            "correct": 379,
+            "count": 379
+          },
+          "17-32": {
+            "accuracy": 1.0,
+            "correct": 518,
+            "count": 518
+          },
+          "33-64": {
+            "accuracy": 1.0,
+            "correct": 1072,
+            "count": 1072
+          },
+          "65-128": {
+            "accuracy": 1.0,
+            "correct": 79,
+            "count": 79
+          }
+        },
+        "exact_match": 1.0,
+        "loss": 0.0015706322446931154,
+        "queries": 2048,
+        "sequences": 512
+      },
+      "test96": {
+        "accuracy": 0.9990234375,
+        "by_distance": {
+          "1-16": {
+            "accuracy": 1.0,
+            "correct": 284,
+            "count": 284
+          },
+          "17-32": {
+            "accuracy": 1.0,
+            "correct": 374,
+            "count": 374
+          },
+          "33-64": {
+            "accuracy": 0.99875,
+            "correct": 799,
+            "count": 800
+          },
+          "65-128": {
+            "accuracy": 0.9983050847457627,
+            "correct": 589,
+            "count": 590
+          }
+        },
+        "exact_match": 0.99609375,
+        "loss": 0.0028787372139049694,
+        "queries": 2048,
+        "sequences": 512
+      }
+    },
+    "training_order_sha256": "d5e54a1e1c7911e787a7c99917718253697c921247cbbab95a76524421c339bc",
+    "training_seconds": 55.83091281494126
+  },
+  {
+    "checkpoint_sha256": "2567407e81ef802e515eed699c53fead0ac8ef981bf4bbccd38170c11d463e98",
+    "initial_shared_sha256": "edf28ca26e08b055ed2e664cbc1f4a842e57c33f95fdff5cac012e75e2431af0",
+    "method": "attention",
+    "parameters": 16745,
+    "seed": 222,
+    "test": {
+      "test48": {
+        "accuracy": 1.0,
+        "by_distance": {
+          "1-16": {
+            "accuracy": 1.0,
+            "correct": 632,
+            "count": 632
+          },
+          "17-32": {
+            "accuracy": 1.0,
+            "correct": 882,
+            "count": 882
+          },
+          "33-64": {
+            "accuracy": 1.0,
+            "correct": 534,
+            "count": 534
+          },
+          "65-128": {
+            "accuracy": null,
+            "correct": 0,
+            "count": 0
+          }
+        },
+        "exact_match": 1.0,
+        "loss": 0.0011830220610136166,
+        "queries": 2048,
+        "sequences": 512
+      },
+      "test72": {
+        "accuracy": 0.99853515625,
+        "by_distance": {
+          "1-16": {
+            "accuracy": 1.0,
+            "correct": 379,
+            "count": 379
+          },
+          "17-32": {
+            "accuracy": 1.0,
+            "correct": 518,
+            "count": 518
+          },
+          "33-64": {
+            "accuracy": 0.9972014925373134,
+            "correct": 1069,
+            "count": 1072
+          },
+          "65-128": {
+            "accuracy": 1.0,
+            "correct": 79,
+            "count": 79
+          }
+        },
+        "exact_match": 0.994140625,
+        "loss": 0.006532683124532923,
+        "queries": 2048,
+        "sequences": 512
+      },
+      "test96": {
+        "accuracy": 0.99951171875,
+        "by_distance": {
+          "1-16": {
+            "accuracy": 1.0,
+            "correct": 284,
+            "count": 284
+          },
+          "17-32": {
+            "accuracy": 1.0,
+            "correct": 374,
+            "count": 374
+          },
+          "33-64": {
+            "accuracy": 0.99875,
+            "correct": 799,
+            "count": 800
+          },
+          "65-128": {
+            "accuracy": 1.0,
+            "correct": 590,
+            "count": 590
+          }
+        },
+        "exact_match": 0.998046875,
+        "loss": 0.004151054410613142,
+        "queries": 2048,
+        "sequences": 512
+      }
+    },
+    "training_order_sha256": "d5e54a1e1c7911e787a7c99917718253697c921247cbbab95a76524421c339bc",
+    "training_seconds": 74.0190446630586
+  },
+  {
+    "checkpoint_sha256": "1fd1f2c20462b7c18246120d4f902d058e788bd86ffa33a51062c2ab78b20358",
+    "initial_shared_sha256": "edf28ca26e08b055ed2e664cbc1f4a842e57c33f95fdff5cac012e75e2431af0",
+    "method": "mlp",
+    "parameters": 16827,
+    "seed": 222,
+    "test": {
+      "test48": {
+        "accuracy": 1.0,
+        "by_distance": {
+          "1-16": {
+            "accuracy": 1.0,
+            "correct": 632,
+            "count": 632
+          },
+          "17-32": {
+            "accuracy": 1.0,
+            "correct": 882,
+            "count": 882
+          },
+          "33-64": {
+            "accuracy": 1.0,
+            "correct": 534,
+            "count": 534
+          },
+          "65-128": {
+            "accuracy": null,
+            "correct": 0,
+            "count": 0
+          }
+        },
+        "exact_match": 1.0,
+        "loss": 0.0010013556384365074,
+        "queries": 2048,
+        "sequences": 512
+      },
+      "test72": {
+        "accuracy": 1.0,
+        "by_distance": {
+          "1-16": {
+            "accuracy": 1.0,
+            "correct": 379,
+            "count": 379
+          },
+          "17-32": {
+            "accuracy": 1.0,
+            "correct": 518,
+            "count": 518
+          },
+          "33-64": {
+            "accuracy": 1.0,
+            "correct": 1072,
+            "count": 1072
+          },
+          "65-128": {
+            "accuracy": 1.0,
+            "correct": 79,
+            "count": 79
+          }
+        },
+        "exact_match": 1.0,
+        "loss": 0.0012283482938073575,
+        "queries": 2048,
+        "sequences": 512
+      },
+      "test96": {
+        "accuracy": 0.99951171875,
+        "by_distance": {
+          "1-16": {
+            "accuracy": 1.0,
+            "correct": 284,
+            "count": 284
+          },
+          "17-32": {
+            "accuracy": 1.0,
+            "correct": 374,
+            "count": 374
+          },
+          "33-64": {
+            "accuracy": 0.99875,
+            "correct": 799,
+            "count": 800
+          },
+          "65-128": {
+            "accuracy": 1.0,
+            "correct": 590,
+            "count": 590
+          }
+        },
+        "exact_match": 0.998046875,
+        "loss": 0.0024360747047467157,
+        "queries": 2048,
+        "sequences": 512
+      }
+    },
+    "training_order_sha256": "d5e54a1e1c7911e787a7c99917718253697c921247cbbab95a76524421c339bc",
+    "training_seconds": 54.68326497799717
+  },
+  {
+    "checkpoint_sha256": "b9af2499a2e5e1f5997ab3138825cf4585acacbcdd32f704b302812e54282144",
+    "initial_shared_sha256": "f9191f48bc94186b2581572a44dc7c6da3d607d2d9b91311c3633a08d1085e36",
+    "method": "nonlinear",
+    "parameters": 16745,
+    "seed": 333,
+    "test": {
+      "test48": {
+        "accuracy": 1.0,
+        "by_distance": {
+          "1-16": {
+            "accuracy": 1.0,
+            "correct": 649,
+            "count": 649
+          },
+          "17-32": {
+            "accuracy": 1.0,
+            "correct": 922,
+            "count": 922
+          },
+          "33-64": {
+            "accuracy": 1.0,
+            "correct": 477,
+            "count": 477
+          },
+          "65-128": {
+            "accuracy": null,
+            "correct": 0,
+            "count": 0
+          }
+        },
+        "exact_match": 1.0,
+        "loss": 0.0017482899420429021,
+        "queries": 2048,
+        "sequences": 512
+      },
+      "test72": {
+        "accuracy": 0.998046875,
+        "by_distance": {
+          "1-16": {
+            "accuracy": 1.0,
+            "correct": 366,
+            "count": 366
+          },
+          "17-32": {
+            "accuracy": 1.0,
+            "correct": 543,
+            "count": 543
+          },
+          "33-64": {
+            "accuracy": 0.9972247918593895,
+            "correct": 1078,
+            "count": 1081
+          },
+          "65-128": {
+            "accuracy": 0.9827586206896551,
+            "correct": 57,
+            "count": 58
+          }
+        },
+        "exact_match": 0.9921875,
+        "loss": 0.00595090162823908,
+        "queries": 2048,
+        "sequences": 512
+      },
+      "test96": {
+        "accuracy": 0.99853515625,
+        "by_distance": {
+          "1-16": {
+            "accuracy": 1.0,
+            "correct": 254,
+            "count": 254
+          },
+          "17-32": {
+            "accuracy": 1.0,
+            "correct": 382,
+            "count": 382
+          },
+          "33-64": {
+            "accuracy": 0.9987789987789988,
+            "correct": 818,
+            "count": 819
+          },
+          "65-128": {
+            "accuracy": 0.9966273187183811,
+            "correct": 591,
+            "count": 593
+          }
+        },
+        "exact_match": 0.994140625,
+        "loss": 0.007738116488326341,
+        "queries": 2048,
+        "sequences": 512
+      }
+    },
+    "training_order_sha256": "9ea7e9aab873085d2e3d09060b479840678f39368bf88413c77abbec61253e5a",
+    "training_seconds": 58.355731717078015
+  },
+  {
+    "checkpoint_sha256": "eb81996fb8e224e18d22a58365ca44d7a90233fb5deed039b064cf069e91c58b",
+    "initial_shared_sha256": "f9191f48bc94186b2581572a44dc7c6da3d607d2d9b91311c3633a08d1085e36",
+    "method": "attention",
+    "parameters": 16745,
+    "seed": 333,
+    "test": {
+      "test48": {
+        "accuracy": 1.0,
+        "by_distance": {
+          "1-16": {
+            "accuracy": 1.0,
+            "correct": 649,
+            "count": 649
+          },
+          "17-32": {
+            "accuracy": 1.0,
+            "correct": 922,
+            "count": 922
+          },
+          "33-64": {
+            "accuracy": 1.0,
+            "correct": 477,
+            "count": 477
+          },
+          "65-128": {
+            "accuracy": null,
+            "correct": 0,
+            "count": 0
+          }
+        },
+        "exact_match": 1.0,
+        "loss": 0.0015625404193997383,
+        "queries": 2048,
+        "sequences": 512
+      },
+      "test72": {
+        "accuracy": 0.98974609375,
+        "by_distance": {
+          "1-16": {
+            "accuracy": 1.0,
+            "correct": 366,
+            "count": 366
+          },
+          "17-32": {
+            "accuracy": 1.0,
+            "correct": 543,
+            "count": 543
+          },
+          "33-64": {
+            "accuracy": 0.9833487511563367,
+            "correct": 1063,
+            "count": 1081
+          },
+          "65-128": {
+            "accuracy": 0.9482758620689655,
+            "correct": 55,
+            "count": 58
+          }
+        },
+        "exact_match": 0.958984375,
+        "loss": 0.057776056695729494,
+        "queries": 2048,
+        "sequences": 512
+      },
+      "test96": {
+        "accuracy": 0.98291015625,
+        "by_distance": {
+          "1-16": {
+            "accuracy": 1.0,
+            "correct": 254,
+            "count": 254
+          },
+          "17-32": {
+            "accuracy": 1.0,
+            "correct": 382,
+            "count": 382
+          },
+          "33-64": {
+            "accuracy": 0.9816849816849816,
+            "correct": 804,
+            "count": 819
+          },
+          "65-128": {
+            "accuracy": 0.9662731871838112,
+            "correct": 573,
+            "count": 593
+          }
+        },
+        "exact_match": 0.931640625,
+        "loss": 0.06018789764493704,
+        "queries": 2048,
+        "sequences": 512
+      }
+    },
+    "training_order_sha256": "9ea7e9aab873085d2e3d09060b479840678f39368bf88413c77abbec61253e5a",
+    "training_seconds": 72.91940690111369
+  },
+  {
+    "checkpoint_sha256": "9ae52c8becda211cd0bc95b0afd868d1da340d719a251c5208fd7555ce3657c6",
+    "initial_shared_sha256": "f9191f48bc94186b2581572a44dc7c6da3d607d2d9b91311c3633a08d1085e36",
+    "method": "mlp",
+    "parameters": 16827,
+    "seed": 333,
+    "test": {
+      "test48": {
+        "accuracy": 1.0,
+        "by_distance": {
+          "1-16": {
+            "accuracy": 1.0,
+            "correct": 649,
+            "count": 649
+          },
+          "17-32": {
+            "accuracy": 1.0,
+            "correct": 922,
+            "count": 922
+          },
+          "33-64": {
+            "accuracy": 1.0,
+            "correct": 477,
+            "count": 477
+          },
+          "65-128": {
+            "accuracy": null,
+            "correct": 0,
+            "count": 0
+          }
+        },
+        "exact_match": 1.0,
+        "loss": 0.0010920519998762757,
+        "queries": 2048,
+        "sequences": 512
+      },
+      "test72": {
+        "accuracy": 0.998046875,
+        "by_distance": {
+          "1-16": {
+            "accuracy": 1.0,
+            "correct": 366,
+            "count": 366
+          },
+          "17-32": {
+            "accuracy": 1.0,
+            "correct": 543,
+            "count": 543
+          },
+          "33-64": {
+            "accuracy": 0.996299722479186,
+            "correct": 1077,
+            "count": 1081
+          },
+          "65-128": {
+            "accuracy": 1.0,
+            "correct": 58,
+            "count": 58
+          }
+        },
+        "exact_match": 0.9921875,
+        "loss": 0.006740509619703516,
+        "queries": 2048,
+        "sequences": 512
+      },
+      "test96": {
+        "accuracy": 0.99609375,
+        "by_distance": {
+          "1-16": {
+            "accuracy": 1.0,
+            "correct": 254,
+            "count": 254
+          },
+          "17-32": {
+            "accuracy": 1.0,
+            "correct": 382,
+            "count": 382
+          },
+          "33-64": {
+            "accuracy": 0.9963369963369964,
+            "correct": 816,
+            "count": 819
+          },
+          "65-128": {
+            "accuracy": 0.9915682967959528,
+            "correct": 588,
+            "count": 593
+          }
+        },
+        "exact_match": 0.984375,
+        "loss": 0.012369653588393703,
+        "queries": 2048,
+        "sequences": 512
+      }
+    },
+    "training_order_sha256": "9ea7e9aab873085d2e3d09060b479840678f39368bf88413c77abbec61253e5a",
+    "training_seconds": 50.60931292688474
+  },
+  {
+    "checkpoint_sha256": "15116ac90f8b23bb3698e12d7260af50ae3efd77381a7e94ce299bb89c631a72",
+    "initial_shared_sha256": "f9191f48bc94186b2581572a44dc7c6da3d607d2d9b91311c3633a08d1085e36",
+    "method": "pool",
+    "parameters": 16745,
+    "seed": 333,
+    "test": {
+      "test48": {
+        "accuracy": 1.0,
+        "by_distance": {
+          "1-16": {
+            "accuracy": 1.0,
+            "correct": 649,
+            "count": 649
+          },
+          "17-32": {
+            "accuracy": 1.0,
+            "correct": 922,
+            "count": 922
+          },
+          "33-64": {
+            "accuracy": 1.0,
+            "correct": 477,
+            "count": 477
+          },
+          "65-128": {
+            "accuracy": null,
+            "correct": 0,
+            "count": 0
+          }
+        },
+        "exact_match": 1.0,
+        "loss": 0.0015527465584455058,
+        "queries": 2048,
+        "sequences": 512
+      },
+      "test72": {
+        "accuracy": 0.99365234375,
+        "by_distance": {
+          "1-16": {
+            "accuracy": 1.0,
+            "correct": 366,
+            "count": 366
+          },
+          "17-32": {
+            "accuracy": 1.0,
+            "correct": 543,
+            "count": 543
+          },
+          "33-64": {
+            "accuracy": 0.9898242368177613,
+            "correct": 1070,
+            "count": 1081
+          },
+          "65-128": {
+            "accuracy": 0.9655172413793104,
+            "correct": 56,
+            "count": 58
+          }
+        },
+        "exact_match": 0.974609375,
+        "loss": 0.02546365011949092,
+        "queries": 2048,
+        "sequences": 512
+      },
+      "test96": {
+        "accuracy": 0.982421875,
+        "by_distance": {
+          "1-16": {
+            "accuracy": 1.0,
+            "correct": 254,
+            "count": 254
+          },
+          "17-32": {
+            "accuracy": 1.0,
+            "correct": 382,
+            "count": 382
+          },
+          "33-64": {
+            "accuracy": 0.9877899877899878,
+            "correct": 809,
+            "count": 819
+          },
+          "65-128": {
+            "accuracy": 0.9561551433389545,
+            "correct": 567,
+            "count": 593
+          }
+        },
+        "exact_match": 0.9296875,
+        "loss": 0.06204050709493458,
+        "queries": 2048,
+        "sequences": 512
+      }
+    },
+    "training_order_sha256": "9ea7e9aab873085d2e3d09060b479840678f39368bf88413c77abbec61253e5a",
+    "training_seconds": 54.97187963221222
+  }
+]
